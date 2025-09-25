@@ -1,0 +1,526 @@
+:root {
+    --primary-blue: #1e3a5f;
+    --accent-blue: #2c5282;
+    --light-gray: #f8f9fa;
+    --border-color: #4a5568;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    background-color: #f5f7fa;
+    /* padding-top: 120px; */
+}
+
+@media (max-width: 576px) {
+
+    /* body {
+        padding: 150px 12px 0px 12px;
+    } */
+
+    .location-content h1 {
+        font-size: 32px !important;
+    }
+
+    .location-content {
+        gap: 12px !important;
+    }
+
+    .location-container {
+        padding: 40px 12px 20px 12px !important;
+    }
+
+    .location-card-section {
+        padding: 40px 12px 20px 12px !important;
+    }
+
+    .location-card-section-title h1 {
+        font-size: 28px !important;
+    }
+
+    .location-card-section-title p {
+        font-size: 16px !important;
+    }
+    .ready-to-book-section {
+        padding: 40px 12px !important;
+    }
+    .ready-to-book-section h2 {
+        font-size: 24px !important;
+    }
+    .ready-to-book-section p {
+        font-size: 16px !important;
+    }
+    .ready-to-book-section .btn-book-now {
+        font-size: 16px !important;
+        padding: 10px 20px !important;
+    }
+}
+
+@media (max-width: 992px) {
+    /* .navbar-custom {
+        margin: 20px;
+        padding: 12px 20px;
+    } */
+}
+
+.custom-navbar {
+    margin-top: 2%;
+}
+
+.custom-inner-navbar {
+    border: solid;
+    border-width: 1px;
+    border-color: #003057;
+    border-radius: 50px;
+    padding: 5px 40px 5px 40px;
+    box-shadow: 10px 10px 20px #0030573b;
+    background-color: #fff;
+    /* backdrop-filter: blur(5px); */
+    z-index: 2;
+}
+
+.navbar-details {
+    border-radius: 0px 0px 50px 50px;
+    /* padding: 40px 40px 5px 40px; */
+    box-shadow: 10px 10px 20px rgba(8, 152, 236, 0.2);
+    background-color: #003057;
+    /* backdrop-filter: blur(5px); */
+    position: absolute;
+    margin-top: -30px;
+    z-index: 1;
+}
+
+.contact-btn {
+    background-color: #003057;
+    color: white;
+    border-radius: 50px;
+    width: 120px;
+}
+
+.contact-btn:hover {
+    color: white;
+    border-radius: 50px;
+    box-shadow: 0px 0px 20px rgba(6, 62, 94, 0.514);
+    font-weight: 600;
+}
+
+/* locations page css */
+.location-container {
+    border: solid 2px #003057;
+    background-color: #E7F2EF;
+    align-content: center;
+    padding: 80px 0px 40px 0px;
+    margin-bottom: 40px;
+    border-radius: 20px;
+}
+
+.location-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 18px;
+    padding: 12px;
+    margin: 0 auto;
+}
+
+.location-content span {
+    padding: 8px 16px;
+    background-color: #295b69;
+    color: white;
+    font-weight: medium;
+    border-radius: 50px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin-bottom: 10px !important;
+}
+
+.location-content h1 {
+    color: #003057;
+    font-weight: bolder;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 60px;
+    max-width: 896px;
+    margin: 0 auto;
+}
+
+.location-content p {
+    color: #6b7280;
+    max-width: 600px;
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.features-section {
+    border-radius: 20px;
+    padding: 0px !important;
+}
+
+.features-section i {
+    color: #003057 !important;
+}
+
+.feature-all {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+
+.feature-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.feature-1 {
+    max-width: 350px;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.location-card-section {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 80px 0px 40px 0px;
+    background-color: #fbfcfd;
+}
+
+.location-card-section-title {
+    background-color: #fbfcfd;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.location-card-section-title h1 {
+    color: #003057;
+    font-weight: bolder;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 40px;
+    max-width: 896px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.location-card-section-title p {
+    color: #6b7280;
+    max-width: 600px;
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: center;
+    max-width: 600px;
+}
+
+.location-title {
+    color: #003057;
+}
+
+hr {
+    border: none;
+    height: 4px !important;
+    background-color: #003057 !important;
+    /* your theme color */
+    margin: 40px 0;
+}
+
+.card {
+    border: solid 2px #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color: #fff;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+}
+
+.card-title {
+    color: #003057;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    color: #6b7280;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.card .btn {
+    background-color: #0b245d;
+    color: #fff;
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+/* Exam Board Badge Styles */
+.badge {
+    background-color: #28a745;
+    /* Green */
+    color: #fff;
+}
+
+/* Optional: Make badges a little larger and rounded */
+.badge {
+    padding: 6px 12px;
+    font-size: 14px;
+    border-radius: 20px;
+    font-weight: 500;
+}
+
+.ready-to-book-section {
+    background-color: #003057;
+    padding: 60px 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.ready-to-book-section h2 {
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+.ready-to-book-section p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+.ready-to-book-section .btn-book-now {
+    background-color: #007394;
+    color: white;
+    border-radius: 50px;
+    padding: 12px 30px;
+    font-size: 18px;
+    font-weight: 600;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+/* locations css end */
+
+.subtitle {
+    background-color: #007394;
+    padding: 10px 20px 10px 20px;
+    color: white;
+    font-weight: 600;
+    border-radius: 50px;
+}
+
+.title {
+    font-weight: bolder;
+}
+
+.hero-para {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.hero-img {
+    /* z-index: ; */
+}
+
+.read-btn {
+    border: solid;
+    border-width: 2px;
+    border-color: #007394;
+    border-radius: 50px;
+    color: #007394;
+}
+.read-btn:hover {
+    border: solid;
+    border-width: 2px;
+    border-color: #007394;
+    border-radius: 50px;
+    background-color: #007394;
+    color: white;
+}
+
+.register-btn {
+    border: solid;
+    border-width: 2px;
+    border-color: #007394;
+    border-radius: 50px;
+    background-color: #007394;
+    color: white;
+}
+
+.register-btn:hover {
+    border: solid;
+    border-width: 2px;
+    border-color: #007394;
+    border-radius: 50px;
+    background-color: #007394;
+    color: white;
+    box-shadow: 0px 0px 20px rgba(6, 62, 94, 0.514);
+    font-weight: 600;
+}
+
+@keyframes slide {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+.logos {
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.logos-slide {
+    display: inline-block;
+    animation: 30s slide infinite linear;
+}
+
+.logos-slide img {
+    height: 100px;
+}
+
+.custom-card {
+    border-radius: 20px;
+}
+
+.custom-card-img {
+    width: 100px;
+}
+
+.text-primary-color {
+    color: #003057;
+}
+
+.text-secondary-color {
+    color: #007394;
+}
+
+.home-sec-2 {
+    background-color: #e7f6f7;
+}
+
+.card-btn,
+.card-btn:hover {
+    background-color: #003057;
+    color: #fff;
+    border-radius: 20px;
+}
+
+.booking {
+    border-radius: 20px;
+    background-color: #e7f6f7;
+    padding: 30px;
+}
+
+.booking-btn {
+    background-color: #003057;
+    color: #fff;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.booking-btn:hover {
+    font-size: large;
+    font-weight: 600;
+    color: #fff;
+    padding: 5px 0;
+}
+
+.custom-card-2 {
+    border-radius: 20px;
+    border-color: #c2c2c2;
+    background-color: #c2c2c2;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.collapse-btn {
+    border-radius: 10px;
+    background-color: #e7f6f7;
+}
+
+/* functional skills */
+
+.title-background {
+    background-color: #e7f6f7;
+}
+
+.exam-card {
+    background-color: #e7f6f7;
+    border-radius: 20px;
+}
+.section-4-card {
+    background-color: #c2c2c2;
+    border: #c2c2c2;
+    border-radius: 20px;
+}
+.section-4-btn {
+    background-color: #003057;
+    color: #fff;
+    border-radius: 20px;
+}
+
+.section-6-card {
+    border-color: #003057;
+    border-radius: 20px;
+}
+
+.download-btn {
+    background-color: #003057;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+}
+
+/* functional skills */
+
+/* GCSE */
+.gcse-subject {
+    background-color: #003057;
+    color: #fff;
+    padding: 5px;
+    border-radius: 20px;
+}
+/* GCSE */
+
+/* UCSA application */
+.ucsa-card {
+    background-color: #c2c2c2;
+    border: none;
+}
+
+.ucsa-card-2 {
+    background-color: #003057;
+    color: #fff;
+    border: none;
+}
+/* UCSA application */
+
+/* IGCSE */
+.igcse-card {
+    background-color: #003057;
+    border: #003057;
+    color: #fff;
+    border-radius: 20px;
+}
+/* IGCSE */
+
+/* CAT */
+.custom-badge {
+    background-color: #fff;
+    color: #003057;
+    border: solid;
+    border-width: 1px;
+    border-color: #003057;
+}
+/* CAT */
+
