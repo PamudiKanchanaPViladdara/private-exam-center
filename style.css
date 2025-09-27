@@ -1001,5 +1001,39 @@ trusted-img img {
 .footer {
     background-color: #003057;
     color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 48px 16px;
+    max-width: 2560px;
+}
+
+.footer h4 {
+    color: #fff;
+    font-weight: 600px;
+    font-size: 24px;
+}
+
+.footer p {
+    color: #ffffffcc;
+    font-size: 14px;
+}
+
+.footer a {
+    color: #ffffffcc;
+    font-size: 14px;
+}
+
+@media (max-width:576px) {
+    .footer {
+        text-align: center;;
+    }
+
+    .footer h4 {
+        font-size: 18px;
+    }
+
+    .footer p, .footer a{
+        font-size:12px;
+    }
 }
 /* footer */
