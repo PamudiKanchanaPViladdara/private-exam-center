@@ -852,7 +852,7 @@ trusted-img img {
 }
 
 .ex-solutions {
-    padding: 80px 0px 40px 0px;
+    padding: 40px 0px;
     background-color: #fbfcfd;
 }
 
@@ -996,3 +996,10 @@ trusted-img img {
 }
 
 /* CAT */
+
+/* footer */
+.footer {
+    background-color: #003057;
+    color: #fff;
+}
+/* footer */
