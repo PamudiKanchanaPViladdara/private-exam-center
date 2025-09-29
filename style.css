@@ -654,7 +654,7 @@ i,
 
 .home-sec-2 h1 {
     font-weight: bolder;
-    font-size: 48px;
+    font-size: 36px !important;
     margin-bottom: 20px;
     color: #003057;
     text-align: center;
@@ -667,9 +667,9 @@ i,
     font-size: 20px;
 }
 
-trusted-img img {
-    height: 200px !important;
-}
+/* trusted-img img {
+    height: 100px;
+} */
 
 /* trusted end */
 
