@@ -63,7 +63,7 @@
 
     <!-- new nav bar -->
     <div class="container custom-navbar">
-        <nav class="navbar navbar-expand-lg navbar-light custom-inner-navbar">
+        <nav class="navbar navbar-expand-xl navbar-light custom-inner-navbar">
             <div class="container-fluid">
                 <img src="/assets/images/logo.jpg" alt="logo" href="../index.html" height="50"
                     class=" text-center d-none d-md-block">
@@ -130,31 +130,42 @@
             </div>
         </nav>
         <div class="navbar navbar-expand-lg navbar-light">
-            <div class="container-fluid navbar-details pt-lg-4 mt-lg-0 pb-lg-3 ps-lg-5 pe-lg-5 pt-5 ps-5 pb-2 mt-1">
-                <div class="text-light pt-lg-2">info@privateexamcenter.co.uk</div>
-                <div class="text-light pt-lg-2">Monday-Satureday 08.00 - 14.00</div>
+            <div
+                class="container-fluid navbar-details pt-md-4 pt-4 pb-2 pe-4 ps-4 mt-md-2 mt-0 d-flex flex-md-row flex-column justify-content-md-between justify-content-center align-items-center">
+                <div class="nav-item">
+                    <a class="nav-link text-decoration-none p-0 p-md-2" href="mailto:info@privateexamcenter.co.uk">
+                        <i class="fa-solid fa-envelope p-0 p-md-2 text-white"></i> info@privateexamcenter.co.uk
+                    </a>
+                </div>
+                <div class="nav-item">
+                    <a class="nav-link text-decoration-none p-0 p-md-2" href="tel:+1234567890">
+                        <i class="fa-solid fa-phone p-0 p-md-2 text-white"></i> 0800 772 3464
+                    </a>
+                </div>
             </div>
         </div>
     </div>
     <!-- new nav bar -->
 
     <!-- hero section -->
-    <div class="hero-container row align-items-center mt-5 mt-lg-0">
-        <div class="hero-section row d-flex align-items-center">
-            <div class="hero col-lg-5 offset-lg-1 col-sm-10 offset-sm-1 col-md-4 col-10 offset-1">
-                <h6 class="subtitle">Looking For Better Grades?</h6>
-                <h1 class="hero-title display-5 mt-lg-0 mt-3">Welcome to Private Exam Center</h1>
-                <p class="hero-p">Looking for better grades? Are you retaking exams as an external candidate?
+    <div
+        class="hero-container container d-flex flex-column align-items-center justify-content-center px-3 px-sm-5 py-3">
+        <div class="hero-section d-flex flex-row gap-4 align-items-center justify-content-center">
+            <div class="hero d-flex flex-column gap-3 align-items-center align-items-lg-start justify-content-center">
+                <span class="subtitle py-2 px-3 text-center align-items-center">Looking For Better Grades?</span>
+                <h1 class="display-5">Welcome to Private Exam Center</h1>
+                <p class="">Looking for better grades? Are you retaking exams as an external candidate?
                     Our prices for examinations are very competitive and we provide discounts
                     when multiple subjects are booked. We work with various exam boards such as Edexcel, OCR, AQA,
                     WJEC...
                 </p>
-                <button class="btn read-btn offset-1 offset-lg-0">Read More <i
-                        class="fa-solid fa-arrow-right"></i></button>
-                <button class="btn register-btn offset-1 ">Register Now</button>
+                <div class="d-flex flex-row gap-3">
+                    <button class="btn-1">Read More</button>
+                    <button class="btn-2">Register Now</button>
+                </div>
             </div>
-            <div class="hero-img col-lg-6 col-md-6 text-center d-none d-sm-block d-sm-none d-md-block">
-                <img src="assets/img/hero-img.png" class="img-fluid hero-img" alt="...">
+            <div class="hero-img text-center d-none d-lg-block">
+                <img src="assets/images/home/hero-img-1.png" class="img-fluid hero-img" alt="...">
             </div>
         </div>
 
@@ -162,7 +173,7 @@
     <!-- hero section -->
 
     <!-- sponcers -->
-    <div class="logos col-10 offset-1">
+    <div class="logos my-4 my-xl-5 col-md-10 col-sm-9 mx-auto">
         <div class="title-2">Accepted Exam Boards</div>
         <div class="logos-slide">
             <img src="assets/img/sponcers/1.png" alt="">
@@ -189,10 +200,10 @@
 
     <!-- hero section 4 cards -->
     <div class="container">
-        <div class="row card-r row-cols-sm-2 row-cols-lg-4 g-4 mt-5">
+        <div class="card-r row row-cols-2 row-cols-md-4 g-3 height-100">
             <div class="col">
-                <div class="card align-items-center custom-card">
-                    <i class="fa-solid fa-calendar fa-4x text-success"></i>
+                <div class="card align-items-center justify-content-center custom-card d-flex flex-column gap-3">
+                    <i class="fa-solid fa-calendar"></i>
                     <div class="card-body text-center">
                         <h5 class="card-title">Year Round</h5>
                         <p>Exam Sessions</p>
@@ -200,8 +211,8 @@
                 </div>
             </div>
             <div class="col">
-                <div class="card align-items-center custom-card">
-                    <i class="fa-solid fa-award fa-4x text-success"></i>
+                <div class="card align-items-center justify-content-center custom-card d-flex flex-column gap-3">
+                    <i class="fa-solid fa-award"></i>
                     <div class="card-body text-center">
                         <h5 class="card-title">15+ Years</h5>
                         <p>Experience</p>
@@ -209,8 +220,8 @@
                 </div>
             </div>
             <div class="col">
-                <div class="card align-items-center custom-card">
-                    <i class="fa-solid fa-users fa-4x text-success"></i>
+                <div class="card align-items-center justify-content-center custom-card d-flex flex-column gap-3">
+                    <i class="fa-solid fa-users"></i>
                     <div class="card-body text-center">
                         <h5 class="card-title">1000 +</h5>
                         <p>Students Served</p>
@@ -218,8 +229,8 @@
                 </div>
             </div>
             <div class="col">
-                <div class="card align-items-center custom-card">
-                    <i class="fa-solid fa-circle-check fa-4x text-success"></i>
+                <div class="card align-items-center justify-content-center custom-card d-flex flex-column gap-3">
+                    <i class="fa-solid fa-circle-check"></i>
                     <div class="card-body text-center">
                         <h5 class="card-title">98%</h5>
                         <p>Success Rate</p>
@@ -231,12 +242,12 @@
     <!-- hero section 4 cards -->
 
     <!-- home section 2 -->
-    <div class="home-sec-2 mt-5">
+    <div class="home-sec-2 container mt-5">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6 d-lg-none text-center">
                     <h1 class="home-sec-2-title">Your Trusted Exam Center In London</h1>
-                    <p class="fs-4 mt-3">Professional examinatin services for GCSE, A-Level, IGCSE and more. Book your
+                    <p class="mt-3">Professional examinatin services for GCSE, A-Level, IGCSE and more. Book your
                         exams with confidnce at our modern accessible facilities.</p>
                 </div>
                 <div class="trusted-img col-lg-6 col-md-6 text-center d-none d-sm-block d-md-none d-lg-block">
@@ -253,7 +264,7 @@
     <!-- home section 2 -->
 
     <!-- new examination services -->
-    <div class="examination-sec ">
+    <div class="examination-sec container mt-5">
         <h1 class="text-center display-4 text-primary-color">Examination Services</h1>
         <p class="col-lg-6 offset-lg-3 col-10 offset-1 text-center fs-5 mt-3">We offer a comprehensive range of
             examination services to meet
@@ -261,7 +272,7 @@
         </p>
 
         <div class="container exam-cards">
-            <div class="row row-cols-1 row-cols-lg-4 row-cols-md-2 g-4">
+            <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 g-4">
                 <div class="col">
                     <div class="card custom-card ">
                         <img src="/assets/img/fourth-small.jpg" class="card-img-top">
@@ -270,7 +281,9 @@
                             <p class="card-text text-center">As a private candidate taking GCSE exams you may be
                                 studying completely independently, you may be having some instruction privately
                                 or by correspondence course... </p>
-                            <button class="btn col-12 card-btn">View More</button>
+                            <button class="btn col-12 card-btn">
+                                <a href="../GCSE.html" class="text-white text-decoration-none">View More</a>
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -283,7 +296,9 @@
                             <p class="card-text text-center">IGCSE qualifications are ideal for those wanting to
                                 study for national qualifications by distance learning. Â Without all the
                                 administrative problems that... </p>
-                            <button class="btn col-12 card-btn">View More</button>
+                            <button class="btn col-12 card-btn">
+                                <a href="../IGCSE.html" class="text-white text-decoration-none">View More</a>
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -297,7 +312,9 @@
                                 students to develop confidence and fluency in maths and English. The skills taught will
                                 help
                                 learners...</p>
-                            <button class="btn col-12 card-btn">View More</button>
+                            <button class="btn col-12 card-btn">
+                                <a href="../functional_skills.html" class="text-white text-decoration-none">View More</a>
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -310,33 +327,9 @@
                             <p class="card-text text-center">Changes to A Levels January resits have been discarded.
                                 All A Level examinations after June 2013 will only be available in the June Exam series.
                                 New A LEVELS are all...</p>
-                            <button class="btn col-12 card-btn">View More</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card custom-card ">
-                        <img src="/assets/img/IGCSE-exams.jpg" class="card-img-top"
-                            style="border-radius: 20px 20px 0 0;">
-                        <div class="card-body">
-                            <h5 class="card-title text-center">International A-Levels</h5>
-                            <p class="card-text text-center">Changes to A Levels January resits have been discarded.
-                                All A Level examinations after June 2013 will only be available in the June Exam series.
-                                New A LEVELS are all...</p>
-                            <button class="btn col-12 card-btn">View More</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card custom-card ">
-                        <img src="/assets/img/Language-exams.jpg" class="card-img-top"
-                            style="border-radius: 20px 20px 0 0;">
-                        <div class="card-body">
-                            <h5 class="card-title text-center">Language Exams</h5>
-                            <p class="card-text text-center">Changes to A Levels January resits have been discarded.
-                                All A Level examinations after June 2013 will only be available in the June Exam series.
-                                New A LEVELS are all...</p>
-                            <button class="btn col-12 card-btn">View More</button>
+                            <button class="btn col-12 card-btn">
+                                <a href="../AS_A2_exams.html" class="text-white text-decoration-none">View More</a>
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -349,7 +342,9 @@
                             <p class="card-text text-center">Changes to A Levels January resits have been discarded.
                                 All A Level examinations after June 2013 will only be available in the June Exam series.
                                 New A LEVELS are all...</p>
-                            <button class="btn col-12 card-btn">View More</button>
+                            <button class="btn col-12 card-btn">
+                                <a href="../Science-Practicals.html" class="text-white text-decoration-none">View More</a>
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -357,25 +352,22 @@
                     <div class="card custom-card ">
                         <img src="/assets/img/CIE-Exams.jpg" class="card-img-top" style="border-radius: 20px 20px 0 0;">
                         <div class="card-body">
-                            <h5 class="card-title text-center">University Entrance Exams</h5>
-                            <p class="card-text text-center">Changes to A Levels January resits have been discarded.
-                                All A Level examinations after June 2013 will only be available in the June Exam series.
-                                New A LEVELS are all...</p>
-                            <button class="btn col-12 card-btn">View More</button>
+                            <h5 class="card-title text-center">CAT-4 Exams</h5>
+                            <p class="card-text text-center">The Cognitive Ability Test Fourth Edition (CAT-4) is a comprehensive assessment used by schools to understand students' learning preferences and...</p>
+                            <button class="btn col-12 card-btn">
+                                <a href="../cat4exams.html" class="text-white text-decoration-none">View More</a>
+                            </button>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
-
     <!-- new examination services -->
 
     <!-- exam solutions -->
-
-    <div class="ex-solutions">
-        <div class="container">
+    <div class="ex-solutions container mt-3">
+        <div class="container p-4">
             <div class="row align-items-center">
                 <div class="col-lg-6 d-none d-lg-block">
                     <h1 class="ex-solutions-title">Need a Custom Exam Solution ?</h1>
@@ -386,7 +378,7 @@
                         can often accomodate special requirements.</p>
                 </div>
                 <div class="trusted-img col-lg-6 col-md-6 text-center d-none d-sm-block d-md-none d-lg-block">
-                    <img src="assets/img/Custom Exam.png" class="img-fluid" alt="...">
+                    <img src="assets/images/home/custom-solutions.jpg" class="img-fluid" alt="...">
                 </div>
                 <div class="col-lg-6 d-lg-none text-center">
                     <h1 class="display-1">Need a Custom Exam Solution ?</h1>
@@ -401,37 +393,13 @@
     </div>
     <!-- exam solutions -->
 
-    <!-- ready to book -->
-    <!-- <div class="container">
-        <div class="col-lg-8 offset-lg-2 text-center booking">
-            <div class="h3 text-primary-color fw-bold">Ready to Book ?</div>
-            <div>Get started with your exam booking or speak to our team about your requirements</div>
-            <div class="row">
-                <button class="btn booking-btn col-lg-4 offset-lg-4 col-10 offset-1">Book Your Exam Now</button>
-                <button class="btn text-decoration-underline">Contact Our Team</button>
-            </div>
-        </div>
-    </div> -->
-    <!-- ready to book -->
-
-    <!-- ready tobook - p -->
-    <div class="ready-to-book-section text-center text-white ">
-        <div class="container">
-            <h2 class="fw-bold mb-3">Ready to Book ?
-            </h2>
-            <p class="mb-4">Get started with your exam booking or speak to our team about your requirements.
-            </p>
-            <a href="../contact.html" class="btn btn-lg btn-book-now">Book Your Exam Now</a>
-        </div>
-    </div>
-
     <!-- record -->
-    <div class="record">
-        <h1 class="text-center display-5">Out Track Record</h1>
+    <div class="record container">
+        <h1 class="text-center display-5">Our Track Records</h1>
         <p class="col-lg-6 offset-lg-3 col-10 offset-1 text-center fs-5 mt-3">Trusted by Students, Parents and
             Educations Acares London
         </p>
-        <div class="row row-cols-2 row-cols-md-4 g-4 mt-3">
+        <div class="row row-cols-2 row-cols-md-4 g-3 mt-3">
             <div class="col">
                 <div class="card h-100 align-items-center custom-card-2">
                     <div class="card-body text-center">
@@ -491,6 +459,16 @@
         </div>
     </div> -->
     <!-- FAQ -->
+
+    <!-- ready to book start -->
+    <div class="ready-to-book-section text-center text-white py-5">
+        <div class="container">
+            <h2 class="fw-bold mb-3">Ready to Book ?</h2>
+            <p class="mb-4">Get started with your exam booking or speak to our team about your requirements.</p>
+            <a href="../register.html" class="btn btn-lg btn-book-now">Book Your Exam Now</a>
+        </div>
+    </div>
+    <!-- ready to book end -->
 
     <!-- footer -->
     <div class="footer pt-5 pb-3">
@@ -558,7 +536,6 @@
         </div>
     </div>
     <!-- footer -->
-
 
     <!-- new added javaScript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"

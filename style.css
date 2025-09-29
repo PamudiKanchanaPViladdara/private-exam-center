@@ -25,6 +25,40 @@ p {
     line-height: 1.6;
 }
 
+.btn-1 {
+    border: solid;
+    border-width: 2px;
+    border-color: #007394 !important;
+    border-radius: 50px;
+    background-color: #fff;
+    color: #007394;
+    padding: 12px 30px;
+    font-size: 18px;
+    display: inline-block !important;
+}
+
+.btn-1:hover {
+    background-color: #007394;
+    color: #fff;
+}
+
+.btn-2 {
+    border: solid;
+    border-width: 2px;
+    border-color: #007394 !important;
+    border-radius: 50px;
+    background-color: #007394 !important;
+    color: #fff !important;
+    padding: 12px 30px;
+    font-size: 18px;
+    display: inline-block !important;
+}
+
+.btn-2:hover {
+    background-color: #fff !important;
+    color: #007394 !important;
+}
+
 @media (max-width: 576px) {
 
     body {
@@ -46,6 +80,12 @@ p {
     .subtitle {
         font-size: 14px !important;
         padding: 10px 16px !important;
+    }
+
+    .btn-1,
+    .btn-2 {
+        font-size: 14px !important;
+        padding: 8px 20px;
     }
 
     .location-content {
@@ -96,7 +136,7 @@ p {
     .location-card-section-title p {
         font-size: 18px;
     }
-    
+
     .location-title {
         font-size: 24px !important;
     }
@@ -401,9 +441,10 @@ i,
 /* locations css end */
 
 /* home hero section start */
+@media (max-width:1200px) {}
 
 @media (max-width: 768px) {
-    .hero {
+    /* .hero {
         padding: 0 !important;
         margin: 0 auto !important;
     }
@@ -411,14 +452,11 @@ i,
     .hero-p {
         font-size: 16px !important;
         margin-bottom: 20px !important;
-    }
+    } */
 
-    .read-btn,
-    .register-btn {
-        font-size: 16px !important;
-        padding: 10px 20px !important;
-        margin-bottom: 12px !important;
-        margin-left: 0px !important;
+    .hero h1 {
+        font-size: 32px !important;
+        text-align: center !important;
     }
 
     .home-sec-2 {
@@ -429,35 +467,7 @@ i,
 
 @media (max-width: 576px) {
 
-    .hero {
-        padding: 50px 10px !important;
-        margin: 0 auto !important;
-        text-align: center !important;
-    }
-
-    .hero-title {
-        font-size: 32px !important;
-    }
-
-    .hero-p {
-        font-size: 14px !important;
-        margin-bottom: 20px !important;
-    }
-
-    .read-btn,
-    .register-btn {
-        font-size: 16px !important;
-        padding: 10px 20px !important;
-    }
-
-    .hero-img {
-        height: auto !important;
-        width: 350px !important;
-        margin-top: 20px !important;
-    }
-
     .logos {
-        margin-top: -30px !important;
         padding: 10px 0 !important;
         box-shadow: 0px 4px 10px 2px rgba(0, 0, 0, 0.1) !important;
         border-radius: 12px !important;
@@ -475,87 +485,40 @@ i,
         margin-top: 20px !important;
         margin-bottom: 10px !important;
     }
-}
 
-.hero-title {
-    color: #003057;
-    font-weight: bolder;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    font-size: 48px;
+    .hero h1 {
+        font-size: 30px !important;
+    }
+
+    .hero p {
+        font-size: 18px !important;
+    }
 }
 
 .hero-container {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 20px;
-    padding: 0px !important;
-    margin: 0 auto;
-    background-color: #fbfcfd;
+    border-radius: 20px;
+    margin-top: 48px !important;
+    background-color: #fff;
 }
 
-.hero-section {
-    max-width: 1440px;
-    margin: 0 auto;
-}
-
-.hero {
-    margin: 0 auto;
-    padding: 0 20px;
-}
-
-.hero-p {
+.hero p {
     color: #6b7280;
-    font-size: 18px;
-    line-height: 1.6;
-    margin-bottom: 30px;
+    font-size: 20px;
+    max-width: 700px !important;
+}
+
+.hero-section .hero h1 {
+    color: #003057;
+    font-weight: bold;
+    font-size: 36px;
 }
 
 .hero-img {
+    max-width: 100%;
+    object-fit: contain;
     margin-top: 20px;
     margin-bottom: 20px;
-    height: 600px;
-}
-
-.read-btn {
-    border: solid;
-    border-width: 2px;
-    border-color: #007394;
-    border-radius: 50px;
-    background-color: white;
-    color: #007394;
-    margin-right: 10px;
-
-}
-
-.read-btn:hover {
-    border: solid;
-    border-width: 2px;
-    border-color: #007394;
-    border-radius: 50px;
-    background-color: #007394;
-    color: white;
-}
-
-.register-btn {
-    border: solid;
-    border-width: 2px;
-    border-color: #007394;
-    border-radius: 50px;
-    background-color: #007394;
-    color: white;
-    margin-left: 10px;
-}
-
-.register-btn:hover {
-    border: solid;
-    border-width: 2px;
-    border-color: #007394;
-    border-radius: 50px;
-    background-color: #fff;
-    color: #007394;
-    font-weight: 600;
+    height: 500px;
 }
 
 /* hero home end */
@@ -586,12 +549,7 @@ i,
     background-color: #fff;
     padding: 20px 0;
     box-shadow: 0px 6px 20px 5px rgba(0, 0, 0, 0.1);
-    position: relative;
-    margin-top: -60px;
     max-width: 1440px;
-    margin-left: auto;
-    margin-right: auto;
-    z-index: 1;
 
 }
 
@@ -605,89 +563,79 @@ i,
 }
 
 @media (max-width: 576px) {
-    .card-r {
-        display: flex !important;
-        flex-direction: column !important;
-        gap: 12px !important;
-    }
 
-    .custom-card {
+    .card-r .custom-card {
         padding: 12px !important;
         margin-bottom: 12px !important;
-        height: auto !important;
+        height: 100% !important;
     }
 
-    .card-title {
-        font-size: 20px !important;
+    .card-r .custom-card .card-title {
+        font-size: 18px !important;
     }
 
-    .card-body p {
+    .card-r .card-body p {
         font-size: 16px !important;
         margin-bottom: 12px !important;
     }
 
-    .card i {
-        font-size: 32px !important;
+    .card-r .card i {
+        font-size: 30px !important;
     }
 
     .home-sec-2 h1 {
-        font-size: 32px !important;
+        font-size: 30px !important;
         text-align: center !important;
+    }
+
+
+    .home-sec-2 p {
+        text-align: center;
+        font-size: 16px !important;
     }
 
     .home-sec-2 {
-        padding: 40px 0px !important;
-        text-align: center !important;
-    }
-
-    .home-sec-2 p {
-        font-size: 16px !important;
-        margin-bottom: 20px !important;
+        padding: 20px 0px !important;
         text-align: center !important;
     }
 
 }
 
-.card-r .card {
-    padding: 18px;
-}
 
-.custom-card {
+.card-r .custom-card {
     height: 100%;
-    border-radius: 20px;
+    border-radius: 8px;
     background-color: #fff;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    padding: 24px !important;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.custom-card .card-body {
-    padding: 0px;
-}
-
-.custom-card:hover {
+.card-r .custom-card:hover {
     transform: translateY(-5px);
     box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
 }
 
-.card-title {
-    color: #007394;
-    font-weight: 700;
+.card-r .custom-card .card-body {
+    padding: 0px;
+}
+
+.card-r .custom-card i {
+    font-size: 32px;
+    color: #003057 !important;
+}
+
+.card-r .custom-card .card-title {
+    color: #003057;
+    font-weight: 600;
     font-size: 28px;
     text-align: center;
 }
 
-.card-body p {
+.card-r .card-body p {
     color: #6b7280;
-    font-size: 18px;
+    font-size: 14px;
     text-align: center;
     font-weight: 500;
-}
-
-.custom-card i {
-    color: #003057 !important;
-    font-size: 48px;
 }
 
 .text-primary-color {
@@ -700,6 +648,8 @@ i,
 
 .home-sec-2 {
     background-color: #f0f2f5;
+    border-radius: 20px;
+    margin-bottom: 30px;
 }
 
 .home-sec-2 h1 {
@@ -714,6 +664,7 @@ i,
 
 .home-sec-2 p {
     text-align: center;
+    font-size: 20px;
 }
 
 trusted-img img {
@@ -724,6 +675,7 @@ trusted-img img {
 
 /* examination start */
 .examination-sec {
+    border-radius: 20px;
     padding: 80px 0px 40px 0px;
     background-color: #fbfcfd;
 }
@@ -779,9 +731,9 @@ trusted-img img {
 }
 
 .exam-cards .card {
-    background-color: #f0f2f5;
+    background-color: #fff;
     border-radius: 12px;
-    padding: 0px !important;
+    padding: 12px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -792,8 +744,8 @@ trusted-img img {
 }
 
 .exam-cards .card img {
-    border-radius: 12px 12px 0 0;
-    height: 350px !important;
+    border-radius: 8px !important;
+    height: 250px !important;
     object-fit: cover;
     width: 100%;
 }
@@ -806,7 +758,7 @@ trusted-img img {
 }
 
 .exam-cards .card .card-body .card-title {
-    color: #007394;
+    color: #003057;
     font-weight: 500;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -818,7 +770,6 @@ trusted-img img {
     color: #6b7280;
     font-weight: 400;
     font-size: 16px;
-    line-height: 1.5;
     margin-bottom: 20px;
     text-align: center;
     flex-grow: 1;
@@ -836,7 +787,7 @@ trusted-img img {
     }
 
     .ex-solutions h1 {
-        font-size: 32px !important;
+        font-size: 30px !important;
         color: #003057;
     }
 
@@ -873,7 +824,7 @@ trusted-img img {
     }
 
     .record h1 {
-        font-size: 32px !important;
+        font-size: 30px !important;
         text-align: center !important;
         color: #003057;
     }
@@ -887,19 +838,21 @@ trusted-img img {
 }
 
 .ex-solutions {
-    padding: 40px 0px;
-    background-color: #fbfcfd;
+    border-radius: 20px;
+    background-color: #f0f2f5;
 }
 
 .ex-solutions img {
     height: 400px !important;
     border-radius: 20px;
+    object-fit: cover;
+    padding: 0px;
 }
 
 .ex-solutions h1 {
     font-weight: bolder;
     margin-bottom: 20px;
-    font-size: 48px;
+    font-size: 36px;
     color: #003057;
     text-align: center;
 }
@@ -915,13 +868,12 @@ trusted-img img {
 /* record start */
 .record {
     padding: 80px 40px;
-    background-color: #fbfcfd;
 }
 
 .record h1 {
     font-weight: bolder;
     margin-bottom: 20px;
-    font-size: 40px;
+    font-size: 36px;
     color: #003057;
 }
 
@@ -933,6 +885,19 @@ trusted-img img {
     text-align: center;
     max-width: 600px;
     margin: 0 auto;
+}
+
+.record .card-title {
+    color: #003057;
+    font-weight: 600;
+    font-size: 28px;
+    text-align: center;
+}
+
+.record .card-body p {
+    color: #6b7280;
+    font-size: 16px;
+    text-align: center;
 }
 
 /* record end */
