@@ -1603,6 +1603,215 @@ i,
 
 /* cat-4 end */
 
+/* invigilation start */
+@media (max-width:576px) {
+    .what-set-apart-section {
+        padding: 20px !important;
+    }
+
+    .what-set-apart-section h1 {
+        font-size: 30px !important;
+        margin-bottom: 12px !important;
+    }
+
+    .what-set-apart-card {
+        padding: 0px !important;
+        margin-bottom: 12px !important;
+        height: 100% !important;
+    }
+
+    .what-set-apart-card img {
+        height: 200px !important;
+    }
+
+    .what-set-apart-details {
+        padding: 20px !important;
+    }
+
+    .what-set-apart-details h4 {
+        font-size: 20px !important;
+    }
+
+    .what-set-apart-details p {
+        font-size: 14px !important;
+        margin-bottom: 12px !important;
+    }
+}
+.what-set-apart-section {
+    padding: 40px;
+}
+
+.what-set-apart-section h1 {
+    color: #003057;
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+}
+
+.what-set-apart-card {
+    background-color: #fff;
+    border-radius: 20px;
+    height: 100%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.what-set-apart-card img {
+    border-radius: 20px 0px 0px 20px;
+    object-fit: cover;
+    padding: 0px;
+    height: 300px;
+}
+
+.what-set-apart-details {
+    padding: 32px;
+}
+
+.what-set-apart-details h4 {
+    color: #003057;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.what-set-apart-details p {
+    color: #6b7280;
+    font-size: 20px;
+    text-align: center;
+    line-height: 1.6;
+}
+
+/* invigilation start */
+@media (max-width:576px) {
+    .icon-cards {
+        padding: 0px !important;
+    }
+
+    .icon-cards h1 {
+        font-size: 30px !important;
+        margin-bottom: 12px !important;
+    }
+
+    .icon-cards p {
+        font-size: 16px !important;
+        margin-bottom: 20px !important;
+        max-width: 100% !important;
+        text-align: center !important;
+    }
+
+    .icon-cards .card-body {
+        padding: 0px !important;
+    }
+    
+    .icon-cards .icon-card {
+        padding: 0px !important;
+        margin-bottom: 12px !important;
+    }
+
+    .icon-cards .icon-card .card h5 {
+        font-size: 18px !important;
+    }
+
+    .icon-cards .icon-card .card p {
+        font-size: 14px !important;
+    }
+
+    .icon-cards .icon-card .card i {
+        font-size: 28px !important;
+    }
+
+    .title-background {
+        padding: 20px 10px !important;
+    }
+
+    .title-background h1 {
+        font-size: 28px !important;
+    }
+    .title-background p {
+        font-size: 16px !important;
+    }
+    .title-background-details p {
+        font-size: 12px !important;
+        padding: 8px 12px !important;
+    }
+    .title-background-details p i {
+        font-size: 16px !important;
+        margin-right: 0px !important;
+    }
+}
+
+.icon-cards {
+    max-width: 900px;
+    margin: 0 auto;
+}
+.icon-cards .icon-card .card {
+    border-radius: 20px;
+    height: 100%;
+    background-color: #e7f6f7;
+    padding: 20px;
+}
+
+.icon-cards .icon-card .card i {
+    color: #202428;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.icon-cards .icon-card .card h5 {
+    color: #003057;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.icon-cards .icon-card .card p {
+    color: #6b7280;
+    font-size: 16px;
+    text-align: center;
+    line-height: 1.6;
+}
+
+.title-background {
+    background-color: #003057;
+    padding: 40px 20px;
+    border-radius: 20px;
+    color: #fff;
+}
+
+.title-background h1 {
+    color: #fff;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0px;
+}
+
+.title-background p {
+    color: #ffffffcc;
+    font-size: 18px;
+    text-align: center;
+    margin: 0px;
+    margin-top: 12px;
+}
+
+.title-background-details p {
+    background-color: #ffffff38;
+    padding: 12px 20px;
+    border-radius: 50px;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    margin: 0px;
+    margin-top: 12px;
+}
+
+.title-background-details p i {
+    color: #fff;
+    margin-right: 8px;
+}
+
+/* invigilation end */
+
 /* UCSA application */
 .ucsa-card {
     background-color: #c2c2c2;
