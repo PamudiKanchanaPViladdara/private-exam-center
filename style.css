@@ -69,6 +69,12 @@ p {
         font-size: 30px;
     }
 
+    p {
+        font-size: 16px;
+        margin-top: 12px;
+        margin-bottom: 0px;
+    }
+
     .navbar-details {
         border-radius: 0px 0px 32px 32px !important;
     }
@@ -945,6 +951,8 @@ i,
 
     .exam-page-left-img-card p {
         font-size: 16px !important;
+        margin: 0px;
+        text-align: start !important;
     }
 
     .exam-page-left-img-card span {
@@ -952,7 +960,7 @@ i,
     }
 
     .exam-page-left-img-card i {
-        font-size: 24px !important;
+        font-size: 18px !important;
         margin-right: 8px !important;
     }
 
@@ -1253,6 +1261,10 @@ i,
     .exams-tags span {
         padding: 8px 12px !important;
         font-size: 14px !important;
+    }
+
+    .exam-pages-detail-card {
+        padding: 0px !important;
     }
 
     .exam-pages-detail-card h1 {
