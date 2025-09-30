@@ -905,37 +905,38 @@ i,
 
 @media (max-width: 992px) {
 
-    .exam-page-left-img-card-content{
+    .exam-page-left-img-card-content {
         border-radius: 20px !important;
+        padding: 12px !important;
     }
-  
+
 }
 
 @media (max-width:576px) {
-      
+
     .exam-pages-content .title {
         font-size: 32px !important;
         text-align: center !important;
     }
-    
+
     .exam-pages-content p {
         font-size: 16px !important;
         text-align: center !important;
         margin-bottom: 20px !important;
     }
-    
+
     .exam-hero-btn {
         font-size: 16px !important;
         padding: 10px 20px !important;
     }
-    
+
     .exam-page-left-img-card {
         margin-bottom: 20px !important;
         height: auto !important;
     }
 
     .exam-page-left-img-card h1 {
-        font-size: 30px !important;
+        font-size: 26px !important;
     }
 
     .exam-page-left-img-card p {
@@ -998,7 +999,7 @@ i,
         font-size: 20px !important;
         margin-right: 8px !important;
     }
-    
+
     .ready-to-book-section {
         padding: 40px 12px !important;
     }
@@ -1020,7 +1021,7 @@ i,
     .ready-to-book-section .card-body {
         padding: 0px !important;
     }
-    
+
     /* .exam-pages-container {
         padding: 20px 12px !important;
     } */
@@ -1072,7 +1073,7 @@ i,
     height: 100%;
     background-color: #fff;
     border-radius: 0px 20px 20px 0px;
-    padding: 24px 32px 24px 32px !important;
+    padding: 24px 32px 24px 32px;
 }
 
 .exam-page-left-img-card h1 {
@@ -1222,14 +1223,15 @@ i,
 .ready-to-book-section .card .download-btn {
     background-color: #fff;
     color: #003057;
-    font-size: 14px !important; 
+    font-size: 14px !important;
     border-radius: 50px;
     padding: 10px 20px;
     display: inline-block;
-    white-space: nowrap; 
+    white-space: nowrap;
     width: auto !important;
     transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
+
 .ready-to-book-section .card .download-btn a {
     color: #003057;
 }
@@ -1243,14 +1245,106 @@ i,
 /* functional skills */
 
 /* GCSE */
-.gcse-subject {
-    background-color: #003057;
-    color: #fff;
-    padding: 5px;
-    border-radius: 20px;
+@media (max-width:576px) {
+    .exams-tags span {
+        padding: 8px 12px !important;
+        font-size: 14px !important;
+    }
+
+    .exam-pages-detail-card h1 {
+        font-size: 30px !important;
+    }
+
+    .exam-pages-detail-card .card {
+        padding: 12px !important;
+    }
+
+    .exams-page-card-2 .card {
+        padding: 12px !important;
+    }
+
+    .exams-page-card-2 .card-text {
+        color: #fff;
+        font-size: 16px !important;
+    }
+
+    .exams-page-card-2 .card-body p {
+        color: #fff;
+        font-size: 14px !important;
+        margin: 0px !important;
+    }
 }
 
-/* GCSE */
+.exams-tags span {
+    background-color: #003057;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.exam-pages-detail-card {
+    max-width: 900px;
+    padding: 0px 30px;
+}
+
+.exam-pages-detail-card h1 {
+    color: #003057;
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+}
+
+.exam-pages-detail-card .card {
+    background-color: #fbfcfd;
+    padding: 20px;
+    border-radius: 12px;
+    border: solid 1px #64748b;
+}
+
+.exam-pages-detail-card .card-body .card-title {
+    color: #003057;
+    font-size: 20px;
+    font-weight: 600 !important;
+    text-align: center;
+}
+
+.exam-pages-detail-card .card-body .card-text {
+    color: #4a5568;
+    font-size: 16px !important;
+}
+
+.exams-page-card-2 .card {
+    background-color: #003057;
+    border-radius: 20px;
+    border: solid 1px;
+    padding: 20px;
+}
+
+.exams-page-card-2 .card-title {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.exams-page-card-2 .card-text {
+    color: #fff;
+    font-size: 18px;
+}
+
+.exams-page-card-2 .card-body p {
+    color: #fff;
+    font-size: 18px;
+}
+
+.exams-page-card-2 .card-body i {
+    color: #fff;
+    margin-right: 12px;
+}
+
+/* GCSE css end */
 
 /* UCSA application */
 .ucsa-card {
