@@ -1363,6 +1363,246 @@ i,
 
 /* GCSE css end */
 
+/* cat-4 start */
+@media (max-width:576px) {
+    .cat-4-section {
+        padding: 20px !important;
+    }
+
+    .cat-4-section h1 {
+        font-size: 30px !important;
+        margin-bottom: 12px !important;
+    }
+
+    .cat-4-section p {
+        font-size: 16px !important;
+        margin-bottom: 20px !important;
+        max-width: 100% !important;
+        text-align: center !important;
+    }
+
+    .cat-4-section .card {
+        padding: 12px !important;
+        margin-bottom: 12px !important;
+        height: 100% !important;
+    }
+
+    .cat-4-section .card h5 {
+        font-size: 18px !important;
+    }
+
+    .cat-4-section .card p {
+        font-size: 14px !important;
+    }
+
+    .exam-pages-detail-card {
+        padding: 20px !important;
+    }
+
+    .exam-pages-detail-card h2 {
+        font-size: 20px !important;
+    }
+
+    .exam-pages-detail-card p {
+        font-size: 14px !important;
+        margin-bottom: 12px !important;
+    }
+
+    .exam-pages-detail-card .card-body p {
+        font-size: 14px !important;
+        margin-bottom: 8px !important;
+    }
+
+    .practical-tips-section {
+        padding: 20px !important;
+        margin-top: 20px !important;
+    }
+
+    .practical-tips-section h1 {
+        font-size: 30px !important;
+        margin-bottom: 12px !important;
+    }
+
+    .practical-tips-section p {
+        font-size: 16px !important;
+        margin-bottom: 20px !important;
+    }
+
+    .practical-tips-section .practical-sec .card {
+        padding: 20px !important;
+    }
+
+    .practical-tips-section .practical-sec .card h3 {
+        font-size: 18px !important;
+    }
+
+    .practical-tips-section .practical-sec .card p {
+        font-size: 14px !important;
+        margin-bottom: 8px !important;
+    }
+
+    .practical-tips-section .practical-sec .card-body {
+        padding: 0px !important;
+    }
+}
+
+.cat-4-section {
+    border-radius: 20px;
+    background-color: #f0f2f5;
+    padding: 40px;
+}
+
+.cat-4-section h1 {
+    color: #003057;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+}
+
+.cat-4-section p {
+    color: #6b7280;
+    font-size: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+    max-width: 600px;
+}
+
+.cat-4-section .card {
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 20px;
+    height: 100%;
+}
+
+.cat-4-section .card h5 {
+    color: #003057;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 12px;
+}
+
+.cat-4-section .card p {
+    color: #6b7280;
+    font-size: 16px;
+    text-align: center;
+}
+
+.exam-pages-detail-card {
+    border-radius: 20px;
+    border: solid 2px #16a28633;
+    background-color: #fbfcfd;
+    padding: 40px;
+}
+
+.exam-pages-detail-card .span-1 {
+    background-color: #16a286;
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 50px;
+    font-size: 14px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.exam-pages-detail-card .span-2 {
+    background-color: #1e77c0;
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 50px;
+    font-size: 14px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.exam-pages-detail-card h2 {
+    color: #003057;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.exam-pages-detail-card p {
+    color: #6b7280;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.booking-fees .card .card-title {
+    color: #003057;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.exam-pages-detail-card .card-body p {
+    color: #6b7280;
+    font-size: 14px;
+    margin-bottom: 8px;
+    text-align: start;
+}
+
+.exam-pages-detail-card .card-body p i {
+    color: #003057;
+    margin-right: 12px;
+}
+
+.practical-tips-section {
+    padding: 40px;
+    border-radius: 20px;
+    background-color: #e7f6f7;
+    margin-top: 40px;
+}
+
+.practical-tips-section h1 {
+    color: #003057;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.practical-tips-section p {
+    color: #6b7280;
+    font-size: 18px;
+    margin-bottom: 30px;
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.practical-tips-section .practical-sec .card {
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 20px;
+    height: 100%;
+}
+
+.practical-tips-section .practical-sec .card h3 {
+    color: #003057;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 12px;
+}
+
+.practical-tips-section .practical-sec .card p {
+    color: #6b7280;
+    font-size: 16px;
+    text-align: start;
+    margin-bottom: 8px;
+}
+
+.practical-tips-section .practical-sec .card-body {
+    padding: 0px;
+}
+
+.practical-tips-section .practical-sec .card i {
+    color: #22c55e;
+    font-size: 18px;
+    margin-right: 12px;
+}
+
+
+/* cat-4 end */
+
 /* UCSA application */
 .ucsa-card {
     background-color: #c2c2c2;
