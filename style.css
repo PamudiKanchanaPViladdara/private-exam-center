@@ -16,7 +16,7 @@ h1 {
     color: #003057;
     margin-bottom: 20px;
     line-height: 1.2;
-    font-size: 48px;
+    font-size: 36px;
 }
 
 p {
@@ -63,6 +63,10 @@ p {
 
     body {
         padding: 0px 12px 0px 12px;
+    }
+
+    h1{
+        font-size: 30px;
     }
 
     .navbar-details {
