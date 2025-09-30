@@ -77,12 +77,12 @@
 
   <!-- new nav bar -->
   <div class="container custom-navbar">
-    <nav class="navbar navbar-expand-lg navbar-light custom-inner-navbar">
+    <nav class="navbar navbar-expand-xl navbar-light custom-inner-navbar">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">
-          <h3>PRIVATE</h3>
-          <h6>EXAM CENTER</h6>
-        </a>
+        <img src="/assets/images/logo.jpg" alt="logo" href="../index.html" height="50"
+          class=" text-center d-none d-md-block">
+        <img src="/assets/images/logo-mobile.jpg" alt="logo" href="../index.html" width=auto height="50"
+          class="d-md-none d-block">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -105,8 +105,9 @@
                 <li><a class="dropdown-item" href="GCSE.html">GCSE</a></li>
                 <li><a class="dropdown-item" href="IGCSE.html">IGCSE</a></li>
                 <li><a class="dropdown-item" href="A-Level.html">A Level & AS</a></li>
-                <li><a class="dropdown-item" href="cat4exams.html">CAT-4 Exam</a></li>
-                <li><a class="dropdown-item" href="Invigilation Services.html">Invigilation Services</a></li>
+                <li><a class="dropdown-item" href="cat4exams.html">CAT-4 Exams</a></li>
+                <li><a class="dropdown-item" href="Invigilation Services.html">Invigilation Services</a>
+                </li>
               </ul>
             </li>
             <li class="nav-item dropdown me-4">
@@ -116,7 +117,7 @@
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li><a class="dropdown-item" href="ucas.html">UCAS Support</a></li>
-                <li><a class="dropdown-item" href="mock_exam.html">MOCK Exams</a></li>
+                <li><a class="dropdown-item" href="mock_exam.html">MOCK Exams & Predicted Grades</a></li>
               </ul>
             </li>
             <li class="nav-item dropdown me-4">
@@ -127,47 +128,52 @@
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li><a class="dropdown-item" href="">Exam Application</a></li>
                 <li><a class="dropdown-item" href="Science-Practicals.html">Science Practicals</a></li>
-                <li><a class="dropdown-item" href="Access-Arrangements.html">Access Arrangements</a></li>
+                <li><a class="dropdown-item" href="Access-Arrangements.html">Access Arrangements</a>
+                </li>
                 <li><a class="dropdown-item" href="Coursework-NEA.html">Coursework & NEA</a></li>
-                <li><a class="dropdown-item" href="">ORALS & Language Exams</a></li>
-                <li><a class="dropdown-item" href="Exam-Time-Table.html">Exam Time Table</a></li>
               </ul>
             </li>
             <li class="nav-item">
-              <button class="btn contact-btn" type="submit">Contact</button>
+              <a class="nav-link" aria-current="page" href="contact.html">Contact</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
     <div class="navbar navbar-expand-lg navbar-light">
-      <div class="container-fluid navbar-details pt-lg-4 mt-lg-0 pb-lg-3 ps-lg-5 pe-lg-5 pt-5 ps-5 pb-2 mt-1">
-        <div class="text-light pt-lg-2">info@privateexamcenter.co.uk</div>
-        <div class="text-light pt-lg-2">Monday-Satureday 08.00 - 14.00</div>
+      <div
+        class="container-fluid navbar-details pt-md-4 pt-4 pb-2 pe-4 ps-4 mt-md-2 mt-0 d-flex flex-md-row flex-column justify-content-md-between justify-content-center align-items-center">
+        <div class="nav-item">
+          <a class="nav-link text-decoration-none p-0 p-md-2" href="mailto:info@privateexamcenter.co.uk">
+            <i class="fa-solid fa-envelope p-0 p-md-2 text-white"></i> info@privateexamcenter.co.uk
+          </a>
+        </div>
+        <div class="nav-item">
+          <a class="nav-link text-decoration-none p-0 p-md-2" href="tel:+0800 772 3464">
+            <i class="fa-solid fa-phone p-0 p-md-2 text-white"></i> 0800 772 3464
+          </a>
+        </div>
       </div>
     </div>
   </div>
   <!-- new nav bar -->
 
-  <!-- section 01 -->
-  <div class="row mt-5 pt-4 mt-lg-0 pt-lg-0">
-    <div class="container mt-lg-5 title-background">
-      <div class="pt-lg-5 pb-lg-5 pt-3 pb-3 text-center display-4 fw-normal text-primary-color">Functional Skills Exams</div>
+  <!-- functional skills hero section start -->
+  <div class="container exam-pages-container mt-5 py-5 px-4">
+    <div class="exam-pages-content d-flex flex-column align-items-center text-center gap-4">
+      <h1 class="title">Functional Skills Exams</h1>
+      <p>Functional skills qualifications are designed to enable students to develop confidence and fluency in
+        mathematics and English. These skills help learners to participate and progress in education, training and
+        employment. We provide comprehensive support for private candidates across the UK.
+      </p>
+      <a href="../contact.html" class="btn btn-lg exam-hero-btn">Contact Us</a>
     </div>
   </div>
-  <div class="container">
-    <div class="mt-lg-5 mt-3 text-center">Functional skills qualifications are designed to enable students to develop
-      confidence and
-      fluency
-      in Maths and English. The skills tought will help learners to participate and progress in education, training
-      and
-      employment.</div>
-    <button class="btn booking-btn col-lg-4 offset-lg-4 col-8 offset-2">Book Your Exam</button>
-  </div>
-  <!-- section 01 -->
+  <!-- functional skills hero section end -->
 
-  <!-- sectiona 02 -->
-  <div class="logos col-lg-10 offset-lg-1 mt-lg-5 mt-4">
+  <!-- sponcers -->
+  <div class="logos my-4 my-xl-5 col-md-10 col-sm-9 mx-auto">
+    <div class="title-2">Accepted Exam Boards</div>
     <div class="logos-slide">
       <img src="assets/img/sponcers/1.png" alt="">
       <img src="assets/img/sponcers/2.png" alt="">
@@ -189,225 +195,214 @@
       <img src="assets/img/sponcers/8.png" alt="">
     </div>
   </div>
-  <!-- sectiona 02 -->
+  <!-- sponcers -->
 
-  <!-- sectiona 03 -->
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-4 row align-items-center">
-        <img src="assets/img/Ultimate Guide to Revision Resources for Parents.jpg" class="img-fluid col-lg-8 offset-lg-2 d-sm-none d-md-block d-none d-sm-block d-md-none d-lg-block" style="border-radius: 30px;">
+  <!-- finctional skill maths -->
+  <div class="exam-page-left-img-card container mt-3">
+    <div
+      class="container d-flex flex-column flex-sm-row align-items-center justify-content-between  align-items-stretch">
+      <div class="left-img col-lg-4 col-md-6 text-center d-none d-md-none d-lg-block">
+        <img src="assets/images/functiona-skills/img-1.jpg" class="img-fluid object-fit-cover"
+          alt="functional-skills-exam-center">
       </div>
-      <div class="col-lg-8">
-        <div class="exam-card">
-          <div class="pt-lg-5 pb-lg-4 pt-4 pb-4 text-center display-6 fw-normal text-primary-color">Functional Skills Maths Test
-            <br>(Numeracy Skills Test)
-          </div>
-          <div class="col-lg-10 offset-lg-1 pb-lg-3 pb-3">
-            <ul>
-              <li>Pearson Edexcel Functional Skills Maths Level 1 or Level 2 exam : East London (Paper Based)</li>
-              <li>Pearson Edexcel Functional Skills Maths Level 1 or Level 2 exam : Essex (Computer Based)</li>
-              <li>Pearson Edexcel Functional Skiils Maths Level 1 or Level 2 exam : East London (Paper Based)</li>
-              <li>Pearson Edexcel Functional Skiils Maths Level 1 or Level 2 exam : East London (Computer Based)</li>
-              <li>Pearson Edexcel Functional Skiils Maths Level 1 or Level 2 exam : South East London (Paper Based)</li>
-              <li>Pearson Edexcel Functional Skiils Maths Level 1 or Level 2 exam : South East London (Paper Based)</li>
-            </ul>
-          </div>
+      <div class="exam-page-left-img-card-content text-center d-flex flex-column gap-3">
+        <div class="d-flex flex-column gap-0">
+          <h1 class="display-1">Functional Skills Maths Test</h1>
+          <span>(Numeracy Skills Test)</span>
+        </div>
+        <p class="mt-3">(Online or Paper-Based Assessment) Functional Skills Mathematics Qualifications evidence
+          skills; a sound grasp of mathematical knowledge and skills and confidence in solving mathematical
+          problems.Please get in touch to chat through your requirements and we’ll be happy to help.</p>
+        <div class="d-flex flex-column align-items-center">
+          <p><i class="fa-solid fa-circle-check h5"></i>Level 1 Functional Skills Maths</p>
+          <p><i class="fa-solid fa-circle-check h5"></i>Level 2 Functional Skills Maths</p>
         </div>
       </div>
     </div>
   </div>
-  <div class="container mt-5">
-    <div class="row">
-      <div class="col-lg-8">
-        <div class="exam-card">
-          <div class="pt-lg-5 pb-lg-4 pt-4 pb-4 text-center display-6 fw-normal text-primary-color">Functional Skills English Exam
-            <br>(Literacy Skills Test)
-          </div>
-          <div class="col-lg-10 offset-lg-1 pb-lg-3 pb-3">
-            <ul>
-              <li>Pearson Edexcel Functional Skills English Level 1 or Level 2 exam : East London (Paper Based)</li>
-              <li>Pearson Edexcel Functional Skills English Level 1 or Level 2 exam : Essex (Computer Based)</li>
-              <li>Pearson Edexcel Functional Skiils English Level 1 or Level 2 exam : East London (Paper Based)</li>
-              <li>Pearson Edexcel Functional Skiils English Level 1 or Level 2 exam : East London (Computer Based)</li>
-              <li>Pearson Edexcel Functional Skiils English Level 1 or Level 2 exam : South East London (Paper Based)
-              </li>
-              <li>Pearson Edexcel Functional Skiils English Level 1 or Level 2 exam : South East London (Paper Based)
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 row align-items-center">
-        <img src="assets/img/dev2.0/Can We Help You_.jpg" class="img-fluid col-lg-8 offset-lg-2 d-sm-none d-md-block d-none d-sm-block d-md-none d-lg-block"  style="border-radius: 30px;">
-      </div>
-    </div>
-  </div>
-  <!-- sectiona 03 -->
 
-  <!-- section 04 -->
-  <div class="container">
-    <div class="pt-lg-5 pb-lg-4 pt-4 pb-4 text-center display-6 fw-normal text-primary-color">Exam format Options</div>
-    <div class="row">
-      <div class="col-lg-6 col-6">
-        <div class="card col-lg-6 offset-lg-6 section-4-card p-2">
-          <div class="card-body text-center">
-            <i class="fa-solid fa-newspaper h1 text-primary-color"></i>
-            <h5 class="card-title">Paper Based Exams</h5>
-            <!-- <p class="card-text">With supporting text below as a natural lead-in to additional content.</p> -->
-            <div class="section-4-btn col-lg-8 offset-lg-2 mt-3 p-1">2 weeks notice</div>
-          </div>
-        </div>
+  <!-- finctional skill english -->
+  <div class="exam-page-left-img-card container mt-3">
+    <div
+      class="container d-flex flex-column flex-sm-row align-items-center justify-content-between  align-items-stretch">
+      <div class="left-img col-lg-4 col-md-6 text-center d-none d-md-none d-lg-block">
+        <img src="assets/images/functiona-skills/img-2.jpg" class="img-fluid object-fit-cover"
+          alt="functional-skills-exam-center">
       </div>
-      <div class="col-lg-6 col-6">
-        <div class="card col-lg-6 offset-lg-0 section-4-card p-2">
-          <div class="card-body text-center">
-            <i class="fa-solid fa-computer h1 text-primary-color"></i>
-            <h5 class="card-title">Computer Based Exams</h5>
-            <!-- <p class="card-text">With supporting text below as a natural lead-in to additional content.</p> -->
-            <div class="section-4-btn col-lg-8 offset-lg-2 mt-3 p-1">3-4 weeks notice</div>
-          </div>
+      <div class="exam-page-left-img-card-content text-center d-flex flex-column gap-3">
+        <div class="d-flex flex-column gap-0">
+          <h1 class="display-1">Functional Skills English Exam</h1>
+          <span>(Literacy Skills Test)
+          </span>
+        </div>
+        <p class="mt-3">(Online or Paper-Based Assessment) Functional Skills English Qualifications evidence skills
+          in Reading, Writing and Speaking.Please get in touch to chat through your requirements and we’ll be happy to
+          help.</p>
+        <div class="d-flex flex-column align-items-center">
+          <p><i class="fa-solid fa-circle-check h5"></i>Level 1 Functional Skills English</p>
+          <p><i class="fa-solid fa-circle-check h5"></i>Level 2 Functional Skills English</p>
         </div>
       </div>
     </div>
   </div>
-  <!-- section 04 -->
 
-  <!-- section 05 -->
-  <div class="row title-background mt-5">
+  <!-- exam formats start -->
+  <div class="container exam-options d-flex flex-column align-items-center">
+    <h2 class="title">Exam Format Options</h2>
+    <p>Choose the format that works best for you</p>
+
+    <div class="exam-options-cards d-flex flex-row gap-4 mt-4">
+      <div class="option-card d-flex flex-column justify-content-center align-items-center">
+        <div class="option-icon">
+          <i class="fas fa-file-alt"></i>
+        </div>
+        <h4>Paper-Based Exams</h4>
+        <p>Traditional written examinations on paper. Familiar format for those who prefer pen and paper.</p>
+        <div style="margin-top: 1rem;">
+          <span class="notice-time">2 weeks notice</span>
+        </div>
+      </div>
+      <div class="option-card d-flex flex-column justify-content-center align-items-center">
+        <div class="option-icon">
+          <i class="fas fa-desktop"></i>
+        </div>
+        <h4>Computer-Based Exams</h4>
+        <p>Modern digital format with on-screen questions. Faster results and more flexible scheduling.</p>
+        <div style="margin-top: 1rem;">
+          <span class="notice-time">3 days notice</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- exam formats end -->
+
+  <!-- exam key informations start -->
+  <div class="container exam-key-info d-flex flex-column p-4 align-items-center mb-5">
+    <h1>Key Information</h1>
+    <div class="examp-key-info-details">
+      <p><i class="fa-solid fa-check h5"></i>Assessments graded as Pass or Fail</p>
+      <p><i class="fa-solid fa-check h5"></i>Externally assessed in exam conditions</p>
+      <p><i class="fa-solid fa-check h5"></i>Work with Pearson Edexcel, AQA, OCR, and NCFE exam boards</p>
+      <p><i class="fa-solid fa-check h5"></i>Default exam times: 11:00am or 2:00pm (Monday to Friday)</p>
+      <p><i class="fa-solid fa-check h5"></i>2 weeks notice required (faster booking available for additional cost)</p>
+    </div>
+  </div>
+  <!-- exam key informations end -->
+
+  <!-- ready to book -->
+  <div class="ready-to-book-section text-center text-white py-5">
     <div class="container">
-      <div class="pt-lg-5 pb-lg-4 pt-4 pb-4 text-center display-6 fw-normal text-primary-color">Key Informations</div>
-      <div class="col-lg-4 offset-lg-4 col-10 offset-1 text-center mb-5">
-        <div class="mt-1 fw-bold"><i class="fa-solid fa-check"></i> &nbsp;&nbsp; Assessments graded as Pass or Fail
-        </div>
-        <div class="mt-1 fw-bold"><i class="fa-solid fa-check"></i>&nbsp;&nbsp; Externally assessed in exam conditions
-        </div>
-        <div class="mt-1 fw-bold"><i class="fa-solid fa-check"></i>&nbsp;&nbsp; Work with pearson Edexcel, AQA, OCR &
-          NCFE exam boards</div>
-        <div class="mt-1 fw-bold"><i class="fa-solid fa-check"></i>&nbsp;&nbsp; default exam times : 11.00 or 14.00
-          (Monday-Friday)</div>
-        <div class="mt-1 fw-bold"><i class="fa-solid fa-check"></i>&nbsp;&nbsp; 2 weeks notice required (Faster booking
-          available for additional cost)</div>
-      </div>
-    </div>
-  </div>
-  <!-- section 05 -->
-
-  <!-- section 06 -->
-  <div class="container">
-    <div class="pt-lg-5 pb-lg-4 pt-4 text-center display-6 fw-normal text-primary-color">Ready To Book Your Exam ?</div>
-    <div class="col-lg-6 offset-lg-3 col-10 offset-1 text-center fs-5">Contact us today for personalised assistance and
-      exam pricing.</div>
-    <div class="row row-cols-1 row-cols-md-3 g-4 mt-4">
-      <div class="col">
-        <div class="card h-100 p-4 section-6-card">
-          <div class="card-body text-center">
-            <i class="fa-solid fa-headset h1 text-primary-color"></i>
-            <h5 class="card-title">Contact Us</h5>
-            <p class="card-text">071 3423 456 <br> Free consaltation and support.</p>
+      <h2 class="mb-3">Ready To Book Your Exam?</h2>
+      <p class="mb-4">Contact us today for personalised assistance and exam pricing.</p>
+      <div class="row row-cols-1 row-cols-md-3 g-4 mt-4">
+        <div class="col">
+          <div class="card h-100 p-4">
+            <div class="card-body text-center">
+              <i class="fa-solid fa-headset h1"></i>
+              <h5 class="card-title">Contact Us</h5>
+              <a href="tel:+0800 772 3464" class="card-text text-decoration-none text-white">0800 772 3464<br> Free
+                consaltation and support.</a>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="col">
-        <div class="card h-100 p-4 section-6-card">
-          <div class="card-body text-center">
-            <i class="fa-solid fa-cloud-arrow-down h1 text-primary-color"></i>
-            <h5 class="card-title">Application Form</h5>
-            <p class="card-text">Download our registration form</p>
-            <button class="download-btn col-lg-8 col-10 p-2"><i class="fa-solid fa-download"></i> Download Form </button>
+        <div class="col">
+          <div class="card h-100 p-4">
+            <div class="card-body text-center">
+              <i class="fa-solid fa-cloud-arrow-down h1"></i>
+              <h5 class="card-title">PDF Type Application Form</h5>
+              <p class="card-text">Download our registration form</p>
+              <a href="/application-forms/functional skills form/Exam registration form.pdf"
+                class="download-btn text-decoration-none p-2">
+                <i class="fa-solid fa-download"></i> Download Form
+              </a>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="col">
-        <div class="card h-100 p-4 section-6-card">
-          <div class="card-body text-center">
-            <i class="fa-solid fa-map-location-dot h1 text-primary-color"></i>
-            <h5 class="card-title">Exam Locations</h5>
-            <p class="card-text"></p>
+        <div class="col">
+          <div class="card h-100 p-4">
+            <div class="card-body text-center">
+              <i class="fa-solid fa-cloud-arrow-down h1"></i>
+              <h5 class="card-title">Excel Type Application Form</h5>
+              <p class="card-text">Download our registration form</p>
+              <a href="/application-forms/functional skills form/Exam registration form.xlsx"
+                class="download-btn text-decoration-none p-2"><i
+                  class="fa-solid fa-download"></i>Download Form
+              </a>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </div>
-  <!-- section 06 -->
 
-  
-  <footer>
+  <!-- footer start -->
+  <div class="footer pt-5 pb-3">
     <div class="container">
-      <div class="row">
-        <div class="col-sm-4 footer-box">
-          <h4>Exam Bodies</h4>
-          <div class="footer-box-text">
-            <p>AQA - Assessment and Qualifications Alliance</p>
-            <p>CIE - Cambridge International Examinations</p>
-            <p>Edexcel - Pearson Edexcel </p>
-            <p>OCR - Oxford, Cambridge and RSA Examinations</p>
-            <p>Eduqas - Welsh Joint Education Committee (WJEC)</p>
-          </div>
+      <div class="row g-4">
+        <div class="col-md-3 col-6 mb-2 mb-lg-4">
+          <h4 class="h4">Exam Bodies</h4>
+          <p class="mt-2 mt-lg-4">AQA - Assessment and Qualifications Alliance</p>
+          <p class="mt-1 mt-lg-2">CIE - Cambridge International Examinations</p>
+          <p class="mt-1 mt-lg-2">Edexcel - Pearson Edexcel </p>
+          <p class="mt-1 mt-lg-2">OCR - Oxford, Cambridge and RSA Examinations</p>
+          <p class="mt-1 mt-lg-2">Eduqas - Welsh Joint Education Committee (WJEC)</p>
         </div>
-        <div class="col-sm-2 footer-box">
-          <h4>About us</h4>
-          <div class="footer-box-text">
-            <p><a href="Services.html">Why choose us</a></p>
-            <p><a href="Services.html">Tuition Services</a></p>
-            <p><a href="Services.html">Home Education</a></p>
-            <p> <a href="Services.html">Distance Learning</a></p>
-            <p><a href="Services.html">UCAS Support</a></p>
-            <p><a href="Services.html">Partnerships</a></p>
-            <p><a href="locations.html">Exam Locations</a></p>
-          </div>
+        <div class="col-md-3 col-6 mb-2 mb-lg-4">
+          <h4 class="h4">About us</h4>
+          <ul class="list-unstyled">
+            <li class="mt-2 mt-lg-4"><a href="#" class="text-decoration-none">Why choose us</a></li>
+            <li class="mt-1 mt-lg-2"><a href="#" class="text-decoration-none">Tuition Services</a></li>
+            <li class="mt-1 mt-lg-2"><a href="#" class="text-decoration-none">Home Education</a></li>
+            <li class="mt-1 mt-lg-2"><a href="#" class="text-decoration-none">Distance Learning</a></li>
+            <li class="mt-1 mt-lg-2"><a href="#" class="text-decoration-none">UCAS Support</a></li>
+            <li class="mt-1 mt-lg-2"><a href="#" class="text-decoration-none">Partnerships</a></li>
+            <li class="mt-1 mt-lg-2"><a href="#" class="text-decoration-none">Exam Locations</a></li>
+          </ul>
         </div>
-        <div class="col-sm-3 footer-box">
-          <h4>Information</h4>
-          <div class="footer-box-text">
-            <p><a href="terms.html">Terms &amp; Conditions</a></p>
-            <p><a href="GDRP-Privacy-Policy.html">GDRP &amp; Privacy Policy</a></p>
-            <p><a href="terms.html">Payments &amp; Refunds</a></p>
-            <p><a href="Science-Practicals.html">Science Practical Endorsement</a></p>
-            <p><a href="Access-Arrangements.html">Access Arrangements</a></p>
-            <p><a href="Language-Exams.html">Orals &amp; Coursework</a></p>
-            <p><a href="Services.html">International Students</a></p>
-          </div>
+        <div class="col-md-3 col-6 mb-2 mb-lg-4">
+          <h4 href="#" class="h4">Information</h4>
+          <ul class="list-unstyled">
+            <li class="mt-1 mt-lg-4"><a href="#" class="text-decoration-none">Terms & Conditions</a></li>
+            <li class="mt-1 mt-lg-2"><a href="#" class="text-decoration-none">GDRP & Privacy Policy</a></li>
+            <li class="mt-1 mt-lg-2"><a href="#" class="text-decoration-none">Payments & Refunds</a></li>
+            <li class="mt-1 mt-lg-2"><a href="#" class="text-decoration-none">Science Practical
+                Endorsement</a></li>
+            <li class="mt-1 mt-lg-2"><a href="#" class="text-decoration-none">Access Arrangements</a></li>
+            <li class="mt-1 mt-lg-2"><a href="#" class="text-decoration-none">Orals & Coursework</a></li>
+            <li class="mt-1 mt-lg-2"><a href="#" class="text-decoration-none">International Students</a>
+            </li>
+          </ul>
         </div>
-        <div class="col-sm-3 footer-box">
-          <h4>Get in touch</h4>
-          <div class="footer-box-text footer-box-text-contact">
-            <p>Free: 0800 772 3464</p>
-            <p>Tel: 020 3302 8140</p>
-            <p>WhatsApp: 0777 121 2929</p>
-            <p>Email: exams@bestgrade.co.uk</p>
-            <p>Bestgrade Education : Private Exams.
-              435-437 Cranbrook Road, Ilford, Essex, IG14UW</p>
+        <div class="col-md-3 col-6 mb-2 mb-lg-4">
+          <h4 class="h4">Get in touch</h4>
+          <p class="mt-2 mt-lg-4">Free: 0800 772 3464</p>
+          <p class="mt-1 mt-lg-2">Tel: 020 3302 8140</p>
+          <p class="mt-1 mt-lg-2">WhatsApp: 0777 121 2929</p>
+          <p class="mt-1 mt-lg-2">Email: exams@bestgrade.co.uk</p>
+          <p class="mt-1 mt-lg-2">Bestgrade Education : Private Exams. 435-437 Cranbrook Road, Ilford, Essex,
+            IG14UW</p>
+          <div class="d-flex flex-row mt-lg-2 mt-3 justify-content-between d-sm-block d-none">
+            <i class="fa-brands fa-facebook-f col-2 h5 p-2"></i>
+            <i class="fa-brands fa-x-twitter col-2 h5 p-2"></i>
+            <i class="fa-brands fa-linkedin-in col-2 h5 p-2"></i>
+            <i class="fa-brands fa-instagram col-2 h5 p-2"></i>
           </div>
-        </div> <!-- all products -->
-        <div class="row">
-          <div class="col-sm-12">
-            <div class="footer-border"></div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-7 footer-copyright wow fadeIn">
-            <p>&copy;
-              <script language="JavaScript" type="text/javascript">
-                now = new Date
-                theYear = now.getYear()
-                if (theYear < 1900)
-                  theYear = theYear + 1900
-                document.write(theYear)
-              </script> <a href="#" target="_blank"><strong>Private Exam Center - Bestgrade
-                  Education</strong></a> All Rights Reserved. &nbsp; <a href="http://bestgrade.co.uk/"
-                target="_blank">About us</a> | <a href="contact.html" target="_blank">Contact</a>
-            </p>
-          </div>
-          <div class="col-sm-5 footer-social"> <a href="https://www.facebook.com/PrivateExams/" target="_blank"><img
-                src="assets/ico/facebook-4.png" /></a> <a href="https://twitter.com/ukexams" target="_blank"><img
-                src="assets/ico/twitter-4.png" /></a> <a href="https://www.linkedin.com/company/privateexamcentre/"
-              target="_blank"><img src="assets/ico/linkedin-4.png" /></a> <a
-              href="https://www.instagram.com/exam_centre/" target="_blank"><img
-                src="assets/ico/instagram-4-24.png" /></a> </div>
         </div>
       </div>
+      <div class="d-flex flex-row justify-content-center mt-4 d-sm-none d-block">
+        <i class="fa-brands fa-facebook-f col-2 h5 p-2"></i>
+        <i class="fa-brands fa-x-twitter col-2 h5 p-2"></i>
+        <i class="fa-brands fa-linkedin-in col-2 h5 p-2"></i>
+        <i class="fa-brands fa-instagram col-2 h5 p-2"></i>
+      </div>
+      <span class="text-center d-block">
+        © 2025 Private Exam Center - Bestgrade Education All Rights Reserved.
+      </span>
     </div>
-  </footer> <!-- Javascript -->
+  </div>
+  <!-- footer end -->
+
+  <!-- Javascript -->
 
   <!-- new added javaScript -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"

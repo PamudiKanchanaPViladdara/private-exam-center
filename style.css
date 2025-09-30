@@ -214,20 +214,6 @@ p {
     color: #fff
 }
 
-.contact-btn {
-    background-color: #003057;
-    color: white;
-    border-radius: 50px;
-    width: 120px;
-}
-
-.contact-btn:hover {
-    color: white;
-    border-radius: 50px;
-    box-shadow: 0px 0px 20px rgba(6, 62, 94, 0.514);
-    font-weight: 600;
-}
-
 .location-card-section p {
     color: #007394;
     max-width: 768px !important;
@@ -917,37 +903,341 @@ i,
 
 /* functional skills */
 
-.title-background {
-    background-color: #e7f6f7;
+@media (max-width: 992px) {
+
+    .exam-page-left-img-card-content{
+        border-radius: 20px !important;
+    }
+  
 }
 
-.exam-card {
-    background-color: #e7f6f7;
+@media (max-width:576px) {
+      
+    .exam-pages-content .title {
+        font-size: 32px !important;
+        text-align: center !important;
+    }
+    
+    .exam-pages-content p {
+        font-size: 16px !important;
+        text-align: center !important;
+        margin-bottom: 20px !important;
+    }
+    
+    .exam-hero-btn {
+        font-size: 16px !important;
+        padding: 10px 20px !important;
+    }
+    
+    .exam-page-left-img-card {
+        margin-bottom: 20px !important;
+        height: auto !important;
+    }
+
+    .exam-page-left-img-card h1 {
+        font-size: 30px !important;
+    }
+
+    .exam-page-left-img-card p {
+        font-size: 16px !important;
+    }
+
+    .exam-page-left-img-card span {
+        font-size: 24px !important;
+    }
+
+    .exam-page-left-img-card i {
+        font-size: 24px !important;
+        margin-right: 8px !important;
+    }
+
+    .exam-options {
+        padding: 40px 0px !important;
+    }
+
+    .exam-options .title {
+        font-size: 28px !important;
+    }
+
+    .exam-options .p {
+        font-size: 16px !important;
+        margin-bottom: 20px !important;
+    }
+
+    .exam-options-cards {
+        max-width: 100% !important;
+        gap: 12px !important;
+    }
+
+    .option-card h4 {
+        font-size: 18px !important;
+    }
+
+    .option-card p {
+        font-size: 14px !important;
+    }
+
+    .option-card i {
+        font-size: 28px !important;
+    }
+
+    .option-card span {
+        font-size: 14px !important;
+        padding: 4px 16px !important;
+    }
+
+    .exam-key-info h1 {
+        font-size: 18px !important;
+    }
+
+    .exam-key-info p {
+        font-size: 14px !important;
+    }
+
+    .exam-key-info i {
+        font-size: 20px !important;
+        margin-right: 8px !important;
+    }
+    
+    .ready-to-book-section {
+        padding: 40px 12px !important;
+    }
+
+    .ready-to-book-section .card {
+        height: auto !important;
+        padding: 20px !important;
+    }
+
+    .ready-to-book-section .card h5 {
+        font-size: 20px !important;
+    }
+
+    .ready-to-book-section .card p {
+        font-size: 14px !important;
+        margin-bottom: 12px !important;
+    }
+
+    .ready-to-book-section .card-body {
+        padding: 0px !important;
+    }
+    
+    /* .exam-pages-container {
+        padding: 20px 12px !important;
+    } */
+}
+
+.exam-pages-container {
+    border: solid 2px #003057;
+    background-color: #e9f3f9;
+    align-content: center;
     border-radius: 20px;
 }
 
-.section-4-card {
-    background-color: #c2c2c2;
-    border: #c2c2c2;
-    border-radius: 20px;
+.exam-pages-content .title {
+    color: #003057;
+    font-weight: bold;
+    font-size: 60px;
+    max-width: 896px;
+    margin: 0 auto;
 }
 
-.section-4-btn {
+.exam-pages-content p {
+    color: #6b7280;
+    max-width: 768px;
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+.exam-hero-btn {
     background-color: #003057;
     color: #fff;
-    border-radius: 20px;
+    border-radius: 999px;
+    padding: 10px 20px;
+    font-size: 18px;
 }
 
-.section-6-card {
-    border-color: #003057;
+.exam-page-left-img-card {
     border-radius: 20px;
+    height: 100%;
 }
 
-.download-btn {
+.exam-page-left-img-card img {
+    border-radius: 20px 0px 0px 20px;
+    object-fit: cover;
+    padding: 0px;
+    height: 100%;
+}
+
+.exam-page-left-img-card-content {
+    height: 100%;
+    background-color: #fff;
+    border-radius: 0px 20px 20px 0px;
+    padding: 24px 32px 24px 32px !important;
+}
+
+.exam-page-left-img-card h1 {
+    color: #003057;
+    font-weight: 600;
+    font-size: 40px;
+    text-align: center;
+    margin: 0px;
+}
+
+.exam-page-left-img-card p {
+    color: #6b7280;
+    font-size: 18px;
+    text-align: center;
+}
+
+.exam-page-left-img-card span {
+    color: #003057;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.exam-page-left-img-card i {
+    color: #003057;
+    font-size: 28px;
+    margin-right: 12px;
+}
+
+.exam-options {
+    padding: 80px 0px;
+}
+
+.exam-options .title {
+    color: #003057;
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+}
+
+.exam-options .p {
+    color: #6b7280;
+    font-size: 18px;
+    text-align: center;
+    max-width: 600px;
+}
+
+.exam-options-cards {
+    max-width: 900px;
+}
+
+.option-card {
+    border: solid 1px #e2e8f0;
+    border-radius: 20px;
+    background-color: #fff;
+    padding: 20px;
+    height: 100%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.option-card h4 {
+    color: #003057;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 12px;
+}
+
+.option-card p {
+    color: #6b7280;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.option-card i {
+    color: #003057;
+    font-size: 32px;
+}
+
+.option-card span {
+    color: #92400e;
+    background-color: #fef3c7;
+    border-radius: 20px;
+    padding: 5px 20px;
+}
+
+.option-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+}
+
+.exam-key-info {
+    padding: 20px;
+    background-color: #fab71e1a;
+    border-radius: 20px;
+    border: solid 1px #fbbf24;
+}
+
+.exam-key-info h1 {
+    color: #003057;
+    font-size: 20px;
+    font-weight: 700px;
+}
+
+.exam-key-info p {
+    color: #6b7280;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0px;
+}
+
+.exam-key-info i {
+    color: #003057;
+    font-size: 24px;
+    margin-right: 12px;
+}
+
+.ready-to-book-section {
     background-color: #003057;
+}
+
+.ready-to-book-section .card {
+    background-color: #003057;
+    border: 0px;
+}
+
+.ready-to-book-section .card h5 {
     color: #fff;
-    border: none;
-    border-radius: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.ready-to-book-section .card p {
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.ready-to-book-section .card-body i {
+    color: #fff;
+    font-size: 32px;
+}
+
+.ready-to-book-section .card .download-btn {
+    background-color: #fff;
+    color: #003057;
+    font-size: 14px !important; 
+    border-radius: 50px;
+    padding: 10px 20px;
+    display: inline-block;
+    white-space: nowrap; 
+    width: auto !important;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+.ready-to-book-section .card .download-btn a {
+    color: #003057;
+}
+
+.ready-to-book-section .card .download-btn i {
+    color: #003057;
+    font-size: 20px;
+    margin-right: 12px;
 }
 
 /* functional skills */
