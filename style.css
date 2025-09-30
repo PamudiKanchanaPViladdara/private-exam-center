@@ -1396,7 +1396,7 @@ i,
     }
 
     .exam-pages-detail-card {
-        padding: 20px !important;
+        padding: 12px !important;
     }
 
     .exam-pages-detail-card h2 {
@@ -1491,7 +1491,7 @@ i,
     border-radius: 20px;
     border: solid 2px #16a28633;
     background-color: #fbfcfd;
-    padding: 40px;
+    padding: 30px;
 }
 
 .exam-pages-detail-card .span-1 {
