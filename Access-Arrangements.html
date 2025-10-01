@@ -5,21 +5,6 @@
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
    <title>Access Arrangements</title>
-   <!-- <link rel="stylesheet" href="css/components.css">
-      <link rel="stylesheet" href="css/responsee.css">
-      <link rel="stylesheet" href="owl-carousel/owl.carousel.css">
-      <link rel="stylesheet" href="owl-carousel/owl.theme.css"> -->
-   <!-- CUSTOM STYLE -->
-   <!-- <link rel="stylesheet" href="css/template-style.css"> -->
-   <!-- <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'> -->
-   <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
-   <script type="text/javascript" src="js/jquery-ui.min.js"></script>
-   <script type="text/javascript" src="js/modernizr.js"></script>
-   <script type="text/javascript" src="js/responsee.js"></script>
-   <!--[if lt IE 9]>
-	      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-        <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
-      <![endif]-->
 
    <!-- new added css -->
    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -32,12 +17,12 @@
 
    <!-- new nav bar -->
    <div class="container custom-navbar">
-      <nav class="navbar navbar-expand-lg navbar-light custom-inner-navbar">
+      <nav class="navbar navbar-expand-xl navbar-light custom-inner-navbar">
          <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-               <h3>PRIVATE</h3>
-               <h6>EXAM CENTER</h6>
-            </a>
+            <img src="/assets/images/logo.jpg" alt="logo" href="../index.html" height="50"
+               class=" text-center d-none d-md-block">
+            <img src="/assets/images/logo-mobile.jpg" alt="logo" href="../index.html" width=auto height="50"
+               class="d-md-none d-block">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                aria-label="Toggle navigation">
@@ -61,8 +46,9 @@
                         <li><a class="dropdown-item" href="GCSE.html">GCSE</a></li>
                         <li><a class="dropdown-item" href="IGCSE.html">IGCSE</a></li>
                         <li><a class="dropdown-item" href="A-Level.html">A Level & AS</a></li>
-                        <li><a class="dropdown-item" href="cat4exams.html">CAT-4 Exam</a></li>
-                        <li><a class="dropdown-item" href="Invigilation Services.html">Invigilation Services</a></li>
+                        <li><a class="dropdown-item" href="cat4exams.html">CAT-4 Exams</a></li>
+                        <li><a class="dropdown-item" href="Invigilation Services.html">Invigilation Services</a>
+                        </li>
                      </ul>
                   </li>
                   <li class="nav-item dropdown me-4">
@@ -72,7 +58,8 @@
                      </a>
                      <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <li><a class="dropdown-item" href="ucas.html">UCAS Support</a></li>
-                        <li><a class="dropdown-item" href="mock_exam.html">MOCK Exams</a></li>
+                        <li><a class="dropdown-item" href="mock_exam.html">MOCK Exams & Predicted Grades</a>
+                        </li>
                      </ul>
                   </li>
                   <li class="nav-item dropdown me-4">
@@ -81,170 +68,137 @@
                         Register
                      </a>
                      <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="">Exam Application</a></li>
+                        <li><a class="dropdown-item" href="register.html">Exam Application</a></li>
                         <li><a class="dropdown-item" href="Science-Practicals.html">Science Practicals</a></li>
-                        <li><a class="dropdown-item" href="Access-Arrangements.html">Access Arrangements</a></li>
+                        <li><a class="dropdown-item" href="Access-Arrangements.html">Access Arrangements</a>
+                        </li>
                         <li><a class="dropdown-item" href="Coursework-NEA.html">Coursework & NEA</a></li>
-                        <li><a class="dropdown-item" href="">ORALS & Language Exams</a></li>
-                        <li><a class="dropdown-item" href="Exam-Time-Table.html">Exam Time Table</a></li>
                      </ul>
                   </li>
                   <li class="nav-item">
-                     <button class="btn contact-btn" type="submit">Contact</button>
+                     <a class="nav-link" aria-current="page" href="contact.html">Contact</a>
                   </li>
                </ul>
             </div>
          </div>
       </nav>
       <div class="navbar navbar-expand-lg navbar-light">
-         <div class="container-fluid navbar-details pt-lg-4 mt-lg-0 pb-lg-3 ps-lg-5 pe-lg-5 pt-5 ps-5 pb-2 mt-1">
-            <div class="text-light pt-lg-2">info@privateexamcenter.co.uk</div>
-            <div class="text-light pt-lg-2">Monday-Satureday 08.00 - 14.00</div>
+         <div
+            class="container-fluid navbar-details pt-md-4 pt-4 pb-2 pe-4 ps-4 mt-md-2 mt-0 d-flex flex-md-row flex-column justify-content-md-between justify-content-center align-items-center">
+            <div class="nav-item">
+               <a class="nav-link text-decoration-none p-0 p-md-2" href="mailto:info@privateexamcenter.co.uk">
+                  <i class="fa-solid fa-envelope p-0 p-md-2 text-white"></i> info@privateexamcenter.co.uk
+               </a>
+            </div>
+            <div class="nav-item">
+               <a class="nav-link text-decoration-none p-0 p-md-2" href="tel:+0800 772 3464">
+                  <i class="fa-solid fa-phone p-0 p-md-2 text-white"></i> 0800 772 3464
+               </a>
+            </div>
          </div>
       </div>
    </div>
    <!-- new nav bar -->
 
-   <!-- section 01 -->
-   <div class="row mt-5 pt-4 mt-lg-0 pt-lg-0">
-      <div class="container mt-lg-5 title-background">
-         <div class="pt-lg-5 pb-lg-5 pt-3 pb-3 text-center display-4 fw-normal text-primary-color">Access Arrangements
-         </div>
+   <!-- access arrangement hero start -->
+   <div class="container exam-pages-container mt-5 mb-2 mb-md-5 py-5 px-4">
+      <div class="exam-pages-content d-flex flex-column align-items-center text-center gap-4">
+         <h1 class="title">Access Arrangements</h1>
+         <p>Ensuring every candidate can demonstrate their knowledge and skills through appropriate examination
+            accommodations and reasonable adjustments.</p>
+         <a href="../contact.html" class="btn btn-lg exam-hero-btn text-decoration-none">Contact us for arrangements
+         </a>
       </div>
    </div>
-   <div class="container">
-      <div class="mt-lg-5 mt-3 text-center">Ensuring every candidate can demonstrate their knowledge and skills through
-         appropriate examination
+   <!-- access arrangement hero end -->
 
-         accommodations and reasonable adjustments.</div>
-      <button class="btn booking-btn col-lg-4 offset-lg-4 col-8 offset-2">Contact us for arrangements</button>
-   </div>
-   <!-- section 01 -->
-
-   <!-- sponcers -->
-    <div class="logos col-10 offset-1 mt-5 pb-lg-4 pb-md-4 pb-4">
-        <div class="text-center mt-lg-4 mb-lg-3 mt-md-4 mb-md-3 mt-4 mb-3 h2 fw-bold text-primary-color">Accepted Exam Boards</div>
-        <div class="logos-slide">
-            <img src="assets/img/dev2.0/sponcers/1.png" alt="">
-            <img src="assets/img/dev2.0/sponcers/2.png" alt="">
-            <img src="assets/img/dev2.0/sponcers/3.png" alt="">
-            <img src="assets/img/dev2.0/sponcers/4.png" alt="">
-            <img src="assets/img/dev2.0/sponcers/5.png" alt="">
-            <img src="assets/img/dev2.0/sponcers/6.png" alt="">
-            <img src="assets/img/dev2.0/sponcers/7.png" alt="">
-            <img src="assets/img/dev2.0/sponcers/8.png" alt="">
-        </div>
-        <div class="logos-slide">
-            <img src="assets/img/dev2.0/sponcers/1.png" alt="">
-            <img src="assets/img/dev2.0/sponcers/2.png" alt="">
-            <img src="assets/img/dev2.0/sponcers/3.png" alt="">
-            <img src="assets/img/dev2.0/sponcers/4.png" alt="">
-            <img src="assets/img/dev2.0/sponcers/5.png" alt="">
-            <img src="assets/img/dev2.0/sponcers/6.png" alt="">
-            <img src="assets/img/dev2.0/sponcers/7.png" alt="">
-            <img src="assets/img/dev2.0/sponcers/8.png" alt="">
-        </div>
-    </div>
-    <!-- sponcers -->
-
-   <!-- section 04 -->
-   <div class="container">
-      <div class="pt-lg-5 pb-lg-4 pt-4 pb-4 text-center display-6 fw-normal text-primary-color">What are Access
-         Arrangements?</div>
-      <div class="col-lg-10 offset-lg-1 col-10 offset-1 text-center fs-5 mb-lg-5">Access Arrangements allow candidates
-         with special educational needs, disabilities or temporary injuries
-         to participate in assessments without changing the demands of the assessment. These arrangements
-         ensure compliance with the Equality Act 2010 to make 'reasonable adjustments'.</div>
-      <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 g-4 mt-md-3 mt-4">
+   <!-- what access start -->
+   <div class="container mt-2 mb-3 mb-md-5">
+      <h1 class="text-center">What are Access Arrangements?</h1>
+      <p class="text-center mx-auto mb-2 mb-mb-5">Access Arrangements allow candidates with special educational needs,
+         disabilities or temporary injuries to participate in assessments without changing the demands of the
+         assessment. These arrangements ensure compliance with the Equality Act 2010 to make 'reasonable adjustments'.
+      </p>
+      <div class="card-r row row-cols-1 row-cols-md-3 g-3 height-100">
          <div class="col">
-            <div class="card h-100 section-4-card">
+            <div class="card align-items-center justify-content-center custom-card d-flex flex-column gap-3">
+               <i class="fa-solid fa-clock"></i>
                <div class="card-body text-center">
-                  <i class="fa-solid fa-hourglass-end h1 text-primary-color"></i>
-                  <h5 class="card-title h5 fw-bold">Extra Time</h5>
-                  <p class="card-text">25% or 50% additional time for eligible candidates with processing difficulties
-                     or learning disabilities.</p>
+                  <h5 class="card-title">Extra Time</h5>
+                  <p>25% or 50% additional time for eligible candidates with processing difficulties or learning
+                     disabilities.</p>
                </div>
             </div>
          </div>
          <div class="col">
-            <div class="card h-100 section-4-card">
+            <div class="card align-items-center justify-content-center custom-card d-flex flex-column gap-3">
+               <i class="fa-solid fa-user"></i>
                <div class="card-body text-center">
-                  <i class="fa-solid fa-microphone-lines h1 text-primary-color"></i>
-                  <h5 class="card-title h5 fw-bold">Reader/Computer Reader</h5>
-                  <p class="card-text">Human reader or computer-generated voice for candidates with reading
-                     difficulties.</p>
+                  <h5 class="card-title">Reader/Computer Reader</h5>
+                  <p>Human reader or computer-generated voice for candidates with reading difficulties.</p>
                </div>
             </div>
          </div>
          <div class="col">
-            <div class="card h-100 section-4-card">
+            <div class="card align-items-center justify-content-center custom-card d-flex flex-column gap-3">
+               <i class="fa-solid fa-pencil-alt"></i>
                <div class="card-body text-center">
-                  <i class="fa-solid fa-language h1 text-primary-color"></i>
-                  <h5 class="card-title h5 fw-bold">Scribe/Speech Recognition</h5>
-                  <p class="card-text">Human scribe or speech-to-text technology for candidates with writing
-                     difficulties.</p>
+                  <h5 class="card-title">Scribe/Speech Recognition</h5>
+                  <p>Human scribe or speech-to-text technology for candidates with writing difficulties.</p>
                </div>
             </div>
          </div>
          <div class="col">
-            <div class="card h-100 section-4-card">
+            <div class="card align-items-center justify-content-center custom-card d-flex flex-column gap-3">
+               <i class="fa-solid fa-file-alt"></i>
                <div class="card-body text-center">
-                  <i class="fa-solid fa-paperclip h1 text-primary-color"></i>
-                  <h5 class="card-title h5 fw-bold">Modified Papers</h5>
-                  <p class="card-text">Enlarged, coloured, or Braille papers for candidates with visual impairments.</p>
+                  <h5 class="card-title">Modified Papers</h5>
+                  <p>Enlarged, coloured, or Braille papers for candidates with visual impairments.</p>
                </div>
             </div>
          </div>
          <div class="col">
-            <div class="card h-100 section-4-card">
+            <div class="card align-items-center justify-content-center custom-card d-flex flex-column gap-3">
+               <i class="fa-solid fa-user"></i>
                <div class="card-body text-center">
-                  <i class="fa-solid fa-person-booth h1 text-primary-color"></i>
-                  <h5 class="card-title h5 fw-bold">Separate Room</h5>
-                  <p class="card-text">Individual or small group accommodation for candidates who need distraction-free
-                     environments.</p>
+                  <h5 class="card-title">Separate Room</h5>
+                  <p>Individual or small group accommodation for candidates who need distraction-free environments.</p>
                </div>
             </div>
          </div>
          <div class="col">
-            <div class="card h-100 section-4-card">
+            <div class="card align-items-center justify-content-center custom-card d-flex flex-column gap-3">
+               <i class="fa-solid fa-house-user"></i>
                <div class="card-body text-center">
-                  <i class="fa-solid fa-house-signal h1 text-primary-color"></i>
-                  <h5 class="card-title h5 fw-bold">Home Invigilation</h5>
-                  <p class="card-text">Examination at home for candidates with severe medical or mental health
-                     conditions.</p>
+                  <h5 class="card-title">Home Invigilation</h5>
+                  <p>Examination at home for candidates with severe medical or mental health conditions.</p>
                </div>
             </div>
          </div>
       </div>
    </div>
-   <!-- section 04 -->
+   <!-- what access end -->
 
-   <!-- sectiona 03 -->
-   <div class="container mt-lg-5 mt-md-5 mt-5">
-      <div class="row">
-         <div class="col-lg-12">
-            <div class="exam-card">
-               <div class="pt-lg-5 pb-lg-4 pt-4 pb-4 text-center display-6 fw-normal text-primary-color">Free Access
-                  Arrangements</div>
-               <div class="col-lg-10 offset-lg-1 pb-lg-3 pb-3 ps-3 pe-3">
-                  <div>Any candidate booking exams directly with us receives Access Arrangement services Free at Point
-                     of
-
-                     Delivery, subject to resource availability.</div>
-                  <div class="row mt-lg-4 mt-md-3 mt-4 col-lg-12">
-                     <div class="col-lg-4 offset-lg-4 col-md-6 offset-md-3 col-10 offset-1">
-                        <div class="gcse-subject text-center">No Additional Charges</div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
+   <!-- free access start -->
+   <div class="highlight-box mb-5">
+      <i class="fa-solid fa-shield-halved fa-2x mb-3"></i>
+      <h5 class="fw-bold">Free Access Arrangements</h5>
+      <p class="text-center">
+         Any candidate booking exams directly with us receives Access Arrangement services free of additional charge.
+      </p>
+      <a href="#" class="btn">No Additional Charge</a>
    </div>
-   <!-- sectiona 03 -->
+   <!-- free access end -->
+
+   <!-- important note start -->
+   <div class="note-box my-5">
+      <h1>Important Note:</h1>
+      <p>Home Invigilation is limited & requires additional fee. Apply as early as possible.</p>
+   </div>
+   <!-- important note end -->
 
    <!-- section 04 -->
-   <div class="container">
+   <!-- <div class="container">
       <div class="pt-lg-5 pb-lg-4 pt-4 pb-4 text-center display-6 fw-normal text-primary-color">The Access Arrangements
          Process</div>
       <div class="col-lg-10 offset-lg-1 col-10 offset-1 text-center fs-5 mb-lg-5">Our SEN specialist will guide you
@@ -305,271 +259,126 @@
             </div>
          </div>
       </div>
-   </div>
+   </div> -->
    <!-- section 04 -->
 
-   <!-- section 04 -->
-   <div class="container">
-      <div class="row  mt-md-4 mt-lg-5">
-         <div class="mt-lg-0 mt-4">
-            <div class="card col-lg-4 offset-lg-4 col-md-8 offset-md-2 col-10 offset-1 section-4-card p-2">
-               <div class="card-body text-center">
-                  <div class="section-4-btn col-lg-8 offset-lg-2 mt-3 p-1">Important Note:</div>
-                  <p class="card-text mt-3">Home Invigilation is a limited resource offered on a first-come,
-                     first-served
-                     basis. Apply as early as
-
-                     possible to ensure availability.</p>
+   <!-- ready to book -->
+   <div class="ready-to-book-section text-center text-white py-5">
+      <div class="container">
+         <h2 class="mb-3">Ready to Complete Your Science Practicals?</h2>
+         <p class="mb-4">Don't let practical requirements hold you back. Book your sessions with us and complete all
+            your science practicals in professional laboratory facilities.</p>
+         <div class="row row-cols-1 row-cols-md-3 g-4 mt-4">
+            <div class="col">
+               <div class="card h-100 p-4">
+                  <div class="card-body text-center">
+                     <i class="fa-solid fa-headset h1"></i>
+                     <h5 class="card-title">Contact Us</h5>
+                     <a href="tel:+0800 772 3464" class="card-text text-decoration-none text-white">0800 772
+                        3464<br>
+                        Free
+                        consaltation and support.</a>
+                  </div>
+               </div>
+            </div>
+            <div class="col">
+               <div class="card h-100 p-4">
+                  <div class="card-body text-center">
+                     <i class="fa-solid fa-cloud-arrow-down h1"></i>
+                     <h5 class="card-title">PDF Type Application Form</h5>
+                     <p class="card-text">Download our registration form</p>
+                     <a href="/application-forms/exam application form/Exam registration form.pdf"
+                        class="download-btn text-decoration-none p-2">
+                        <i class="fa-solid fa-download"></i> Download Form
+                     </a>
+                  </div>
+               </div>
+            </div>
+            <div class="col">
+               <div class="card h-100 p-4">
+                  <div class="card-body text-center">
+                     <i class="fa-solid fa-cloud-arrow-down h1"></i>
+                     <h5 class="card-title">Excel Type Application Form</h5>
+                     <p class="card-text">Download our registration form</p>
+                     <a href="/application-forms/exam application form/Exam registration form.xlsx"
+                        class="download-btn text-decoration-none p-2"><i class="fa-solid fa-download"></i>Download
+                        Form
+                     </a>
+                  </div>
                </div>
             </div>
          </div>
       </div>
    </div>
-   <!-- section 04 -->
 
-   <!-- section 06 -->
-   <div class="container">
-      <div class="pt-lg-5 pb-lg-4 pt-4 text-center display-6 fw-normal text-primary-color">Ready to Apply for Access Arrangements?</div>
-      <div class="col-lg-6 offset-lg-3 col-10 offset-1 text-center fs-5">Our SEN specialists are here to support you through the process. Get in touch today to discuss your
-
-requirements and ensure you have the arrangements needed for success.</div>
-      <div class="row row-cols-1 row-cols-md-3 g-4 mt-4">
-         <div class="col">
-            <div class="card h-100 p-4 section-6-card-2">
-               <div class="card-body text-center">
-                  <i class="fa-solid fa-headset h1 text-primary-color"></i>
-                  <h5 class="card-title">Contact Us</h5>
-                  <p class="card-text">071 3423 456 <br> Free consaltation and support.</p>
+   <!-- footer start -->
+   <div class="footer pt-5 pb-3">
+      <div class="container">
+         <div class="row g-4">
+            <div class="col-md-3 col-6 mb-2 mb-lg-4">
+               <h4 class="h4">Exam Bodies</h4>
+               <p class="mt-2 mt-lg-4">AQA - Assessment and Qualifications Alliance</p>
+               <p class="mt-1 mt-lg-2">CIE - Cambridge International Examinations</p>
+               <p class="mt-1 mt-lg-2">Edexcel - Pearson Edexcel </p>
+               <p class="mt-1 mt-lg-2">OCR - Oxford, Cambridge and RSA Examinations</p>
+               <p class="mt-1 mt-lg-2">Eduqas - Welsh Joint Education Committee (WJEC)</p>
+            </div>
+            <div class="col-md-3 col-6 mb-2 mb-lg-4">
+               <h4 class="h4">About us</h4>
+               <ul class="list-unstyled">
+                  <li class="mt-2 mt-lg-4"><a href="#" class="text-decoration-none">Why choose us</a></li>
+                  <li class="mt-1 mt-lg-2"><a href="#" class="text-decoration-none">Tuition Services</a></li>
+                  <li class="mt-1 mt-lg-2"><a href="#" class="text-decoration-none">Home Education</a></li>
+                  <li class="mt-1 mt-lg-2"><a href="#" class="text-decoration-none">Distance Learning</a></li>
+                  <li class="mt-1 mt-lg-2"><a href="#" class="text-decoration-none">UCAS Support</a></li>
+                  <li class="mt-1 mt-lg-2"><a href="#" class="text-decoration-none">Partnerships</a></li>
+                  <li class="mt-1 mt-lg-2"><a href="#" class="text-decoration-none">Exam Locations</a></li>
+               </ul>
+            </div>
+            <div class="col-md-3 col-6 mb-2 mb-lg-4">
+               <h4 href="#" class="h4">Information</h4>
+               <ul class="list-unstyled">
+                  <li class="mt-1 mt-lg-4"><a href="#" class="text-decoration-none">Terms & Conditions</a></li>
+                  <li class="mt-1 mt-lg-2"><a href="#" class="text-decoration-none">GDRP & Privacy Policy</a></li>
+                  <li class="mt-1 mt-lg-2"><a href="#" class="text-decoration-none">Payments & Refunds</a></li>
+                  <li class="mt-1 mt-lg-2"><a href="#" class="text-decoration-none">Science Practical
+                        Endorsement</a></li>
+                  <li class="mt-1 mt-lg-2"><a href="#" class="text-decoration-none">Access Arrangements</a></li>
+                  <li class="mt-1 mt-lg-2"><a href="#" class="text-decoration-none">Orals & Coursework</a></li>
+                  <li class="mt-1 mt-lg-2"><a href="#" class="text-decoration-none">International Students</a>
+                  </li>
+               </ul>
+            </div>
+            <div class="col-md-3 col-6 mb-2 mb-lg-4">
+               <h4 class="h4">Get in touch</h4>
+               <p class="mt-2 mt-lg-4">Free: 0800 772 3464</p>
+               <p class="mt-1 mt-lg-2">Tel: 020 3302 8140</p>
+               <p class="mt-1 mt-lg-2">WhatsApp: 0777 121 2929</p>
+               <p class="mt-1 mt-lg-2">Email: exams@bestgrade.co.uk</p>
+               <p class="mt-1 mt-lg-2">Bestgrade Education : Private Exams. 435-437 Cranbrook Road, Ilford, Essex,
+                  IG14UW</p>
+               <div class="d-flex flex-row mt-lg-2 mt-3 justify-content-between d-sm-block d-none">
+                  <i class="fa-brands fa-facebook-f col-2 h5 p-2"></i>
+                  <i class="fa-brands fa-x-twitter col-2 h5 p-2"></i>
+                  <i class="fa-brands fa-linkedin-in col-2 h5 p-2"></i>
+                  <i class="fa-brands fa-instagram col-2 h5 p-2"></i>
                </div>
             </div>
          </div>
-         <div class="col">
-            <div class="card h-100 p-4 section-6-card-2">
-               <div class="card-body text-center">
-                  <i class="fa-solid fa-cloud-arrow-down h1 text-primary-color"></i>
-                  <h5 class="card-title">Application Form</h5>
-                  <p class="card-text">Download our registration form</p>
-                  <button class="download-btn col-lg-8 col-10 p-2"><i class="fa-solid fa-download"></i> Download Form
-                  </button>
-               </div>
-            </div>
-         </div>
-         <div class="col">
-            <div class="card h-100 p-4 section-6-card-2">
-               <div class="card-body text-center">
-                  <i class="fa-solid fa-map-location-dot h1 text-primary-color"></i>
-                  <h5 class="card-title">Exam Locations</h5>
-                  <p class="card-text"></p>
-               </div>
-            </div>
-         </div>
-      </div>
-   </div>
-   <!-- section 06 -->
-
-   <!-- footer -->
-  <div class="mt-5 pt-4 mt-lg-0 pt-lg-0 footer">
-    <div class="container mt-lg-5">
-      <div class="row">
-        <div class="col-lg-4 p-lg-4 col-md-6 p-md-2 p-4">
-          <div class="h4">Exam Bodies</div>
-          <div class="mt-lg-3">AQA - Assessment and Qualifications Alliance</div>
-          <div class="mt-lg-1">CIE - Cambridge International Examinations</div>
-          <div class="mt-lg-1">Edexcel - Pearson Edexcel </div>
-          <div class="mt-lg-1">OCR - Oxford, Cambridge and RSA Examinations</div>
-          <div class="mt-lg-1">Eduqas - Welsh Joint Education Committee (WJEC)</div>
-        </div>
-        <div class="col-lg-2 p-lg-4 col-md-6 p-md-2 p-4 col-6">
-          <div class="h4">About us</div>
-          <div class="mt-lg-3"><a href="" class="text-decoration-none text-light">Why choose us</a></div>
-          <div class="mt-lg-1">Tuition Services</div>
-          <div class="mt-lg-1">Home Education</div>
-          <div class="mt-lg-1">Distance Learning</div>
-          <div class="mt-lg-1">UCAS Support</div>
-          <div class="mt-lg-1">Partnerships</div>
-          <div class="mt-lg-1">Exam Locations</div>
-        </div>
-        <div class="col-lg-3 p-lg-4 col-md-6 p-md-2 mt-md-2 p-4 col-6 mt-lg-0">
-          <div class="h4">Information</div>
-          <div class="mt-lg-3">Terms & Conditions</div>
-          <div class="mt-lg-1">GDRP & Privacy Policy</div>
-          <div class="mt-lg-1">Payments & Refunds</div>
-          <div class="mt-lg-1">Science Practical Endorsement</div>
-          <div class="mt-lg-1">Access Arrangements</div>
-          <div class="mt-lg-1">Orals & Coursework</div>
-          <div class="mt-lg-1">International Students</div>
-        </div>
-        <div class="col-lg-3 p-lg-4 col-md-6 p-md-2 mt-md-2 p-4 mt-lg-0">
-          <div class="h4">Get in touch</div>
-          <div class="mt-lg-3">Free: 0800 772 3464</div>
-          <div class="mt-lg-1">Tel: 020 3302 8140</div>
-          <div class="mt-lg-1">WhatsApp: 0777 121 2929</div>
-          <div class="mt-lg-1">Email: exams@bestgrade.co.uk</div>
-          <div class="mt-lg-1">Bestgrade Education : Private Exams. 435-437 Cranbrook Road, Ilford, Essex,
-            IG14UW</div>
-          <div class="row mt-lg-2 p-4">
+         <div class="d-flex flex-row justify-content-center mt-4 d-sm-none d-block">
             <i class="fa-brands fa-facebook-f col-2 h5 p-2"></i>
             <i class="fa-brands fa-x-twitter col-2 h5 p-2"></i>
             <i class="fa-brands fa-linkedin-in col-2 h5 p-2"></i>
             <i class="fa-brands fa-instagram col-2 h5 p-2"></i>
-          </div>
-        </div>
-      </div>
-      <div class="text-center pb-4">
-        © 2025 Private Exam Center - Bestgrade Education All Rights Reserved.
-      </div>
-    </div>
-  </div>
-  <!-- footer -->
-
-
-
-
-
-   <!-- TOP NAV WITH LOGO -->
-   <!-- <header>
-      <nav>
-         <div class="line">
-            <div class="top-nav">
-               <div class="logo hide-l">
-                  <a href="../index.html">Private Exam <br /><strong>CENTRE</strong></a>
-               </div>
-               <p class="nav-text">Menu</p>
-               <div class="top-nav s-12 l-5">
-                  <ul class="right top-ul chevron">
-                     <li><a href="../index.html">Home</a>
-                     </li>
-                     <li><a href="../locations.html">locations</a>
-                     </li>
-                     <li><a href="../register.html"> Register</a>
-                        <ul>
-                           <li><a href="../register.html">Application Form</a>
-                           </li>
-                           <li><a href="../terms.html">Terms & Conditions</a>
-                           </li>
-                        </ul>
-                     </li>
-                  </ul>
-               </div>
-               <ul class="s-12 l-2">
-                  <li class="logo hide-s hide-m">
-                     <a href="../index.html">Private exam <br />
-                        <strong>centre</strong></a>
-                  </li>
-               </ul>
-               <div class="top-nav s-12 l-5">
-                  <ul class="top-ul chevron">
-                     <li></li>
-                     <li>
-                        <a href="../exam_fees.html">exams &amp; fees</a>
-                        <ul>
-                           <li><a href="../GCSE.html">GCSE</a> </li>
-                           <li><a href="../AS_A2_exams.html">AS and A2</a> </li>
-                           <li><a href="../IGCSE.html">IGCSE</a> </li>
-                           <li><a href="../functional_skills.html">Functional Skills </a> </li>
-
-                           <li><a href="../11plus.html">11 Plus Mocks </a> </li>
-                           <li><a href="../oet_exams.html">OET Exams </a> </li>
-                           <li><a href="../ilets_exams.html">IELTS Exams </a> </li>
-                           <li><a href="../pte_exams.html">PTE Academic </a> </li>
-                           <li><a href="../esol_exams.html">ESOL Academic </a> </li>
-                           <li><a href="../A1_B1_A2_Life_in_uk_test.html">A1 A2 B1 Life in UK Test</a> </li>
-
-
-
-                        </ul>
-                     </li>
-                     <li><a href="../contact.html">Contact</a>
-                     </li>
-                  </ul>
-               </div>
-            </div>
          </div>
-      </nav>
-   </header> -->
-   <!-- <section>
-      <div id="head">
-         <div class="line">
-            <h1>Get in touch with us</h1>
-         </div>
+         <span class="text-center d-block">
+            © 2025 Private Exam Center - Bestgrade Education All Rights Reserved.
+         </span>
       </div>
-      <div id="content" class="left-align contact-page">
-         <div class="line">
-            <div class="margin">
-               <h2>Private Exam Centre</h2>
-               <h2>Call us free : 0800 772 3464 or 0203 302 8140</h2>
-               <p>&nbsp;</p>
-               <address>
-                  <p> BestGrade Education, 435-437 Cranbrook Road, Ilford, Essex, IG1 4UW.
-                  </p>
-                  <p>&nbsp;</p>
-               </address>
-               <address>
-                  <p> <i class="icon-mail icon"> </i><a href="http://www.bestgrade.co.uk"
-                        target="new">www.bestgrade.co.uk</a> </p>
-                  <p>&nbsp;</p>
-                  <p><i class="icon-mail icon"></i> info@privateexamcentre.co.uk</p>
-                  <p>&nbsp;</p>
-               </address>
-               <p><i class="icon-facebook icon"></i> <a href="https://www.facebook.com/bestgrade.uk">Facebook</a></p>
-            </div>
-         </div>
-      </div> -->
-   <!-- MAP -->
+   </div>
+   <!-- footer end -->
 
 
-   <!-- <div id="map-block">
-         <center>
-            <iframe
-               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3859.8306197224865!2d0.06084706569108679!3d51.57252151853246!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a6f71e787ff1%3A0x77d598e09fba0a92!2sPrivate+Exam+Centre!5e0!3m2!1sen!2suk!4v1491666858518"
-               width="1200" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
-         </center>
-      </div>
-      <div id="fourth-block">
-         <div class="line">
-            <div id="owl-demo2" class="owl-carousel owl-theme">
-               <div class="item">
-                  <h2>Registration for exams as a private candidates is now made easy. </h2>
-                  <p class="s-12 m-12 l-8 center">As we have affiliated centres all around UK. You have a wider choice
-                     on exam centre locations. You don’t even have to visit us. You can submit documents online/post and
-                     pay online. We will do all the leg work with exam bodies and then we will send you the exam entry
-                     froms via email or by post.
-                  </p>
-               </div>
-               <div class="item">
-                  <h2>Affordable exam fees and courses</h2>
-                  <p class="s-12 m-12 l-8 center">The fees we charge are per A- Level subject module or GCSE and include
-                     the cost of the exam entry with selected exam board, all administration fees, exam hall provision,
-                     and invigilator costs. Exams take place at one of our affiliated examination centres.
-                  </p>
-               </div>
-               <div class="item">
-                  <h2>Find a home tutor or a tuition centre near to you </h2>
-                  <p class="s-12 m-12 l-8 center">BestGrade is an independent tutoring company based in London. It is
-                     recognised as providing exceptional GCSE and A-Level tuition through its team of outstanding
-                     tutors. If you require additional tuition classes at your home or at a dedicated tuition centre
-                     near to your home, let us help you to find a tutor.
-                  </p>
-               </div>
-            </div>
-         </div>
-      </div>
-   </section> -->
-   <!-- FOOTER -->
-   <!-- <footer>
-      <div class="line">
-         <div class="s-12 l-6">
-            <p>Copyright 2016, BestGrade Education.
-            </p>
-         </div>
-         <div class="s-12 l-6">
-            <p class="right">
-               <a class="right" href="http://www.infomart.co.uk" title="Webdesign by Infomart IT Solutions Ltd">Powered
-                  by Infomart IT</a>
-            </p>
-         </div>
-      </div>
-   </footer> -->
    <script type="text/javascript" src="owl-carousel/owl.carousel.js"></script>
    <script type="text/javascript">
       jQuery(document).ready(function ($) {
