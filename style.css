@@ -25,6 +25,12 @@ p {
     line-height: 1.6;
 }
 
+li {
+    color: #6b7280;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
 .btn-1 {
     border: solid;
     border-width: 2px;
