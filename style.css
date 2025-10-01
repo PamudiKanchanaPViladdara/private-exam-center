@@ -2284,6 +2284,201 @@ i,
 
 /* access arrangement end */
 
+/* coursework start */
+
+@media (max-width:576px) {
+    .nea-section {
+        padding: 20px !important;
+    }
+
+    .nea-section h2 {
+        font-size: 28px !important;
+        margin-bottom: 12px !important;
+    }
+
+    .nea-section p.lead {
+        font-size: 16px !important;
+        margin-bottom: 20px !important;
+        max-width: 100% !important;
+    }
+
+    .nea-card-section {
+        gap: 20px !important;
+    }
+
+    .nea-card {
+        padding: 20px !important;
+    }
+
+    .nea-card h5 {
+        font-size: 18px !important;
+    }
+
+    .nea-card p {
+        font-size: 14px !important;
+    }
+
+    .nea-step .circle {
+        width: 35px !important;
+        height: 35px !important;
+        font-size: 0.9rem !important;
+        margin-bottom: 10px !important;
+    }
+
+    .nea-step h5 {
+        font-size: 18px !important;
+    }
+
+    .nea-step p {
+        font-size: 14px !important;
+    }
+}
+
+.nea-section {
+    background-color: #fff;
+    padding: 30px;
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+.nea-section h2 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #003057;
+    margin-bottom: 20px;
+}
+
+.nea-section p.lead {
+    color: #64748b;
+    max-width: 750px;
+    margin: 0 auto 50px auto;
+    font-size: 18px;
+}
+
+.nea-card {
+    background: #fff;
+    border: 1px solid #e4e8f0;
+    border-radius: 12px;
+    padding: 30px 20px;
+    transition: all 0.3s ease;
+    height: 100%;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);
+}
+
+.nea-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.nea-card i {
+    font-size: 2rem;
+    color: #002244;
+    background: #f0f6ff;
+    border-radius: 50%;
+    padding: 12px;
+    margin-bottom: 20px;
+}
+
+.nea-card h5 {
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #0b2c61;
+}
+
+.nea-card p {
+    font-size: 0.95rem;
+    color: #64748b;
+}
+
+/* Section headings */
+.section-title {
+    font-weight: 700;
+    color: #0b2c61;
+    margin-bottom: 15px;
+}
+
+.section-subtitle {
+    color: #64748b;
+    margin-bottom: 50px;
+    max-width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Step process */
+.nea-step {
+    text-align: center;
+    padding: 20px;
+}
+
+.nea-step .circle {
+    background-color: #0b2c61;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.1rem;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 15px auto;
+}
+
+.nea-step h5 {
+    font-weight: 600;
+    color: #0b2c61;
+    margin-bottom: 8px;
+}
+
+.nea-step p {
+    font-size: 0.95rem;
+    color: #555;
+    margin: 0;
+}
+
+.nea-card-section {
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 30px;
+}
+
+.nea-card {
+    background: #fff;
+    border: 1px solid #e4e8f0;
+    border-radius: 12px;
+    padding: 30px 20px;
+    text-align: left;
+    transition: all 0.3s ease;
+    height: 100%;
+}
+
+.nea-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.nea-card i {
+    font-size: 1.8rem;
+    color: #0b2c61;
+    margin-bottom: 15px;
+}
+
+.nea-card h5 {
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #0b2c61;
+}
+
+.nea-card p {
+    font-size: 0.95rem;
+    color: #64748b;
+}
+
+/* coursework end */
+
 /* IGCSE */
 .igcse-card {
     background-color: #003057;
