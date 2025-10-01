@@ -25,6 +25,12 @@ p {
     line-height: 1.6;
 }
 
+li {
+    color: #6b7280;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
 .btn-1 {
     border: solid;
     border-width: 2px;
@@ -65,7 +71,7 @@ p {
         padding: 0px 12px 0px 12px;
     }
 
-    h1{
+    h1 {
         font-size: 30px;
     }
 
@@ -1637,6 +1643,7 @@ i,
         margin-bottom: 12px !important;
     }
 }
+
 .what-set-apart-section {
     padding: 40px;
 }
@@ -1701,7 +1708,7 @@ i,
     .icon-cards .card-body {
         padding: 0px !important;
     }
-    
+
     .icon-cards .icon-card {
         padding: 0px !important;
         margin-bottom: 12px !important;
@@ -1726,13 +1733,16 @@ i,
     .title-background h1 {
         font-size: 28px !important;
     }
+
     .title-background p {
         font-size: 16px !important;
     }
+
     .title-background-details p {
         font-size: 12px !important;
         padding: 8px 12px !important;
     }
+
     .title-background-details p i {
         font-size: 16px !important;
         margin-right: 0px !important;
@@ -1743,6 +1753,7 @@ i,
     max-width: 900px;
     margin: 0 auto;
 }
+
 .icon-cards .icon-card .card {
     border-radius: 20px;
     height: 100%;
@@ -1813,16 +1824,239 @@ i,
 /* invigilation end */
 
 /* UCSA application */
-.ucsa-card {
-    background-color: #c2c2c2;
-    border: none;
+/* First Row - Image (3 cols) + Content (9 cols) */
+
+@media (max-width: 992px) {
+    .ucas-card {
+        padding: 20px 15px;
+    }
+
 }
 
-.ucsa-card-2 {
-    background-color: #003057;
-    color: #fff;
-    border: none;
+@media (max-width: 768px) {
+    .ucas-section {
+        padding: 10px !important;
+    }
+
+    .ucas-title {
+        font-size: 28px !important;
+    }
+
+    .ucas-paragraph {
+        font-size: 16px !important;
+    }
+
+    .ucas-card-title {
+        font-size: 20px !important;
+    }
+
+    .ucas-image {
+        min-height: 150px;
+    }
+
+    .ucas-section-wrapper h2 {
+        font-size: 30px !important;
+    }
+
+    .ucas-card {
+        padding: 10px !important;
+    }
+
+    .ucas-card .card-title {
+        font-size: 20px !important;
+    }
+
+    .ucas-card .card-text {
+        font-size: 14px !important;
+    }
+
+    .process-cards h1 {
+        font-size: 30px !important;
+    }
+
+    .process-cards p {
+        font-size: 16px !important;
+        max-width: 100% !important;
+    }
+
 }
+
+.ucas-section {
+    background: #fff;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.ucas-image {
+    width: 100%;
+    height: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.ucas-title {
+    font-size: 36px;
+    color: #003057;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.ucas-paragraph {
+    font-size: 18px;
+    color: #6b7280;
+    line-height: 1.8;
+}
+
+.ucas-section-wrapper h2 {
+    font-size: 36px;
+    color: #003057;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.ucas-card {
+    background: #f7fafc;
+    padding: 30px 20px;
+    border-radius: 12px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s;
+    border: 2px solid transparent;
+    height: 100%;
+}
+
+.ucas-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+    border-color: #667eea;
+}
+
+.ucas-card-title {
+    font-size: 24px;
+    font-weight: 600;
+    color: #1a365d;
+    margin-bottom: 8px;
+}
+
+.ucas-card-subtitle {
+    font-size: 16px;
+    color: #718096;
+}
+
+.ucas-section-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.ucas-card {
+    background-color: #f0f2f5;
+    border-radius: 20px;
+    padding: 20px;
+    height: 100%;
+}
+
+.ucas-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+    border-color: #003057;
+}
+
+.ucas-card .card-title {
+    color: #003057;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.ucas-card .card-text {
+    color: #6b7280;
+    font-size: 16px;
+    text-align: center;
+}
+
+.ucas-card img {
+    height: 200px;
+    object-fit: cover;
+    border-radius: 12px !important;
+}
+
+.process-cards {
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 20px;
+}
+
+.process-cards h1 {
+    color: #003057;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.process-cards p {
+    color: #6b7280;
+    font-size: 18px;
+    text-align: center;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}  
+
+.process-card {
+      position: relative;
+      background: #fff;
+      border: 2px solid #e2e8f0;
+      border-radius: 12px;
+      padding: 50px 20px 30px;
+      text-align: center;
+      transition: all 0.3s ease;
+      height: 100%;
+    }
+
+    .process-card:hover {
+      border-color: #003057;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+      transform: translateY(-5px);
+    }
+
+    .process-step {
+      position: absolute;
+      top: -20px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background: #003057;
+      color: #fff;
+      font-weight: bold;
+      font-size: 1rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    }
+
+    .process-card i {
+      font-size: 32px;
+      color: #003057;
+      margin-bottom: 15px;
+    }
+
+    .process-title {
+      font-size: 24px;
+      font-weight: 600;
+      color: #003057;
+      margin-bottom: 10px;
+    }
+
+    .process-text {
+      color: #64748b;
+      font-size: 14px;
+    }
 
 /* UCSA application */
 
