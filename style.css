@@ -2479,6 +2479,178 @@ i,
 
 /* coursework end */
 
+/* register start */
+
+/* Common Section */
+@media (max-width:576px) {
+
+    .registration-steps h1 {
+        font-size: 30px !important;
+    }
+
+    .registration-steps p {
+        font-size: 16px !important;
+        margin-bottom: 20px !important;
+    }
+
+    .registration-steps .step-card {
+        padding: 20px !important;
+        margin-bottom: 12px !important;
+    }
+
+    .registration-steps .step-card i {
+        font-size: 1.5rem !important;
+        margin-bottom: 12px !important;
+    }
+
+    .uci-section {
+        padding: 20px !important;
+        margin-top: 20px !important;
+    }
+
+    .uci-section h1 {
+        font-size: 30px !important;
+        margin-bottom: 12px !important;
+    }
+
+    .uci-section p {
+        font-size: 16px !important;
+        margin-bottom: 20px !important;
+        max-width: 100% !important;
+    }
+
+    .uci-section .important-box {
+        padding: 15px !important;
+        margin-bottom: 12px !important;
+    }
+
+    .uci-section .important-box h5 {
+        font-size: 18px !important;
+        margin-bottom: 8px !important;
+    }
+
+    .uci-section .important-box p {
+        font-size: 14px !important;
+    }
+
+    .uci-section .important-list {
+        padding: 10px !important;
+    }
+
+    .download-section {
+        padding: 20px !important;
+        margin-top: 0px !important;
+    }
+
+    .download-section h1 {
+        font-size: 30px !important;
+        margin-bottom: 12px !important;
+    }
+
+    .download-section p {
+        font-size: 16px !important;
+        margin-bottom: 20px !important;
+        max-width: 100% !important;
+    }
+
+    .download-section .download-card {
+        padding: 20px !important;
+        margin-bottom: 12px !important;
+    }
+
+    .download-section .download-card h5 {
+        font-size: 18px !important;
+    }
+
+    .download-section .download-card p {
+        font-size: 14px !important;
+        margin-bottom: 8px !important;
+    }
+}
+
+.custom-section {
+    max-width: 1200px;
+    margin: 0px auto;
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.registration-steps .step-card i {
+    font-size: 2rem;
+    color: #002244;
+    background: #f0f6ff;
+    border-radius: 50%;
+    padding: 12px;
+    margin-bottom: 20px;
+}
+
+/* Section 1: Steps */
+.registration-steps {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.registration-steps .step-card {
+    border: 1px solid #e5e5e5;
+    border-radius: 15px;
+    padding: 20px;
+    background: #fdfdfd;
+    transition: 0.3s;
+}
+
+.registration-steps .step-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Section 2: Important Notice */
+.uci-section .important-box {
+    background: #fefefe;
+    border: 1px solid #eee;
+    border-left: 6px solid #002244;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.important-box h5 {
+    color: #002244;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.important-box p {
+    color: #555;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.uci-section .important-list {
+    background: #f8f9fa;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+/* Section 3: Downloads */
+.download-section .download-card {
+    border: 1px solid #e5e5e5;
+    border-radius: 15px;
+    padding: 30px;
+    text-align: center;
+    transition: 0.3s;
+    background: #fdfdfd;
+}
+
+.download-section .download-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+.download-section .btn-custom {
+    border-radius: 50px;
+}
+
 /* IGCSE */
 .igcse-card {
     background-color: #003057;
