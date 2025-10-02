@@ -23,7 +23,6 @@ p {
     color: #6b7280;
     font-size: 18px;
     line-height: 1.6;
-    max-width: 900px;
 }
 
 li {
@@ -2966,6 +2965,55 @@ i,
 
 
 /* faqs end */
+
+/* terms css start */
+
+@media (max-width:576px) {
+    .terms {
+        padding: 20px !important;
+    }
+
+    .terms h2 {
+        font-size: 24px !important;
+        margin-bottom: 12px !important;
+    }
+
+    .terms p {
+        font-size: 14px !important;
+    }
+
+    .terms ul li {
+        font-size: 14px !important;
+    }
+}
+
+.terms {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 20px;
+    margin: 0 auto;
+}
+
+.terms p {
+    color: #6b7280;
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 16px;
+}
+
+.terms h2 {
+    color: #003057;
+    font-size: 28px;
+    font-weight: 600;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.terms ul li {
+    color: #6b7280;
+    font-size: 16px;
+    line-height: 1.8;
+}
 
 /* IGCSE */
 .igcse-card {
