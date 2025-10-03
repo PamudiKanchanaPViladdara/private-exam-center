@@ -641,7 +641,7 @@ i,
 
 .card-r .card-body p {
     color: #6b7280;
-    font-size: 14px;
+    font-size: 18px;
     text-align: center;
     font-weight: 500;
 }
@@ -688,6 +688,14 @@ i,
     background-color: #fbfcfd;
 }
 
+.examination-sec .looking-for-section span  {
+    font-size: 14px;
+    background-color: #002244;
+    color: #fff;
+    padding: 12px 20px;
+    border-radius: 50px;
+}
+
 .examination-sec p {
     color: #6b7280;
     font-size: 18px;
@@ -701,6 +709,24 @@ i,
     margin-bottom: 20px;
     font-size: 48px;
     color: #003057;
+}
+
+.examination-sec .card-body {
+    padding: 0px;
+    max-width: 900px;
+}
+
+.examination-sec .card-body i {
+    color: #22c55e;
+    font-size: 18px;
+    margin-right: 12px;
+}
+
+.examination-sec .card-body p {
+    color: #6b7280;
+    font-size: 16px;
+    margin: 0px;
+    text-align: start;
 }
 
 .card-btn,
@@ -733,8 +759,6 @@ i,
 /* exam cards start */
 
 .exam-cards {
-    margin-top: 40px;
-    margin-bottom: 40px;
     padding: 32px !important;
 }
 
@@ -818,6 +842,12 @@ i,
         font-size: 16px !important;
         margin-bottom: 20px !important;
         text-align: center !important;
+    }
+
+    .examination-sec .card-body p {
+        font-size: 14px !important;
+        text-align: start !important;
+        margin-bottom: 12px !important;
     }
 
     .exam-cards {
@@ -1079,6 +1109,11 @@ i,
     border-radius: 999px;
     padding: 10px 20px;
     font-size: 18px;
+}
+
+.exam-hero-btn:hover {
+    background-color: #005f73;
+    color: #fff;
 }
 
 .exam-page-left-img-card {
