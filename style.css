@@ -1011,10 +1011,27 @@ i,
         border-radius: 20px !important;
         padding: 12px !important;
     }
+    
+    .functional-skills-card {
+        border-radius: 20px !important;
+    }
 
 }
 
 @media (max-width:576px) {
+
+    .exam-pages-container .exam-pages-content h4 {
+        font-size: 18px !important;
+        margin: 0;
+    }
+
+    .hero-items p {
+        font-size: 14px !important;
+    }
+
+    .hero-items i {
+        font-size: 16px !important;
+    }
 
     .exam-pages-content .title {
         font-size: 32px !important;
@@ -1023,8 +1040,7 @@ i,
 
     .exam-pages-content p {
         font-size: 16px !important;
-        text-align: center !important;
-        margin-bottom: 20px !important;
+        text-align: center;
     }
 
     .exam-hero-btn {
@@ -1061,7 +1077,7 @@ i,
     }
 
     .exam-options .title {
-        font-size: 28px !important;
+        font-size: 24px !important;
     }
 
     .exam-options .p {
@@ -1135,9 +1151,95 @@ i,
         text-align: start !important;
     }
 
+    .functional-skills-card h2 {
+        font-size: 18px !important;
+        padding: 0px !important;
+    }
+
+    .exam-page-left-img-card .container {
+        padding: 0px !important;
+    }
+
+    .functional-skills-card .card-body {
+        padding: 0px !important;
+    }
+
+    .functional-skills-card .card-body h4 {
+        font-size: 20px !important;
+    }
+
+    .functional-skills-card .card-body p {
+        font-size: 14px !important;
+    }
+
+    .functional-skills-card .card-body i {
+        font-size: 14px !important;
+    }
+
     /* .exam-pages-container {
         padding: 20px 12px !important;
     } */
+}
+
+.functional-skills-card {
+    padding: 20px;
+    height: 100%;
+    background-color: #fbfcfd;
+    padding: 30px;
+    border-radius: 0px 12px 12px 0px;
+    border: solid 2px #16a28633;
+}
+
+.functional-skills-card h2 {
+    color: #002244;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.functional-skills-card .card-title {
+    color: #16a286;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.functional-skills-card .card-body h4 {
+    color: #003057;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.functional-skills-card .card-body {
+    align-items: start;
+}
+
+.functional-skills-card a {
+    color: #fff;
+    font-weight: 600;
+    border: #007394 solid 2px;
+    border-radius: 50px;
+    padding: 8px 20px;
+    background-color: #007394;
+}
+
+.hero-items {
+  text-align: left;
+}
+
+.hero-items p {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  text-align: left;
+}
+
+.hero-items i {
+  color: #002244; /* change icon color if you want */
+}
+
+.hero-section {
+  text-align: left !important;
 }
 
 .exam-pages-container {
@@ -1300,8 +1402,7 @@ i,
 .examp-key-info-details {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    gap: 20px;
+    align-items: start;
     margin-top: 12px;
 }
 
@@ -1324,7 +1425,7 @@ i,
     color: #6b7280;
     font-size: 18px;
     font-weight: 500;
-    text-align: center;
+    text-align: start;
 }
 
 .exam-key-info i {
