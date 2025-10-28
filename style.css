@@ -156,6 +156,7 @@ li {
 
     .location-container {
         padding: 40px 12px 20px 12px !important;
+        margin-top: 0px !important;
     }
 
     .location-center-section {
@@ -221,6 +222,10 @@ li {
     .lo-card .card .btn {
         font-size: 14px !important;
         font-weight: 400px !important;
+    }
+    
+    .location-content p {
+        font-size: 16px !important;
     }
 
 }
@@ -492,6 +497,7 @@ i,
 @media (max-width:1200px) {
     .hero p {
         text-align: center !important;
+        font-size: 16px !important;
     }
 
     .home-sec-2 h1 {
@@ -641,7 +647,7 @@ i,
     }
 
     .home-sec-2 h1 {
-        font-size: 30px !important;
+        font-size: 24px !important;
         text-align: center !important;
     }
 
@@ -868,8 +874,7 @@ i,
     }
 
     .ex-solutions h1 {
-        font-size: 30px !important;
-        color: #003057;
+        font-size: 24px !important;
     }
 
     .ex-solutions p {
@@ -884,7 +889,7 @@ i,
     }
 
     .examination-sec h1 {
-        font-size: 32px !important;
+        font-size: 24px !important;
     }
 
     .examination-sec p {
@@ -911,7 +916,7 @@ i,
     }
 
     .record h1 {
-        font-size: 30px !important;
+        font-size: 24px !important;
         text-align: center !important;
         color: #003057;
     }
@@ -1088,7 +1093,7 @@ i,
     }
 
     .exam-options {
-        padding: 40px 0px !important;
+        padding: 20px 0px !important;
     }
 
     .exam-options .title {
