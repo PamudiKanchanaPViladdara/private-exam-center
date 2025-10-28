@@ -1011,11 +1011,26 @@ i,
         border-radius: 20px !important;
         padding: 12px !important;
     }
-    
+
     .functional-skills-card {
         border-radius: 20px !important;
     }
 
+}
+
+@media (max-width: 768px) {
+
+    .exam-page-left-img-card img {
+        border-radius: 20px 20px 0px 0px !important;
+        height: auto !important;
+        width: 100% !important;
+    }
+
+    .exam-page-left-img-card-content {
+        border-radius: 0px 0px 20px 20px !important;
+        padding: 20px !important;
+        text-align: center !important;
+    }
 }
 
 @media (max-width:576px) {
@@ -1054,13 +1069,13 @@ i,
     }
 
     .exam-page-left-img-card h1 {
-        font-size: 26px !important;
+        font-size: 24px !important;
     }
 
     .exam-page-left-img-card p {
         font-size: 16px !important;
         margin: 0px;
-        text-align: start !important;
+        text-align: center !important;
     }
 
     .exam-page-left-img-card span {
@@ -1109,6 +1124,7 @@ i,
 
     .exam-key-info h1 {
         font-size: 18px !important;
+        margin-bottom: 0px;
     }
 
     .exam-key-info p {
@@ -1116,7 +1132,7 @@ i,
     }
 
     .exam-key-info i {
-        font-size: 20px !important;
+        font-size: 16px !important;
         margin-right: 8px !important;
     }
 
@@ -1130,7 +1146,7 @@ i,
     }
 
     .ready-to-book-section .card h5 {
-        font-size: 20px !important;
+        font-size: 16px !important;
     }
 
     .ready-to-book-section .card p {
@@ -1176,6 +1192,11 @@ i,
         font-size: 14px !important;
     }
 
+    .ready-to-book-section .card .download-btn i {
+        font-size: 14px !important;
+        margin-right: 8px !important;
+    }
+
     /* .exam-pages-container {
         padding: 20px 12px !important;
     } */
@@ -1210,6 +1231,7 @@ i,
     font-weight: 600;
     margin-bottom: 10px;
 }
+
 .functional-skills-card .card-body {
     align-items: start;
 }
@@ -1224,22 +1246,23 @@ i,
 }
 
 .hero-items {
-  text-align: left;
+    text-align: left;
 }
 
 .hero-items p {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  text-align: left;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    text-align: left;
 }
 
 .hero-items i {
-  color: #002244; /* change icon color if you want */
+    color: #002244;
+    /* change icon color if you want */
 }
 
 .hero-section {
-  text-align: left !important;
+    text-align: left !important;
 }
 
 .exam-pages-container {
@@ -1290,7 +1313,7 @@ i,
 }
 
 .exam-page-left-img-card-content {
-    height: 100%;
+    height: auto;
     background-color: #fff;
     border-radius: 0px 20px 20px 0px;
     padding: 24px 32px 24px 32px;
@@ -1419,7 +1442,7 @@ i,
     color: #6b7280;
     font-size: 18px;
     font-weight: 400;
-    text-align: center;
+    text-align: start;
     margin: 0px;
     align-items: start !important;
 }
@@ -1524,7 +1547,74 @@ i,
         font-size: 14px !important;
         margin: 0px !important;
     }
+
+    .img-add-section img {
+        height: auto !important;
+        width: 100% !important;
+    }
+
+    .img-add-section .img-add-head {
+        padding: 0px;
+    }
+
+    .img-add-section .img-add-head h1 {
+        font-size: 24px !important;
+    }
+
+    .img-add-section .img-add-head h3 {
+        font-size: 18px !important;
+    }
+
+    .img-add-section .img-add-head p {
+        font-size: 16px !important;
+    }
+
+    .img-add-section .img-add-head ul li {
+        font-size: 16px !important;
+    }
+
+    .subjectlist-table-container h2 {
+        font-size: 24px !important;
+    }
 }
+
+.table-responsive {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.table th,
+.table td {
+    vertical-align: middle;
+    padding: 10px;
+}
+
+.table thead th {
+    background-color: #002244;
+    color: #fff;
+}
+
+.pricing-guidance {
+    max-width: 600px;
+    margin: 20px auto;
+    color: #6b7280;
+    background-color: #fbbf241a;
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+.pricing-guidance h6 {
+    font-size: 14px;
+    text-align: center;
+    color: #003057;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.pricing-guidance p {
+    text-align: center;
+}
+
 
 .exams-tags span {
     background-color: #003057;
@@ -1537,7 +1627,6 @@ i,
 }
 
 .exam-pages-detail-card {
-    max-width: 900px;
     padding: 0px 30px;
 }
 
@@ -1593,6 +1682,66 @@ i,
 .exams-page-card-2 .card-body i {
     color: #fff;
     margin-right: 12px;
+}
+
+.img-add-section img {
+    border-radius: 20px;
+    object-fit: cover;
+    height: 700px;
+}
+
+.img-add-section .img-add-head h1 {
+    color: #003057;
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.img-add-section .img-add-head h3 {
+    color: #003057;
+    font-size: 20px;
+    margin-top: 12px;
+}
+
+.img-add-section .img-add-head p {
+    color: #6b7280;
+    font-size: 18px;
+    margin-top: 12px;
+}
+
+.img-add-section .img-add-head h4 {
+    color: #003057;
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.img-add-section .img-add-head ul li {
+    color: #002244;
+    font-size: 18px;
+}
+
+/* 
+.img-add-section .img-add-head ul li {
+    color: #002244;
+    font-size: 18px;
+    margin-bottom: 8px;
+} */
+
+
+
+.subjectlist-table-container h2 {
+    color: #003057;
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+}
+
+thead {
+    background-color: #0d6efd;
+    color: white;
+}
+
+tbody tr:hover {
+    background-color: #eef5ff;
 }
 
 /* GCSE css end */
