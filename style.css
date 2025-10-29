@@ -2348,6 +2348,24 @@ tbody tr:hover {
         max-width: 100% !important;
     }
 
+    .ucas-h4 {
+        font-size: 24px !important;
+        margin-top: 12px !important;
+    }
+
+}
+
+.exam-page-img {
+    border-radius: 20px;
+    height: 100%;
+    object-fit: cover;
+    padding: 12px;
+    background-color: #fff;
+}
+
+.exam-page-img img {
+    max-height: 100px;
+    object-fit: cover;
 }
 
 .ucas-section {
@@ -2387,6 +2405,18 @@ tbody tr:hover {
     text-align: center;
 }
 
+.ucas-card-column {
+    border-radius: 20px;
+    height: 100%;
+    margin: 0 !important;
+}
+
+.ucas-h4 {
+    font-size: 28px;
+    color: #003057;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
 .ucas-card {
     background: #f7fafc;
     padding: 30px 20px;
