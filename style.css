@@ -2145,6 +2145,31 @@ tbody tr:hover {
     }
 }
 
+@media (max-width:768px) {
+    .invigilation-card {
+        padding: 20px !important;
+    }
+
+    .invigilation-card h4 {
+        font-size: 18px !important;
+        font-weight: 600 !important;
+        padding: 8px !important;
+    }
+
+    .invigilation-card p {
+        font-size: 16px !important;
+    }
+
+    .invigilation-card ul li {
+        font-size: 16px !important;
+    }
+
+    .invigilation-card ul li i {
+        font-size: 16px !important;
+        margin-right: 8px !important;
+    }
+}   
+
 .icon-cards {
     max-width: 900px;
     margin: 0 auto;
@@ -2215,6 +2240,54 @@ tbody tr:hover {
 .title-background-details p i {
     color: #fff;
     margin-right: 8px;
+}
+
+.invigilation-card {
+    border: 2px solid #003057;
+    border-radius: 12px;
+    padding: 2rem;
+    background: #fff;
+    transition: all 0.3s ease;
+}
+
+.invigilation-card:hover {
+    box-shadow: 0 0 20px rgba(66, 133, 244, 0.2);
+    transform: translateY(-5px);
+}
+
+.invigilation-card h4 {
+    background-color: #002244;
+    font-size: 24px;
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 12px;
+    padding: 10px;
+    border-radius: 99px;
+    text-align: center;
+}
+
+.invigilation-card p{
+    font-size: 18px;
+    color: #003057;
+    font-weight: 600;
+}
+
+.invigilation-card ul {
+    list-style: none;
+    padding: 0;
+}
+
+.invigilation-card ul li {
+    margin: 0.6rem 0;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.invigilation-card ul li i {
+    color: #22c55e;
+    /* green check */
+    margin-right: 10px;
 }
 
 /* invigilation end */
