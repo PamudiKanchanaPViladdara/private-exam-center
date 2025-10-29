@@ -1023,7 +1023,11 @@ i,
 
 }
 
-@media (max-width: 768px) {
+@media (max-width: 768px) {    
+
+    .exam-page-left-img-card .container {
+        padding: 0px !important;
+    }
 
     .exam-page-left-img-card img {
         border-radius: 20px 20px 0px 0px !important;
@@ -1177,10 +1181,6 @@ i,
         padding: 0px !important;
     }
 
-    .exam-page-left-img-card .container {
-        padding: 0px !important;
-    }
-
     .functional-skills-card .card-body {
         padding: 0px !important;
     }
@@ -1308,6 +1308,14 @@ i,
 .exam-page-left-img-card {
     border-radius: 20px;
     height: 100%;
+}
+
+.exam-page-left-img-card .container {
+    padding: 0px;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
 }
 
 .exam-page-left-img-card img {
@@ -1722,6 +1730,12 @@ i,
 .img-add-section .img-add-head ul li {
     color: #002244;
     font-size: 18px;
+}
+
+.img-add-section .img-add-head .mw-paragraph {
+    color: #002244;
+    max-width: 600px;
+    margin: 0 auto;
 }
 
 /* 
