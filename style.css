@@ -2982,7 +2982,7 @@ tbody tr:hover {
 
     .registration-steps p {
         font-size: 16px !important;
-        margin-bottom: 20px !important;
+        margin-bottom: 10px !important;
     }
 
     .registration-steps .step-card {
@@ -2992,7 +2992,7 @@ tbody tr:hover {
 
     .registration-steps .step-card i {
         font-size: 1.5rem !important;
-        margin-bottom: 12px !important;
+        margin-bottom: 2px !important;
     }
 
     .uci-section {
