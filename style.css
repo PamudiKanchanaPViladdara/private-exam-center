@@ -3264,6 +3264,29 @@ tbody tr:hover {
     margin-bottom: 8px;
 }
 
+.info-card .info-card-2 {
+    display: flex;
+    align-items: center;
+    margin-top: 18px;
+}
+
+.info-card .info-card-2 h4 {
+    color: #003057;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.info-card .info-card-2 p {
+    color: #6b7280;
+    font-size: 16px;
+    margin: 0;
+} 
+
+.info-card .info-card-2 ul i {
+    font-size: 16px;
+    margin-right: 12px;
+    color: #003057;}
+
 .info-card p {
     color: #6b7280;
     font-size: 16px;
