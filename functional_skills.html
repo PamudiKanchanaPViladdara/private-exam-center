@@ -68,34 +68,48 @@
   <link rel="stylesheet" href="style.css">
   <!-- new added css -->
 
+  <!-- icon font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
   <script type="text/javascript" async="true"
     src="https://googleads.g.doubleclick.net/pagead/viewthroughconversion/1064968083/?random=1732460092633&amp;cv=11&amp;fst=1732460092633&amp;bg=ffffff&amp;guid=ON&amp;async=1&amp;gtm=45je4bk0v898079835za200&amp;gcd=13l3l3l3l1l1&amp;dma=0&amp;tag_exp=101925629~102067555~102067808~102077855~102081485&amp;u_w=1470&amp;u_h=956&amp;url=https%3A%2F%2Fhosting.heartinternet.uk%2Ffm&amp;ref=https%3A%2F%2Fhosting.heartinternet.uk%2F&amp;top=https%3A%2F%2Fcustomer.heartinternet.uk&amp;hn=www.googleadservices.com&amp;frm=2&amp;tiba=Functional%20Skills%20Exams%20for%20Maths%2C%20English%20and%20ICT.%20Level%201%20and%20Level%202.%20London%2C%20Essex%2C%20Merton%2C%20Bolton%2C%20Manchester&amp;npa=0&amp;pscdl=noapi&amp;auid=243360049.1732460093&amp;fdr=QA&amp;data=event%3Dgtag.config&amp;rfmt=3&amp;fmt=4"></script>
 </head>
 
-<body>
-  <script src="cookiealert.js"></script>
+<body class="size-1140">
+
+  <!-- Bootstrap Cookie Alert -->
+  <div class="cookiealert alert alert-dark text-center mb-0" role="alert">
+    🍪 We use cookies to ensure you get the best experience on our website.
+    <a href="GDRP-Privacy-Policy.html" target="_blank" class="text-decoration-underline">Learn more</a>
+
+    <button type="button" class="btn btn-warning btn-sm ms-3 acceptcookies">
+      Got it!
+    </button>
+  </div>
 
   <!-- new nav bar -->
   <div class="container custom-navbar">
     <nav class="navbar navbar-expand-xl navbar-light custom-inner-navbar">
       <div class="container-fluid">
-        <img src="/assets/images/logo.jpg" alt="logo" href="../index.html" height="50"
-          class=" text-center d-none d-md-block">
-        <img src="/assets/images/logo-mobile.jpg" alt="logo" href="../index.html" width=auto height="50"
-          class="d-md-none d-block">
+        <a href="index.html">
+          <img src="/assets/images/logo.jpg" alt="logo" height="50" class=" text-center d-none d-md-block">
+        </a>
+        <a href="index.html">
+          <img src="/assets/images/logo-mobile.jpg" alt="logo" width=auto height="50" class="d-md-none d-block">
+        </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-end col">
-            <li class="nav-item me-4">
+            <li class="me-4">
               <a class="nav-link active" aria-current="page" href="index.html">Home</a>
             </li>
-            <li class="nav-item me-4">
+            <li class="me-4">
               <a class="nav-link active" aria-current="page" href="locations.html">Locations</a>
             </li>
-            <li class="nav-item dropdown me-4">
+            <li class="dropdown me-4">
               <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button"
                 data-bs-toggle="dropdown" aria-expanded="false">
                 Exams & Fees
@@ -110,7 +124,7 @@
                 </li>
               </ul>
             </li>
-            <li class="nav-item dropdown me-4">
+            <li class="dropdown me-4">
               <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button"
                 data-bs-toggle="dropdown" aria-expanded="false">
                 UCAS & MOCKS
@@ -121,7 +135,7 @@
                 </li>
               </ul>
             </li>
-            <li class="nav-item dropdown me-4">
+            <li class="dropdown me-4">
               <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button"
                 data-bs-toggle="dropdown" aria-expanded="false">
                 Register
@@ -134,7 +148,7 @@
                 <li><a class="dropdown-item" href="Coursework-NEA.html">Coursework & NEA</a></li>
               </ul>
             </li>
-            <li class="nav-item">
+            <li class="">
               <a class="nav-link" aria-current="page" href="contact.html">Contact</a>
             </li>
           </ul>
@@ -150,8 +164,8 @@
           </a>
         </div>
         <div class="nav-item">
-          <a class="nav-link text-decoration-none p-0 p-md-2" href="tel:+0800 772 3464">
-            <i class="fa-solid fa-phone p-0 p-md-2 text-white"></i> 0800 772 3464
+          <a class="nav-link text-decoration-none p-0 p-md-2" href="tel:+442033028140">
+            <i class="fa-solid fa-phone p-0 p-md-2 text-white"></i> +442033028140
           </a>
         </div>
       </div>
@@ -168,42 +182,27 @@
   <div class="container exam-pages-container mt-5 py-5 px-4">
     <div class="exam-pages-content d-flex flex-column align-items-center text-center gap-4">
       <h1 class="title">Functional Skills Exams</h1>
-      <p>Functional skills qualifications are designed to enable students to develop confidence and fluency in
-        mathematics and English. These skills help learners to participate and progress in education, training and
-        employment. We provide comprehensive support for private candidates across the UK.
+      <p>Functional Skills qualifications help students develop confidence and practical fluency in English and Maths,
+        providing essential skills for education, training, and the workplace. At our centre, private candidates across
+        the UK receive full support throughout the exam process, from registration to results.
       </p>
+      <h4>Benefits of taking Functional Skills exams with us:</h4>
+      <div class="hero-items">
+        <p><i class="fa-solid fa-circle-check h5"></i>Flexible exam options to fit your schedule</p>
+        <p><i class="fa-solid fa-circle-check h5"></i>Calm and supportive environment to reduce stress</p>
+        <p><i class="fa-solid fa-circle-check h5"></i>Expert guidance from experienced staff</p>
+        <p><i class="fa-solid fa-circle-check h5"></i>Improved confidence and practical skills for work or further study
+        </p>
+        <p><i class="fa-solid fa-circle-check h5"></i>Nationwide access for private candidates</p>
+      </div>
       <a href="/application-forms/functional skills form/FS Exam registration form.pdf"
-        class="btn btn-lg exam-hero-btn text-decoration-none">Download Application Form
+        class="btn btn-lg exam-hero-btn text-decoration-none">Register Now for Functional Skills
       </a>
+      <p>With our tailored support and professional facilities, we make it easy for learners to achieve their goals and
+        succeed with confidence.</p>
     </div>
   </div>
   <!-- functional skills hero section end -->
-
-  <!-- sponcers -->
-  <div class="logos my-4 my-xl-5 col-md-10 col-sm-9 mx-auto">
-    <div class="title-2">Accepted Exam Boards</div>
-    <div class="logos-slide">
-      <img src="assets/img/sponcers/1.png" alt="">
-      <img src="assets/img/sponcers/2.png" alt="">
-      <img src="assets/img/sponcers/3.png" alt="">
-      <img src="assets/img/sponcers/4.png" alt="">
-      <img src="assets/img/sponcers/5.png" alt="">
-      <img src="assets/img/sponcers/6.png" alt="">
-      <img src="assets/img/sponcers/7.png" alt="">
-      <img src="assets/img/sponcers/8.png" alt="">
-    </div>
-    <div class="logos-slide">
-      <img src="assets/img/sponcers/1.png" alt="">
-      <img src="assets/img/sponcers/2.png" alt="">
-      <img src="assets/img/sponcers/3.png" alt="">
-      <img src="assets/img/sponcers/4.png" alt="">
-      <img src="assets/img/sponcers/5.png" alt="">
-      <img src="assets/img/sponcers/6.png" alt="">
-      <img src="assets/img/sponcers/7.png" alt="">
-      <img src="assets/img/sponcers/8.png" alt="">
-    </div>
-  </div>
-  <!-- sponcers -->
 
   <!-- finctional skill maths -->
   <div class="exam-page-left-img-card container mt-3">
@@ -213,18 +212,26 @@
         <img src="assets/images/functiona-skills/img-1.jpg" class="img-fluid object-fit-cover"
           alt="functional-skills-exam-center">
       </div>
-      <div class="exam-page-left-img-card-content text-center d-flex flex-column gap-3">
-        <div class="d-flex flex-column gap-0">
-          <h1 class="display-1">Functional Skills Maths Test</h1>
-          <span>(Numeracy Skills Test)</span>
+      <div class="functional-skills-card col">
+        <div class="d-flex flex-column flex-md-row justify-content-start align-items-center gap-3">
+          <h2>Functional Skills Maths Test (Numeracy Skills Test)</h2>
         </div>
-        <p class="mt-3">(Online or Paper-Based Assessment) Functional Skills Mathematics Qualifications evidence
-          skills; a sound grasp of mathematical knowledge and skills and confidence in solving mathematical
-          problems.Please get in touch to chat through your requirements and we’ll be happy to help.</p>
-        <div class="d-flex flex-column align-items-center">
-          <p><i class="fa-solid fa-circle-check h5"></i>Level 1 Functional Skills Maths</p>
-          <p><i class="fa-solid fa-circle-check h5"></i>Level 2 Functional Skills Maths</p>
+        <p class="mb-3 text-start">Functional Skills Mathematics qualifications help learners demonstrate a solid
+          understanding of mathematical knowledge and practical problem-solving skills. Whether you prefer an online or
+          paper-based assessment, our centre provides the support and guidance you need to succeed.</p>
+        <h1 class="card-title text-start">£125</h1>
+        <div class="card-body  flex-column text-start gap-0 d-flex">
+          <h4>Available Levels:</h4>
+          <p class="text-start mb-0"><i class="fa-solid fa-check"></i>Entry Level 1 Functional Skills Maths</p>
+          <p class="text-start mb-0"><i class="fa-solid fa-check"></i>Entry Level 2 Functional Skills Maths</p>
+          <p class="text-start mb-0"><i class="fa-solid fa-check"></i>Entry Level 3 Functional Skills Maths</p>
+          <p class="text-start mb-0"><i class="fa-solid fa-check"></i>Level 1 Functional Skills Maths</p>
+          <p class="text-start mb-0"><i class="fa-solid fa-check"></i>Level 2 Functional Skills Maths</p>
         </div>
+        <a href="/application-forms/functional skills form/FS Exam registration form.xlsx"
+          class="btn btn-lg exam-hero-btn text-decoration-none mt-2">
+          Download Application to register
+        </a>
       </div>
     </div>
   </div>
@@ -237,22 +244,54 @@
         <img src="assets/images/functiona-skills/img-2.jpg" class="img-fluid object-fit-cover"
           alt="functional-skills-exam-center">
       </div>
-      <div class="exam-page-left-img-card-content text-center d-flex flex-column gap-3">
-        <div class="d-flex flex-column gap-0">
-          <h1 class="display-1">Functional Skills English Exam</h1>
-          <span>(Literacy Skills Test)
-          </span>
+      <div class="functional-skills-card col">
+        <div class="d-flex flex-column flex-md-row justify-content-start align-items-center gap-3">
+          <h2>Functional Skills English Test (Reading, Writing, and Communication)</h2>
         </div>
-        <p class="mt-3">(Online or Paper-Based Assessment) Functional Skills English Qualifications evidence skills
-          in Reading, Writing and Speaking.Please get in touch to chat through your requirements and we’ll be happy to
-          help.</p>
-        <div class="d-flex flex-column align-items-center">
-          <p><i class="fa-solid fa-circle-check h5"></i>Level 1 Functional Skills English</p>
-          <p><i class="fa-solid fa-circle-check h5"></i>Level 2 Functional Skills English</p>
+        <p class="mb-3 text-start">Our Functional Skills English qualifications help learners develop practical communication skills, including reading, writing, and speaking, essential for education, work, and daily life. Whether you choose an online or paper-based assessment, we provide full support to help you succeed.</p>
+        <h1 class="card-title text-start">£150</h1>
+        <div class="card-body  flex-column text-start gap-0 d-flex">
+          <h4>Available Levels:</h4>
+          <p class="text-start mb-0"><i class="fa-solid fa-check"></i>Entry Level 1 Functional Skills English</p>
+          <p class="text-start mb-0"><i class="fa-solid fa-check"></i>Entry Level 2 Functional Skills English</p>
+          <p class="text-start mb-0"><i class="fa-solid fa-check"></i>Entry Level 3 Functional Skills English</p>
+          <p class="text-start mb-0"><i class="fa-solid fa-check"></i>Level 1 Functional Skills English</p>
+          <p class="text-start mb-0"><i class="fa-solid fa-check"></i>Level 2 Functional Skills English</p>
         </div>
+        <a href="/application-forms/functional skills form/FS Exam registration form.xlsx"
+          class="btn btn-lg exam-hero-btn text-decoration-none">
+          Download Application to register
+        </a>
       </div>
     </div>
   </div>
+
+  <!-- benefits start -->
+    <div class="container practical-tips-section my-md-5">
+
+        <div class="practical-sec row row-cols-1 row-cols-md-2 g-4 justify-content-center">
+            <div class="card col-md-5 col-11 me-md-4 mb-4 mb-md-0">
+                <h3 class="card-title">Benefits of taking Functional Skills Maths with us:</h3>
+                <div class="card-body">
+                    <p><i class="fa-regular fa-circle-check"></i>Flexible exam options to suit your schedule</p>
+                    <p><i class="fa-regular fa-circle-check"></i>Calm and supportive exam environment</p>
+                    <p><i class="fa-regular fa-circle-check"></i>Expert guidance throughout the process</p>
+                    <p><i class="fa-regular fa-circle-check"></i>Build confidence in applying maths in real-life situations</p>
+                </div>
+            </div>
+            <div class="card col-md-5 col-11 me-md-4 mb-4 mb-md-0">
+                <h3 class="card-title">Why choose our centre for Functional Skills English:</h3>
+                <div class="card-body">
+                    <p><i class="fa-regular fa-circle-check"></i>Flexible exam options (online or paper-based)</p>
+                    <p><i class="fa-regular fa-circle-check"></i>Supportive and calm exam environment</p>
+                    <p><i class="fa-regular fa-circle-check"></i>Expert guidance throughout the process</p>
+                    <p><i class="fa-regular fa-circle-check"></i>Build confidence in practical English skills</p>
+                </div>
+            </div>
+        </div>
+        <p class="mt-md-5 mt-2">Get in touch to discuss your requirements. we’re happy to provide advice and tailor your exam experience to suit your needs.</p>
+    </div>
+    <!-- benefits end -->
 
   <!-- exam formats start -->
   <div class="container exam-options d-flex flex-column align-items-center">
@@ -283,16 +322,52 @@
     </div>
   </div>
   <!-- exam formats end -->
+   
+  <div class="container exam-options d-flex flex-column align-items-center">
+    <div class="exam-options-cards d-flex flex-column flex-sm-row gap-4">
+      <div class="option-card fs-last-2-cards d-flex flex-column justify-content-center align-items-center">
+        <h4>Initial Assessment</h4>
+        <p>Before enrolling for a Functional Skills qualification, we offer an <b>initial assessment</b> to check your current knowledge and determine the right level for you in English or Maths. This ensures you’re fully prepared and confident before taking your exam.</p>
+        <p>You can complete this assessment online or at our centre, whichever is more convenient for you.</p>
+        <div style="margin-top: 1rem;">
+          <span class="notice-time">The cost of the initial assessment is £25</span>
+        </div>
+        <a href="https://functionalskills.org.uk"
+          class="btn btn-sm exam-hero-btn text-decoration-none mt-3">
+          Book your Initial Assessment
+        </a>
+        <p>Our experienced team will review your results and provide personalised guidance on the next steps — helping you move forward with confidence and clarity.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container exam-options d-flex flex-column align-items-center">
+    <div class="exam-options-cards d-flex flex-column flex-sm-row gap-4">
+      <div class="option-card fs-last-2-cards d-flex flex-column justify-content-center align-items-center">
+        <h4>Functional Skills Tuition</h4>
+        <p>We offer expert tuition designed specifically to prepare you for your Functional Skills exams in English and Maths. Our specialist tutors deliver high-quality lessons that are flexible, affordable, and focused on helping you achieve success.</p>
+        <p>Each session is tailored to your individual learning needs — whether you need help with specific topics or a complete revision plan, we’ll guide you step by step to build confidence and improve performance.</p>
+        <div style="margin-top: 1rem;">
+          <span class="notice-time">Available online or at our exam centre. Cost: £25 per hour</span>
+        </div>
+        <a href="https://functionalskills.org.uk"
+          class="btn btn-sm exam-hero-btn text-decoration-none mt-3">
+          Book your Tuition today
+        </a>
+        <p>Contact us today to arrange your first session and start preparing with confidence.</p>
+      </div>
+    </div>
+  </div>
 
   <!-- exam key informations start -->
   <div class="container exam-key-info d-flex flex-column p-4 align-items-center mb-5">
     <h1>Key Information</h1>
     <div class="examp-key-info-details">
-      <p><i class="fa-solid fa-check h5"></i>Assessments graded as Pass or Fail</p>
-      <p><i class="fa-solid fa-check h5"></i>Externally assessed in exam conditions</p>
-      <p><i class="fa-solid fa-check h5"></i>Work with Pearson Edexcel, AQA, OCR, and NCFE exam boards</p>
-      <p><i class="fa-solid fa-check h5"></i>Default exam times: 11:00am or 2:00pm (Monday to Friday)</p>
-      <p><i class="fa-solid fa-check h5"></i>2 weeks notice required (faster booking available for additional cost)</p>
+      <p><i class="fa-solid fa-check "></i>Assessments graded as Pass or Fail</p>
+      <p><i class="fa-solid fa-check "></i>Externally assessed in exam conditions</p>
+      <p><i class="fa-solid fa-check "></i>Work with Pearson Edexcel, AQA, OCR, and NCFE exam boards</p>
+      <p><i class="fa-solid fa-check "></i>Default exam times: 11:00am or 2:00pm (Monday to Friday)</p>
+      <p><i class="fa-solid fa-check "></i>2 weeks notice required (faster booking available for additional cost)</p>
     </div>
   </div>
   <!-- exam key informations end -->
@@ -307,7 +382,7 @@
           <div class="card h-100 p-4">
             <div class="card-body text-center">
               <i class="fa-solid fa-headset h1"></i>
-              <h5 class="card-title">Contact Us</h5>
+              <a class="text-decoration-none" href="contact.html"><h5 class="card-title">Contact Us</h5></a>
               <a href="tel:+0800 772 3464" class="card-text text-decoration-none text-white">0800 772 3464<br> Free
                 consaltation and support.</a>
             </div>
@@ -319,7 +394,7 @@
               <i class="fa-solid fa-cloud-arrow-down h1"></i>
               <h5 class="card-title">PDF Type Application Form</h5>
               <p class="card-text">Download our registration form</p>
-              <a href="/application-forms/functional skills form/Exam registration form.pdf"
+              <a href="/application-forms/functional skills form/FS Exam registration form.pdf"
                 class="download-btn text-decoration-none p-2">
                 <i class="fa-solid fa-download"></i> Download Form
               </a>
@@ -332,7 +407,7 @@
               <i class="fa-solid fa-cloud-arrow-down h1"></i>
               <h5 class="card-title">Excel Type Application Form</h5>
               <p class="card-text">Download our registration form</p>
-              <a href="/application-forms/functional skills form/Exam registration form.xlsx"
+              <a href="/application-forms/functional skills form/FS Exam registration form.xlsx"
                 class="download-btn text-decoration-none p-2"><i class="fa-solid fa-download"></i>Download Form
               </a>
             </div>
@@ -425,6 +500,8 @@
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"></script>
   <script src="https://kit.fontawesome.com/15cba7dfa7.js" crossorigin="anonymous"></script>
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <script src="cookiealert.js"></script>
   <!-- new added javaScript -->
 
 </body>

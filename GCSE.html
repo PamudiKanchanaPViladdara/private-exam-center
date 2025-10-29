@@ -19,416 +19,994 @@
     <link rel="stylesheet" href="style.css">
     <!-- new added css -->
 
+    <!-- icon font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
 </head>
 
-<script src="cookiealert.js"></script>
+<body class="size-1140">
 
-<!-- new nav bar -->
-<div class="container custom-navbar">
-    <nav class="navbar navbar-expand-xl navbar-light custom-inner-navbar">
-        <div class="container-fluid">
-            <img src="/assets/images/logo.jpg" alt="logo" href="../index.html" height="50"
-                class=" text-center d-none d-md-block">
-            <img src="/assets/images/logo-mobile.jpg" alt="logo" href="../index.html" width=auto height="50"
-                class="d-md-none d-block">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-end col">
-                    <li class="nav-item me-4">
-                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item me-4">
-                        <a class="nav-link active" aria-current="page" href="locations.html">Locations</a>
-                    </li>
-                    <li class="nav-item dropdown me-4">
-                        <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Exams & Fees
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="functional_skills.html">Functional Skills</a></li>
-                            <li><a class="dropdown-item" href="GCSE.html">GCSE</a></li>
-                            <li><a class="dropdown-item" href="IGCSE.html">IGCSE</a></li>
-                            <li><a class="dropdown-item" href="A-Level.html">A Level & AS</a></li>
-                            <li><a class="dropdown-item" href="cat4exams.html">CAT-4 Exams</a></li>
-                            <li><a class="dropdown-item" href="Invigilation-Services.html">Invigilation Services</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="nav-item dropdown me-4">
-                        <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            UCAS & MOCKS
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="ucas.html">UCAS Support</a></li>
-                            <li><a class="dropdown-item" href="mock_exam.html">MOCK Exams & Predicted Grades</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="nav-item dropdown me-4">
-                        <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Register
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="register.html">Exam Application</a></li>
-                            <li><a class="dropdown-item" href="Science-Practicals.html">Science Practicals</a></li>
-                            <li><a class="dropdown-item" href="Access-Arrangements.html">Access Arrangements</a>
-                            </li>
-                            <li><a class="dropdown-item" href="Coursework-NEA.html">Coursework & NEA</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="contact.html">Contact</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    <div class="navbar navbar-expand-lg navbar-light">
-        <div
-            class="container-fluid navbar-details pt-md-4 pt-4 pb-2 pe-4 ps-4 mt-md-2 mt-0 d-flex flex-md-row flex-column justify-content-md-between justify-content-center align-items-center">
-            <div class="nav-item">
-                <a class="nav-link text-decoration-none p-0 p-md-2" href="mailto:info@privateexamcentre.co.uk">
-                    <i class="fa-solid fa-envelope p-0 p-md-2 text-white"></i> info@privateexamcentre.co.uk
+    <!-- Bootstrap Cookie Alert -->
+    <div class="cookiealert alert alert-dark text-center mb-0" role="alert">
+        🍪 We use cookies to ensure you get the best experience on our website.
+        <a href="GDRP-Privacy-Policy.html" target="_blank" class="text-decoration-underline">Learn more</a>
+
+        <button type="button" class="btn btn-warning btn-sm ms-3 acceptcookies">
+            Got it!
+        </button>
+    </div>
+
+    <!-- new nav bar -->
+    <div class="container custom-navbar">
+        <nav class="navbar navbar-expand-xl navbar-light custom-inner-navbar">
+            <div class="container-fluid">
+                <a href="index.html">
+                    <img src="/assets/images/logo.jpg" alt="logo" height="50" class=" text-center d-none d-md-block">
                 </a>
-            </div>
-            <div class="nav-item">
-                <a class="nav-link text-decoration-none p-0 p-md-2" href="tel:+0800 772 3464">
-                    <i class="fa-solid fa-phone p-0 p-md-2 text-white"></i> 0800 772 3464
+                <a href="index.html">
+                    <img src="/assets/images/logo-mobile.jpg" alt="logo" width=auto height="50"
+                        class="d-md-none d-block">
                 </a>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- new nav bar -->
-
-<a href="https://wa.me/442033028140" class="whatsapp-float text-decoration-none" target="_blank"
-    aria-label="Chat with us on WhatsApp">
-    <i class="fab fa-whatsapp"></i>
-</a>
-
-<!-- gcse hero start -->
-<div class="container exam-pages-container mt-5 py-5 px-4">
-    <div class="exam-pages-content d-flex flex-column align-items-center text-center gap-4">
-        <h1 class="title">GCSE Exams</h1>
-        <p>We offer tailored support for learners accessing GCSE, IGCSE, and International GCSE examinations across the
-            UK. Finding an exam centre as a private candidate can be challenging
-            and time-consuming. We have established relationships with exam centres throughout the UK,
-            so we can quickly locate and arrange your examinations.
-            <br><br>Once you sign up with us, we handle all the administrative requirements, allowing you to focus
-            entirely on your studies.
-        </p>
-        <a href="/application-forms/exam application form/Exam registration form.pdf"
-            class="btn btn-lg exam-hero-btn text-decoration-none">Download Application Form
-        </a>
-    </div>
-</div>
-<!-- gcse hero end -->
-
-<!-- sponcers -->
-<div class="logos my-4 my-xl-5 col-md-10 col-sm-9 mx-auto">
-    <div class="title-2">Accepted Exam Boards</div>
-    <div class="logos-slide">
-        <img src="assets/img/sponcers/1.png" alt="">
-        <img src="assets/img/sponcers/2.png" alt="">
-        <img src="assets/img/sponcers/3.png" alt="">
-        <img src="assets/img/sponcers/4.png" alt="">
-        <img src="assets/img/sponcers/5.png" alt="">
-        <img src="assets/img/sponcers/6.png" alt="">
-        <img src="assets/img/sponcers/7.png" alt="">
-        <img src="assets/img/sponcers/8.png" alt="">
-    </div>
-    <div class="logos-slide">
-        <img src="assets/img/sponcers/1.png" alt="">
-        <img src="assets/img/sponcers/2.png" alt="">
-        <img src="assets/img/sponcers/3.png" alt="">
-        <img src="assets/img/sponcers/4.png" alt="">
-        <img src="assets/img/sponcers/5.png" alt="">
-        <img src="assets/img/sponcers/6.png" alt="">
-        <img src="assets/img/sponcers/7.png" alt="">
-        <img src="assets/img/sponcers/8.png" alt="">
-    </div>
-</div>
-<!-- sponcers -->
-
-<!-- gcse subjects start -->
-<div class="exam-page-left-img-card container mt-3">
-    <div
-        class="container d-flex flex-column flex-sm-row align-items-center justify-content-between  align-items-stretch">
-        <div class="left-img col-lg-4 col-md-6 text-center d-none d-md-none d-lg-block">
-            <img src="assets/images/gcse-exams/IGCSE-exams.jpg" class="img-fluid object-fit-cover"
-                alt="functional-skills-exam-center">
-        </div>
-        <div class="exam-page-left-img-card-content text-center d-flex flex-column gap-3">
-            <div class="d-flex flex-column gap-0">
-                <h1 class="display-1">GCSE Subjects</h1>
-            </div>
-            <p class="mt-3">At our private exam centre, we offer a wide range of GCSE subjects for both first-time
-                learners and private candidates preparing for GCSE resits. Whether you are home-educated, an adult
-                learner, or looking to improve your grades, we make the exam entry process simple and supportive.</p>
-            <div class="exams-tags d-flex flex-wrap align-items-center justify-content-center gap-2">
-                <span>Maths</span>
-                <span>English</span>
-                <span>Science</span>
-                <span>More +</span>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- gcse subjects end -->
-
-<!-- examination sessions available start -->
-<div class="container exam-pages-detail-card mt-5 mb-5">
-    <h1>Examination Sessions Available</h1>
-    <div class="row row-cols-1 row-cols-md-3 g-4">
-        <div class="col">
-            <div class="card h-100">
-                <div class="card-body text-center">
-                    <h5 class="card-title h5 fw-bold">May/June Sessions</h5>
-                    <p class="card-text">Main GCSE examination period for all subjects</p>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-end col">
+                        <li class="me-4">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="me-4">
+                            <a class="nav-link active" aria-current="page" href="locations.html">Locations</a>
+                        </li>
+                        <li class="dropdown me-4">
+                            <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Exams & Fees
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="functional_skills.html">Functional Skills</a></li>
+                                <li><a class="dropdown-item" href="GCSE.html">GCSE</a></li>
+                                <li><a class="dropdown-item" href="IGCSE.html">IGCSE</a></li>
+                                <li><a class="dropdown-item" href="A-Level.html">A Level & AS</a></li>
+                                <li><a class="dropdown-item" href="cat4exams.html">CAT-4 Exams</a></li>
+                                <li><a class="dropdown-item" href="Invigilation-Services.html">Invigilation Services</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="dropdown me-4">
+                            <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                UCAS & MOCKS
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="ucas.html">UCAS Support</a></li>
+                                <li><a class="dropdown-item" href="mock_exam.html">MOCK Exams & Predicted Grades</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="dropdown me-4">
+                            <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Register
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="register.html">Exam Application</a></li>
+                                <li><a class="dropdown-item" href="Science-Practicals.html">Science Practicals</a></li>
+                                <li><a class="dropdown-item" href="Access-Arrangements.html">Access Arrangements</a>
+                                </li>
+                                <li><a class="dropdown-item" href="Coursework-NEA.html">Coursework & NEA</a></li>
+                            </ul>
+                        </li>
+                        <li class="">
+                            <a class="nav-link" aria-current="page" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
-        </div>
-        <div class="col">
-            <div class="card h-100">
-                <div class="card-body text-center">
-                    <h5 class="card-title h5 fw-bold">November Sessions</h5>
-                    <p class="card-text">GCSE resits for Maths & English language only</p>
+        </nav>
+        <div class="navbar navbar-expand-lg navbar-light">
+            <div
+                class="container-fluid navbar-details pt-md-4 pt-4 pb-2 pe-4 ps-4 mt-md-2 mt-0 d-flex flex-md-row flex-column justify-content-md-between justify-content-center align-items-center">
+                <div class="nav-item">
+                    <a class="nav-link text-decoration-none p-0 p-md-2" href="mailto:info@privateexamcentre.co.uk">
+                        <i class="fa-solid fa-envelope p-0 p-md-2 text-white"></i> info@privateexamcentre.co.uk
+                    </a>
                 </div>
-            </div>
-        </div>
-        <div class="col">
-            <div class="card h-100">
-                <div class="card-body text-center">
-                    <h5 class="card-title h5 fw-bold">January sessions</h5>
-                    <p class="card-text">Science subjects resits only <br>(Biology, Chemistry & Physics)</p>
+                <div class="nav-item">
+                    <a class="nav-link text-decoration-none p-0 p-md-2" href="tel:+442033028140">
+                        <i class="fa-solid fa-phone p-0 p-md-2 text-white"></i> +442033028140
+                    </a>
                 </div>
             </div>
         </div>
     </div>
-</div>
-<!-- examination sessions available end -->
+    <!-- new nav bar -->
 
-<!-- section 05.1 -->
-<div class="container mt-5 mb-5">
-    <h1 class="text-center mb-mb-5">GCSE Tution & Teaching</h1>
-    <div class="exams-page-card-2 row row-cols-1 row-cols-md-2 g-4 g-4">
-        <div class="col">
-            <div class="card h-100">
-                <div class="card-body text-start">
-                    <h5 class="card-title text-center">Tailor-made Retake Courses</h5>
-                    <p class="card-text text-center">Perfect for students who need to improve
-                        their grades while continuing with A-levels or
-                        college studies.</p>
-                    <div class="col-10 offset-1">
-                        <p><i class="fa-solid fa-check"></i>Evening & Weekend Classes
-                        </p>
-                        <p><i class="fa-solid fa-check"></i>Experienced Teachers
-                        </p>
-                        <p><i class="fa-solid fa-check"></i>Grade Improvement Focus</p>
-                        <p><i class="fa-solid fa-check"></i>Concurrent Study</p>
+    <a href="https://wa.me/442033028140" class="whatsapp-float text-decoration-none" target="_blank"
+        aria-label="Chat with us on WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- gcse hero start -->
+    <div class="container exam-pages-container mt-5 py-5 px-4">
+        <div class="exam-pages-content d-flex flex-column align-items-center text-center gap-4">
+            <h1 class="title">GCSE Exams</h1>
+            <p>We provide tailored support for learners taking GCSE, IGCSE, and International GCSE exams across the UK.
+                Finding an exam centre as a private candidate can often be challenging and time-consuming, but we make
+                the process simple.<br><br>With our established relationships with exam centres nationwide, we can
+                quickly help you locate a suitable centre and arrange your examinations.<br><br>Once you sign up with
+                us, we handle all the administrative requirements, allowing you to focus entirely on your studies.
+            </p>
+            <a href="/application-forms/exam application form/Exam registration form.pdf"
+                class="btn btn-lg exam-hero-btn text-decoration-none">Download Application Form
+            </a>
+        </div>
+    </div>
+    <!-- gcse hero end -->
+
+    <!-- sponcers -->
+    <div class="logos my-4 my-xl-5 col-md-10 col-sm-9 mx-auto">
+        <div class="title-2">Accepted Exam Boards</div>
+        <div class="logos-slide">
+            <img src="assets/img/sponcers/1.png" alt="">
+            <img src="assets/img/sponcers/2.png" alt="">
+            <img src="assets/img/sponcers/3.png" alt="">
+            <img src="assets/img/sponcers/8.png" alt="">
+        </div>
+        <div class="logos-slide">
+            <img src="assets/img/sponcers/1.png" alt="">
+            <img src="assets/img/sponcers/2.png" alt="">
+            <img src="assets/img/sponcers/3.png" alt="">
+            <img src="assets/img/sponcers/8.png" alt="">
+        </div>
+        <div class="logos-slide">
+            <img src="assets/img/sponcers/1.png" alt="">
+            <img src="assets/img/sponcers/2.png" alt="">
+            <img src="assets/img/sponcers/3.png" alt="">
+            <img src="assets/img/sponcers/8.png" alt="">
+        </div>
+    </div>
+    <!-- sponcers -->
+
+    <!-- gcse subjects start -->
+
+    <div class="exam-page-left-img-card container mt-3">
+        <div class="container d-flex flex-column flex-md-row align-items-center justify-content-between  align-items-stretch">
+            <div class="left-img col-lg-4 col-md-6 text-center">
+                <img src="assets/images/gcse-exams/IGCSE-exams.jpg" class="img-fluid object-fit-cover"
+                    alt="functional-skills-exam-center">
+            </div>
+            <div class="exam-page-left-img-card-content text-center d-flex flex-column gap-3">
+                <div class="d-flex flex-column gap-0">
+                    <h1 class="display-1">GCSE Subjects and Pricing</h1>
+                </div>
+                <p class="mt-md-3">We offer a wide range of GCSE subjects for both first-time learners and private
+                    candidates preparing for resits. Whether you are home-educated, an adult learner, or looking to
+                    improve your grades, our supportive team ensures the exam registration process is simple,
+                    straightforward, and stress-free.
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- gcse subjects end -->
+
+    <div class="container my-md-5">
+        <div class="table-responsive">
+            <table class="table table-bordered text-center align-middle">
+                <thead class="table-light">
+                    <tr>
+                        <th colspan="3" class="fw-bold fs-5">GCSE Summer Exams (May/June)</th>
+                    </tr>
+                    <tr>
+                        <th colspan="3">All Exam Boards <span class="fw-normal">Before 7th Feb</span></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="text-start">GCSE Maths</td>
+                        <td>£215</td>
+                    </tr>
+                    <tr>
+                        <td class="text-start">GCSE English</td>
+                        <td>£215</td>
+                    </tr>
+                    <tr>
+                        <td class="text-start">All Paper based subjects</td>
+                        <td>£215</td>
+                    </tr>
+                    <tr>
+                        <td class="text-start">Science Double Award</td>
+                        <td>£375</td>
+                    </tr>
+                    <tr>
+                        <td class="text-start">
+                            Foreign Language (Arabic, Bengali, Chinese, French, German, Greek, Gujarati,
+                            Italian, Japanese, Modern Hebrew, Panjabi, Persian, Portuguese, Russian, Spanish, Turkish
+                            and Urdu)
+                        </td>
+                        <td>£325</td>
+                    </tr>
+                </tbody>
+
+                <thead class="table-light">
+                    <tr>
+                        <th colspan="3" class="fw-bold fs-5">GCSE Autumn (November)</th>
+                    </tr>
+                    <tr>
+                        <th colspan="3">All Exam Boards <span class="fw-normal">Before 14th September</span>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="text-start">GCSE Maths</td>
+                        <td>£215</td>
+                    </tr>
+                    <tr>
+                        <td class="text-start">GCSE English</td>
+                        <td>£215</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">November series is for GCSE retake and Candidates aged over 16 only</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="pricing-guidance mt-3 p-3 border rounded">
+            <h6 class="fw-bold">Pricing Guidance</h6>
+            <p class="mb-0">
+                The prices listed above are for guidance only and are indicative of our East London location.
+                Actual prices may vary depending on the exam board, specific deadlines, and the exam location.
+                Please enquire for the correct pricing at the time of booking to ensure accuracy.
+            </p>
+        </div>
+    </div>
+
+    <!-- ready to book -->
+    <div class="ready-to-book-section text-center text-white py-5">
+        <div class="container">
+            <h2 class="mb-3">Ready To Book Your Exam?</h2>
+            <p class="mb-4">Contact us today for personalised assistance and exam pricing.</p>
+            <div class="row row-cols-1 row-cols-md-3 g-4 mt-4">
+                <div class="col">
+                    <div class="card h-100 p-4">
+                        <div class="card-body text-center">
+                            <i class="fa-solid fa-headset h1"></i>
+                            <h5 class="card-title">Contact Us</h5>
+                            <a href="tel:+0800 772 3464" class="card-text text-decoration-none text-white">0800 772
+                                3464<br>
+                                Free
+                                consaltation and support.</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 p-4">
+                        <div class="card-body text-center">
+                            <i class="fa-solid fa-cloud-arrow-down h1"></i>
+                            <h5 class="card-title">PDF Type Application Form</h5>
+                            <p class="card-text">Download our registration form</p>
+                            <a href="/application-forms/exam application form/Exam registration form.pdf"
+                                class="download-btn text-decoration-none p-2">
+                                <i class="fa-solid fa-download"></i> Download Form
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 p-4">
+                        <div class="card-body text-center">
+                            <i class="fa-solid fa-cloud-arrow-down h1"></i>
+                            <h5 class="card-title">Excel Type Application Form</h5>
+                            <p class="card-text">Download our registration form</p>
+                            <a href="/application-forms/exam application form/Exam registration form.xlsx"
+                                class="download-btn text-decoration-none p-2"><i
+                                    class="fa-solid fa-download"></i>Download
+                                Form
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="col">
-            <div class="card h-100">
-                <div class="card-body text-start">
-                    <h5 class="card-title text-center">Coursework & Practical Support</h5>
-                    <p class="card-text text-center">Most GCSE subjects require assessed
-                        coursework or practical tests under
-                        controlled conditions.</p>
-                    <div class="col-10 offset-1">
-                        <p><i class="fa-solid fa-check"></i> Controlled Assessment
-                        </p>
-                        <p><i class="fa-solid fa-check"></i> Practical Components
-                        </p>
-                        <p><i class="fa-solid fa-check"></i> Teacher Assessment</p>
-                        <p><i class="fa-solid fa-check"></i> Private Candidate Support</p>
-                    </div>
-                    <!-- <div class="section-4-btn col-lg-8 offset-lg-2 mt-3 p-1">3-4 weeks notice</div> -->
-                </div>
-            </div>
-        </div>
     </div>
-</div>
-<!-- section 05.1 -->
 
-<!-- gcse exam key informations start -->
-<div class="container exam-key-info d-flex flex-column p-4 align-items-center mb-5">
-    <h1>Key Informations</h1>
-    <div class="examp-key-info-details">
-        <p><i class="fa-solid fa-check h5"></i>GCSE exams available for private and external candidates</p>
-        <p><i class="fa-solid fa-check h5"></i>Work with major exam boards: AQA, Edexcel, OCR, WJEC</p>
-        <p><i class="fa-solid fa-check h5"></i>Controlled assessments/practical exams arranged where required</p>
-        <p><i class="fa-solid fa-check h5"></i> Registration fee applies, subject fees vary by exam and board</p>
-        <p><i class="fa-solid fa-check h5"></i>Locations available across London and nationwide partner centres</p>
-        <p><i class="fa-solid fa-check h5"></i>9–1 grading system now standard for all GCSEs</p>
-        <p><i class="fa-solid fa-check h5"></i>Early registration recommended to avoid late fees</p>
-    </div>
-</div>
-<!-- gcse exam key informations end -->
-
-<!-- ready to book -->
-<div class="ready-to-book-section text-center text-white py-5">
-    <div class="container">
-        <h2 class="mb-3">Ready To Book Your Exam?</h2>
-        <p class="mb-4">Contact us today for personalised assistance and exam pricing.</p>
-        <div class="row row-cols-1 row-cols-md-3 g-4 mt-4">
-            <div class="col">
-                <div class="card h-100 p-4">
-                    <div class="card-body text-center">
-                        <i class="fa-solid fa-headset h1"></i>
-                        <h5 class="card-title">Contact Us</h5>
-                        <a href="tel:+0800 772 3464" class="card-text text-decoration-none text-white">0800 772 3464<br>
-                            Free
-                            consaltation and support.</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card h-100 p-4">
-                    <div class="card-body text-center">
-                        <i class="fa-solid fa-cloud-arrow-down h1"></i>
-                        <h5 class="card-title">PDF Type Application Form</h5>
-                        <p class="card-text">Download our registration form</p>
+    <!-- examination sessions available start -->
+    <div class="container exam-pages-detail-card mt-3 mt-md-5 mb-3 mb-md-5">
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+            <div class="col-md-6">
+                <div class="card h-100">
+                    <div class="card-body text-center d-flex flex-column justify-content-start gap-md-3">
+                        <h5 class="card-title fw-bold">Supporting Private GCSE & IGCSE Candidates Across the UK</h5>
+                        <p>Every learner’s journey is unique. Whether you are studying independently,
+                            with a private tutor, or through an online course, Bestgarde is here to guide you through
+                            the exam process with confidence and clarity.</p>
+                        <p>Your tutor may help with coursework or study materials, but arranging exams is ultimately
+                            your responsibility. Bestgarde makes this process simple and stress-free.</p>
                         <a href="/application-forms/exam application form/Exam registration form.pdf"
-                            class="download-btn text-decoration-none p-2">
-                            <i class="fa-solid fa-download"></i> Download Form
+                            class="btn btn-lg exam-hero-btn text-decoration-none">Contact Us to Get Started
                         </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card h-100">
+                    <div class="card-body text-center d-flex flex-column justify-content-start gap-md-3">
+                        <h5 class="card-title h5 fw-bold">Simple Exam Registration</h5>
+                        <p>Finding an approved exam centre for your GCSEs can be time-consuming and
+                            stressful. Many students spend weeks trying to locate a centre and organise the necessary
+                            paperwork.</p>
+                        <p>At Bestgarde, we take the pressure off. We have established partnerships with examination
+                            centres across the UK, so we can help you:</p>
+                        <div class="col-lg-10 text-start">
+                            <ul>
+                                <li>Find a suitable centre near you</li>
+                                <li>Complete your registration smoothly</li>
+                                <li>Submit all required information accurately and on time</li>
+                            </ul>
+                        </div>
+                        <p>Our team handles the administrative work, saving you time and allowing you to focus on your
+                            studies. Use our exam centre search tool to find the most convenient location.</p>
+                        <a href="/application-forms/exam application form/Exam registration form.pdf"
+                            class="btn btn-lg exam-hero-btn text-decoration-none">Find Your Exam Centre
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card h-100">
+                    <div class="card-body text-center d-flex flex-column justify-content-start gap-md-3">
+                        <h5 class="card-title h5 fw-bold">GCSE & IGCSE Exam Support</h5>
+                        <p class="card-text">Bestgarde supports learners taking GCSE and IGCSE exams for the first time
+                            or those resitting to improve their grades.</p>
+                        <p>We offer a wide range of subjects, including:</p>
+                        <div class="col-lg-10 text-start">
+                            <ul>
+                                <li>GCSE Maths and English</li>
+                                <li>IGCSE Maths, English, and Science</li>
+                                <li>Many other subject options tailored to your goals</li>
+                            </ul>
+                        </div>
+                        <p>Our experienced team provides clear guidance and reliable support for learners of all ages,
+                            ensuring your exam experience is smooth and stress-free.</p>
+                        <a href="/application-forms/exam application form/Exam registration form.pdf"
+                            class="btn btn-lg exam-hero-btn text-decoration-none">Book Your Exam
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card h-100">
+                    <div class="card-body text-center d-flex flex-column justify-content-start gap-md-3">
+                        <h5 class="card-title h5 fw-bold">Understanding the Difference: GCSE vs IGCSE</h5>
+                        <p class="card-text">GCSEs and International GCSEs (IGCSEs) are different qualifications:</p>
+                        <div class="col-lg-10 text-start">
+                            <ul>
+                                <li>GCSEs follow the UK Government curriculum and are assessed according to Ofqual
+                                    regulations.</li>
+                                <li>IGCSEs are designed by individual awarding bodies, each with their own content and
+                                    assessment methods.</li>
+                            </ul>
+                        </div>
+                        <p>Both qualifications are highly respected. Our team can advise you on which option best fits
+                            your learning path.</p>
+                        <a href="contact.html" class="btn btn-lg exam-hero-btn text-decoration-none">Talk to an Advisor
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- examination sessions available end -->
+
+    <!-- gcse add -->
+    <div class="container img-add-section d-flex flex-column flex-xl-row align-items-center mb-5 gap-4">
+        <img src="assets/images/ad/gcse.jpg" class="img-fluid object-fit-cover" alt="functional-skills-exam-center">
+        <div class="img-add-head">
+            <h1 class="text-center mb-0">GCSE Tution & Teaching</h1>
+            <h3 class="text-center mb-md-3">Tailored to Your Needs from Just £15p/h</h3>
+            <p class="text-center">Achieving excellent GCSE results starts with the right support, and we’re here to
+                make it simple and effective. Whether you prefer <b>online 1-to-1 tuition or small group sessions at our
+                    centre,</b> we provide high-quality lessons designed to suit your learning style and pace.</p>
+            <div class="mt-md-5">
+                <h4 class="text-center mb-md-4">Flexible Learning Options</h4>
+                <div class="col-lg-10 align-items-center mx-auto">
+                    <ul class="d-flex flex-column flex-md-row gap-md-5">
+                        <li class="text-start"><b>Online 1-to-1 Tuition –</b> Enjoy personalised lessons from the
+                            comfort of your home, focusing entirely on your strengths and areas for improvement.</li>
+                        <li class="text-start"><b>Group Sessions at Our Centre –</b> Learn alongside peers in a
+                            supportive environment, encouraging discussion, collaboration, and confidence-building.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- section 05.1 -->
+    <div class="container mt-3 mt-md-5 mb-3 mb-md-5">
+        <div class="exams-page-card-2 row row-cols-1 row-cols-md-2 g-4 g-4">
+            <div class="col">
+                <div class="card h-100">
+                    <div class="card-body text-start">
+                        <h5 class="card-title text-center mb-md-4">Affordable & Accessible</h5>
+                        <p class="card-text text-center">Our tuition packages start from just £25 per session, making
+                            top-quality GCSE support accessible without compromising on quality.</p>
                     </div>
                 </div>
             </div>
             <div class="col">
-                <div class="card h-100 p-4">
-                    <div class="card-body text-center">
-                        <i class="fa-solid fa-cloud-arrow-down h1"></i>
-                        <h5 class="card-title">Excel Type Application Form</h5>
-                        <p class="card-text">Download our registration form</p>
-                        <a href="/application-forms/exam application form/Exam registration form.xlsx"
-                            class="download-btn text-decoration-none p-2"><i class="fa-solid fa-download"></i>Download
-                            Form
-                        </a>
+                <div class="card h-100">
+                    <div class="card-body text-start">
+                        <h5 class="card-title text-center mb-md-4">Experienced Tutors</h5>
+                        <p class="card-text text-center">Our tutors are highly experienced in GCSE curricula, helping
+                            students tackle subjects such as Maths, English, Science, and more. We focus not only on
+                            exam preparation but also on building understanding, problem-solving skills, and long-term
+                            confidence.</p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
+    <!-- section 05.1 -->
 
-<!-- footer start -->
-<div class="footer pt-5 pb-3">
-    <div class="container">
-        <div class="row g-4">
-            <div class="col-md-3 col-6 mb-2 mb-lg-4">
-                <h4 class="h4">Exam Bodies</h4>
-                <p class="mt-2 mt-lg-4">AQA - Assessment and Qualifications Alliance</p>
-                <p class="mt-1 mt-lg-2">CIE - Cambridge International Examinations</p>
-                <p class="mt-1 mt-lg-2">Edexcel - Pearson Edexcel </p>
-                <p class="mt-1 mt-lg-2">OCR - Oxford, Cambridge and RSA Examinations</p>
-                <p class="mt-1 mt-lg-2">Eduqas - Welsh Joint Education Committee (WJEC)</p>
-            </div>
-            <div class="col-md-3 col-6 mb-2 mb-lg-4">
-                <h4 class="h4">Quick Links</h4>
-                <ul class="list-unstyled">
-                    <li class="mt-2 mt-lg-4"><a href="index.html" class="text-decoration-none">Home</a></li>
-                    <li class="mt-1 mt-lg-2"><a href="../locations.html" class="text-decoration-none">Exam
-                            Locations</a></li>
-                    <li class="mt-1 mt-lg-2"><a href="../GCSE.html" class="text-decoration-none">GCSE</a></li>
-                    <li class="mt-1 mt-lg-2"><a href="../IGCSE.html" class="text-decoration-none">IGCSE</a></li>
-                    <li class="mt-1 mt-lg-2"><a href="../register.html" class="text-decoration-none">Exam
-                            Applications</a></li>
-                    <li class="mt-1 mt-lg-2"><a href="../A-Level.html" class="text-decoration-none">A-Levels &
-                            AS</a></li>
-                    <li class="mt-1 mt-lg-2"><a href="../contact.html" class="text-decoration-none">Contact Us</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="col-md-3 col-6 mb-2 mb-lg-4">
-                <h4 href="#" class="h4">Information</h4>
-                <ul class="list-unstyled">
-                    <li class="mt-1 mt-lg-4"><a href="../terms.html" class="text-decoration-none">Terms &
-                            Conditions</a></li>
-                    <li class="mt-1 mt-lg-2"><a href="../GDRP-Privacy-Policy.html" class="text-decoration-none">GDRP
-                            & Privacy Policy</a></li>
-                    <li class="mt-1 mt-lg-2"><a href="../Science-Practicals.html" class="text-decoration-none">Science
-                            Practical
-                            Endorsement</a></li>
-                    <li class="mt-1 mt-lg-2"><a href="../Access-Arrangements.html" class="text-decoration-none">Access
-                            Arrangements</a></li>
-                    <li class="mt-1 mt-lg-2"><a href="../Invigilation-Services.html"
-                            class="text-decoration-none">Invigilation
-                            Services</a></li>
-                    <li class="mt-1 mt-lg-2"><a href="../ucas.html" class="text-decoration-none">UCAS Support</a>
-                    </li>
-                    <li class="mt-1 mt-lg-2"><a href="../mock_exam.html" class="text-decoration-none">Mock Exams</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="col-md-3 col-6 mb-2 mb-lg-4">
-                <h4 class="h4">Get in touch</h4>
-                <p class="mt-2 mt-lg-4">Free: 0800 772 3464</p>
-                <p class="mt-1 mt-lg-2">Tel: 020 3302 8140</p>
-                <p class="mt-1 mt-lg-2">WhatsApp: 0777 121 2929</p>
-                <p class="mt-1 mt-lg-2">Email: exams@bestgrade.co.uk</p>
-                <p class="mt-1 mt-lg-2">Bestgrade Education : Private Exams. 435-437 Cranbrook Road, Ilford, Essex,
-                    IG14UW</p>
-                <div class="d-flex flex-row mt-lg-2 mt-3 justify-content-between d-sm-block d-none">
-                    <i class="fa-brands fa-facebook-f col-2 h5 p-2"></i>
-                    <i class="fa-brands fa-x-twitter col-2 h5 p-2"></i>
-                    <i class="fa-brands fa-linkedin-in col-2 h5 p-2"></i>
-                    <i class="fa-brands fa-instagram col-2 h5 p-2"></i>
+    <!-- gcse exam key informations start -->
+    <div class="container exam-key-info d-flex flex-column p-4 align-items-center mb-3 mb-md-5">
+        <h1>Why Choose Us?</h1>
+        <div class="examp-key-info-details">
+            <p><i class="fa-solid fa-check"></i>Personalised learning tailored to each student</p>
+            <p><i class="fa-solid fa-check"></i>Flexible online or in-centre sessions</p>
+            <p><i class="fa-solid fa-check"></i>Affordable, quality tuition</p>
+            <p><i class="fa-solid fa-check"></i>Focused on results and understanding</p>
+        </div>
+        <p class="text-center fw-normal">Start your journey to GCSE success today. Get in touch to discuss your needs and find out how we can help you
+            achieve your academic goals.</p>
+    </div>
+    <!-- gcse exam key informations end -->
+
+    <!-- exam table -->
+    <div class="container subjectlist-table-container">
+        <h2 class="mb-md-4">GCSE Subject List and exam codes</h2>
+        <p class="text-center mb-3">Below is a list of our available GCSE subjects. If the subject you are looking for is not
+            listed, please don’t hesitate to contact us for more information, as the list may not be fully up to date.
+        </p>
+
+        <div class="table-responsive">
+            <table class="table table-bordered table-hover align-middle">
+                <thead>
+                    <tr class="text-center">
+                        <th>Subject</th>
+                        <th>Exam Board</th>
+                        <th>Exam Code</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Ancient History</td>
+                        <td>OCR</td>
+                        <td>J198</td>
+                    </tr>
+                    <tr>
+                        <td>Arabic with Speaking</td>
+                        <td>Edexcel</td>
+                        <td>1AA0</td>
+                    </tr>
+                    <tr>
+                        <td>Bengali</td>
+                        <td>AQA</td>
+                        <td>8638</td>
+                    </tr>
+                    <tr>
+                        <td>Biblical Hebrew</td>
+                        <td>Edexcel</td>
+                        <td>1BH0</td>
+                    </tr>
+                    <tr>
+                        <td>Biology</td>
+                        <td>Edexcel</td>
+                        <td>1BI0</td>
+                    </tr>
+                    <tr>
+                        <td>Biology (with practical)</td>
+                        <td>Edexcel</td>
+                        <td>1BI0</td>
+                    </tr>
+                    <tr>
+                        <td>Biology A</td>
+                        <td>OCR</td>
+                        <td>J247</td>
+                    </tr>
+                    <tr>
+                        <td>Biology A (with practical)</td>
+                        <td>OCR</td>
+                        <td>J247</td>
+                    </tr>
+                    <tr>
+                        <td>Biology A Practical</td>
+                        <td>OCR</td>
+                        <td>J247</td>
+                    </tr>
+                    <tr>
+                        <td>Biology B</td>
+                        <td>OCR</td>
+                        <td>J257</td>
+                    </tr>
+                    <tr>
+                        <td>Biology B (with practical)</td>
+                        <td>OCR</td>
+                        <td>J257</td>
+                    </tr>
+                    <tr>
+                        <td>Biology Writing</td>
+                        <td>AQA</td>
+                        <td>8461</td>
+                    </tr>
+                    <tr>
+                        <td>Biology Writing (with practical)</td>
+                        <td>AQA</td>
+                        <td>8461</td>
+                    </tr>
+                    <tr>
+                        <td>Business</td>
+                        <td>AQA</td>
+                        <td>8132</td>
+                    </tr>
+                    <tr>
+                        <td>Business</td>
+                        <td>Edexcel</td>
+                        <td>1BS0</td>
+                    </tr>
+                    <tr>
+                        <td>Business</td>
+                        <td>WJEC</td>
+                        <td>C510U</td>
+                    </tr>
+                    <tr>
+                        <td>Business</td>
+                        <td>OCR</td>
+                        <td>J204</td>
+                    </tr>
+                    <tr>
+                        <td>Chemistry</td>
+                        <td>AQA</td>
+                        <td>8462</td>
+                    </tr>
+                    <tr>
+                        <td>Chemistry</td>
+                        <td>Edexcel</td>
+                        <td>1CH0</td>
+                    </tr>
+                    <tr>
+                        <td>Chemistry (with practical)</td>
+                        <td>Edexcel</td>
+                        <td>1CH0</td>
+                    </tr>
+                    <tr>
+                        <td>Chemistry (with practical)</td>
+                        <td>AQA</td>
+                        <td>8462</td>
+                    </tr>
+                    <tr>
+                        <td>Chemistry A</td>
+                        <td>OCR</td>
+                        <td>J248</td>
+                    </tr>
+                    <tr>
+                        <td>Chemistry A (with practical)</td>
+                        <td>OCR</td>
+                        <td>J248</td>
+                    </tr>
+                    <tr>
+                        <td>Chemistry A Practical</td>
+                        <td>OCR</td>
+                        <td>J248</td>
+                    </tr>
+                    <tr>
+                        <td>Chemistry B</td>
+                        <td>OCR</td>
+                        <td>J258</td>
+                    </tr>
+                    <tr>
+                        <td>Chemistry B (with practical)</td>
+                        <td>OCR</td>
+                        <td>J258</td>
+                    </tr>
+                    <tr>
+                        <td>Chinese Mandarin</td>
+                        <td>AQA</td>
+                        <td>8673</td>
+                    </tr>
+                    <tr>
+                        <td>Chinese with speaking</td>
+                        <td>Edexcel</td>
+                        <td>1CN0</td>
+                    </tr>
+                    <tr>
+                        <td>Citizenship Studies</td>
+                        <td>AQA</td>
+                        <td>8100</td>
+                    </tr>
+                    <tr>
+                        <td>Citizenship Studies</td>
+                        <td>Edexcel</td>
+                        <td>1CS0</td>
+                    </tr>
+                    <tr>
+                        <td>Citizenship Studies</td>
+                        <td>OCR</td>
+                        <td>J270</td>
+                    </tr>
+                    <tr>
+                        <td>Classical Civilisation</td>
+                        <td>OCR</td>
+                        <td>J199</td>
+                    </tr>
+                    <tr>
+                        <td>Classical Greek</td>
+                        <td>OCR</td>
+                        <td>J292</td>
+                    </tr>
+                    <tr>
+                        <td>Combined Science</td>
+                        <td>Edexcel</td>
+                        <td>1SC0</td>
+                    </tr>
+                    <tr>
+                        <td>Combined Science (with practical)</td>
+                        <td>Edexcel</td>
+                        <td>1SC0</td>
+                    </tr>
+                    <tr>
+                        <td>Combined Science A</td>
+                        <td>OCR</td>
+                        <td>J250</td>
+                    </tr>
+                    <tr>
+                        <td>Combined Science B</td>
+                        <td>OCR</td>
+                        <td>J260</td>
+                    </tr>
+                    <tr>
+                        <td>Computer Science</td>
+                        <td>AQA</td>
+                        <td>8525</td>
+                    </tr>
+                    <tr>
+                        <td>Computer Science</td>
+                        <td>OCR</td>
+                        <td>J277</td>
+                    </tr>
+                    <tr>
+                        <td>Computer Science</td>
+                        <td>Edexcel</td>
+                        <td>1CP2</td>
+                    </tr>
+                    <tr>
+                        <td>Computer Science</td>
+                        <td>WJEC</td>
+                        <td>C500U</td>
+                    </tr>
+                    <tr>
+                        <td>Economics</td>
+                        <td>AQA</td>
+                        <td>8136</td>
+                    </tr>
+                    <tr>
+                        <td>Economics</td>
+                        <td>OCR</td>
+                        <td>J205</td>
+                    </tr>
+                    <tr>
+                        <td>Engineering</td>
+                        <td>AQA</td>
+                        <td>8852</td>
+                    </tr>
+                    <tr>
+                        <td>English Language</td>
+                        <td>WJEC</td>
+                        <td>C700U</td>
+                    </tr>
+                    <tr>
+                        <td>English Language (Retake)</td>
+                        <td>AQA</td>
+                        <td>8700</td>
+                    </tr>
+                    <tr>
+                        <td>English Language (With speaking)</td>
+                        <td>Edexcel</td>
+                        <td>1EN0</td>
+                    </tr>
+                    <tr>
+                        <td>English Literature</td>
+                        <td>AQA</td>
+                        <td>8702</td>
+                    </tr>
+                    <tr>
+                        <td>English Literature</td>
+                        <td>Edexcel</td>
+                        <td>1ET0</td>
+                    </tr>
+                    <tr>
+                        <td>French</td>
+                        <td>AQA</td>
+                        <td>8658</td>
+                    </tr>
+                    <tr>
+                        <td>French</td>
+                        <td>Edexcel</td>
+                        <td>1FR0</td>
+                    </tr>
+                    <tr>
+                        <td>French</td>
+                        <td>WJEC</td>
+                        <td>C800U</td>
+                    </tr>
+                    <tr>
+                        <td>Geography</td>
+                        <td>AQA</td>
+                        <td>8035</td>
+                    </tr>
+                    <tr>
+                        <td>German</td>
+                        <td>AQA</td>
+                        <td>8668</td>
+                    </tr>
+                    <tr>
+                        <td>German</td>
+                        <td>Edexcel</td>
+                        <td>1GN0</td>
+                    </tr>
+                    <tr>
+                        <td>Greek</td>
+                        <td>Edexcel</td>
+                        <td>1GK0</td>
+                    </tr>
+                    <tr>
+                        <td>Gujarati</td>
+                        <td>Edexcel</td>
+                        <td>1GU0</td>
+                    </tr>
+                    <tr>
+                        <td>History</td>
+                        <td>AQA</td>
+                        <td>8145</td>
+                    </tr>
+                    <tr>
+                        <td>History</td>
+                        <td>Edexcel</td>
+                        <td>1HI0</td>
+                    </tr>
+                    <tr>
+                        <td>Italian</td>
+                        <td>AQA</td>
+                        <td>8633</td>
+                    </tr>
+                    <tr>
+                        <td>Japanese with speaking</td>
+                        <td>Edexcel</td>
+                        <td>1JA0</td>
+                    </tr>
+                    <tr>
+                        <td>Latin</td>
+                        <td>OCR</td>
+                        <td>J282</td>
+                    </tr>
+                    <tr>
+                        <td>Mathematics</td>
+                        <td>AQA</td>
+                        <td>8300</td>
+                    </tr>
+                    <tr>
+                        <td>Mathematics</td>
+                        <td>Edexcel</td>
+                        <td>1MA1</td>
+                    </tr>
+                    <tr>
+                        <td>Media Studies Retake</td>
+                        <td>AQA</td>
+                        <td>8572</td>
+                    </tr>
+                    <tr>
+                        <td>Modern Hebrew</td>
+                        <td>AQA</td>
+                        <td>8678</td>
+                    </tr>
+                    <tr>
+                        <td>Physics</td>
+                        <td>AQA</td>
+                        <td>8463</td>
+                    </tr>
+                    <tr>
+                        <td>Physics</td>
+                        <td>Edexcel</td>
+                        <td>1PH0</td>
+                    </tr>
+                    <tr>
+                        <td>Polish</td>
+                        <td>AQA</td>
+                        <td>8688</td>
+                    </tr>
+                    <tr>
+                        <td>Portuguese</td>
+                        <td>Edexcel</td>
+                        <td>1PG0</td>
+                    </tr>
+                    <tr>
+                        <td>Psychology</td>
+                        <td>AQA</td>
+                        <td>8182</td>
+                    </tr>
+                    <tr>
+                        <td>Psychology</td>
+                        <td>Edexcel</td>
+                        <td>1PS0</td>
+                    </tr>
+                    <tr>
+                        <td>Religious Studies</td>
+                        <td>OCR</td>
+                        <td>J125</td>
+                    </tr>
+                    <tr>
+                        <td>Religious Studies A</td>
+                        <td>AQA</td>
+                        <td>8062</td>
+                    </tr>
+                    <tr>
+                        <td>Russian</td>
+                        <td>Edexcel</td>
+                        <td>1RU0</td>
+                    </tr>
+                    <tr>
+                        <td>Spanish</td>
+                        <td>AQA</td>
+                        <td>8698</td>
+                    </tr>
+                    <tr>
+                        <td>Spanish</td>
+                        <td>Edexcel</td>
+                        <td>1SP0</td>
+                    </tr>
+                    <tr>
+                        <td>Statistics</td>
+                        <td>AQA</td>
+                        <td>8382</td>
+                    </tr>
+                    <tr>
+                        <td>Statistics</td>
+                        <td>Edexcel</td>
+                        <td>1ST0</td>
+                    </tr>
+                    <tr>
+                        <td>Turkish</td>
+                        <td>Edexcel</td>
+                        <td>1TU0</td>
+                    </tr>
+                    <tr>
+                        <td>Urdu</td>
+                        <td>AQA</td>
+                        <td>8648</td>
+                    </tr>
+                    <tr>
+                        <td>Urdu</td>
+                        <td>Edexcel</td>
+                        <td>1UR0</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- footer start -->
+    <div class="footer pt-5 pb-3">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md-3 col-6 mb-2 mb-lg-4">
+                    <h4 class="h4">Exam Bodies</h4>
+                    <p class="mt-2 mt-lg-4">AQA - Assessment and Qualifications Alliance</p>
+                    <p class="mt-1 mt-lg-2">CIE - Cambridge International Examinations</p>
+                    <p class="mt-1 mt-lg-2">Edexcel - Pearson Edexcel </p>
+                    <p class="mt-1 mt-lg-2">OCR - Oxford, Cambridge and RSA Examinations</p>
+                    <p class="mt-1 mt-lg-2">Eduqas - Welsh Joint Education Committee (WJEC)</p>
+                </div>
+                <div class="col-md-3 col-6 mb-2 mb-lg-4">
+                    <h4 class="h4">Quick Links</h4>
+                    <ul class="list-unstyled">
+                        <li class="mt-2 mt-lg-4"><a href="index.html" class="text-decoration-none">Home</a></li>
+                        <li class="mt-1 mt-lg-2"><a href="../locations.html" class="text-decoration-none">Exam
+                                Locations</a></li>
+                        <li class="mt-1 mt-lg-2"><a href="../GCSE.html" class="text-decoration-none">GCSE</a></li>
+                        <li class="mt-1 mt-lg-2"><a href="../IGCSE.html" class="text-decoration-none">IGCSE</a></li>
+                        <li class="mt-1 mt-lg-2"><a href="../register.html" class="text-decoration-none">Exam
+                                Applications</a></li>
+                        <li class="mt-1 mt-lg-2"><a href="../A-Level.html" class="text-decoration-none">A-Levels &
+                                AS</a></li>
+                        <li class="mt-1 mt-lg-2"><a href="../contact.html" class="text-decoration-none">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-3 col-6 mb-2 mb-lg-4">
+                    <h4 href="#" class="h4">Information</h4>
+                    <ul class="list-unstyled">
+                        <li class="mt-1 mt-lg-4"><a href="../terms.html" class="text-decoration-none">Terms &
+                                Conditions</a></li>
+                        <li class="mt-1 mt-lg-2"><a href="../GDRP-Privacy-Policy.html" class="text-decoration-none">GDRP
+                                & Privacy Policy</a></li>
+                        <li class="mt-1 mt-lg-2"><a href="../Science-Practicals.html"
+                                class="text-decoration-none">Science
+                                Practical
+                                Endorsement</a></li>
+                        <li class="mt-1 mt-lg-2"><a href="../Access-Arrangements.html"
+                                class="text-decoration-none">Access
+                                Arrangements</a></li>
+                        <li class="mt-1 mt-lg-2"><a href="../Invigilation-Services.html"
+                                class="text-decoration-none">Invigilation
+                                Services</a></li>
+                        <li class="mt-1 mt-lg-2"><a href="../ucas.html" class="text-decoration-none">UCAS Support</a>
+                        </li>
+                        <li class="mt-1 mt-lg-2"><a href="../mock_exam.html" class="text-decoration-none">Mock Exams</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-3 col-6 mb-2 mb-lg-4">
+                    <h4 class="h4">Get in touch</h4>
+                    <p class="mt-2 mt-lg-4">Free: 0800 772 3464</p>
+                    <p class="mt-1 mt-lg-2">Tel: 020 3302 8140</p>
+                    <p class="mt-1 mt-lg-2">WhatsApp: 0777 121 2929</p>
+                    <p class="mt-1 mt-lg-2">Email: exams@bestgrade.co.uk</p>
+                    <p class="mt-1 mt-lg-2">Bestgrade Education : Private Exams. 435-437 Cranbrook Road, Ilford, Essex,
+                        IG14UW</p>
+                    <div class="d-flex flex-row mt-lg-2 mt-3 justify-content-between d-sm-block d-none">
+                        <i class="fa-brands fa-facebook-f col-2 h5 p-2"></i>
+                        <i class="fa-brands fa-x-twitter col-2 h5 p-2"></i>
+                        <i class="fa-brands fa-linkedin-in col-2 h5 p-2"></i>
+                        <i class="fa-brands fa-instagram col-2 h5 p-2"></i>
+                    </div>
                 </div>
             </div>
+            <div class="d-flex flex-row justify-content-center mt-4 d-sm-none d-block">
+                <i class="fa-brands fa-facebook-f col-2 h5 p-2"></i>
+                <i class="fa-brands fa-x-twitter col-2 h5 p-2"></i>
+                <i class="fa-brands fa-linkedin-in col-2 h5 p-2"></i>
+                <i class="fa-brands fa-instagram col-2 h5 p-2"></i>
+            </div>
+            <span class="text-center d-block">
+                © 2025 Private Exam Centre - Bestgrade Education All Rights Reserved.
+            </span>
         </div>
-        <div class="d-flex flex-row justify-content-center mt-4 d-sm-none d-block">
-            <i class="fa-brands fa-facebook-f col-2 h5 p-2"></i>
-            <i class="fa-brands fa-x-twitter col-2 h5 p-2"></i>
-            <i class="fa-brands fa-linkedin-in col-2 h5 p-2"></i>
-            <i class="fa-brands fa-instagram col-2 h5 p-2"></i>
-        </div>
-        <span class="text-center d-block">
-            © 2025 Private Exam Centre - Bestgrade Education All Rights Reserved.
-        </span>
     </div>
-</div>
-<!-- footer end -->
+    <!-- footer end -->
 
-<script type="text/javascript" src="owl-carousel/owl.carousel.js"></script>
-<script type="text/javascript">
-    jQuery(document).ready(function ($) {
-        $("#owl-demo").owlCarousel({
-            slideSpeed: 300,
-            autoPlay: true,
-            navigation: false,
-            pagination: false,
-            singleItem: true
+    <script type="text/javascript" src="owl-carousel/owl.carousel.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function ($) {
+            $("#owl-demo").owlCarousel({
+                slideSpeed: 300,
+                autoPlay: true,
+                navigation: false,
+                pagination: false,
+                singleItem: true
+            });
+            $("#owl-demo2").owlCarousel({
+                slideSpeed: 300,
+                autoPlay: true,
+                navigation: false,
+                pagination: true,
+                singleItem: true
+            });
         });
-        $("#owl-demo2").owlCarousel({
-            slideSpeed: 300,
-            autoPlay: true,
-            navigation: false,
-            pagination: true,
-            singleItem: true
-        });
-    });
 
-</script>
+    </script>
 
-<!-- new added javaScript -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-    crossorigin="anonymous"></script>
-<script src="https://kit.fontawesome.com/15cba7dfa7.js" crossorigin="anonymous"></script>
-<!-- new added javaScript -->
-
-<body>
+    <!-- new added javaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/15cba7dfa7.js" crossorigin="anonymous"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="cookiealert.js"></script>
+    <!-- new added javaScript -->
 
 </body>
 

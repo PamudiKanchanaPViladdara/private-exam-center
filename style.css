@@ -65,6 +65,42 @@ li {
     color: #007394 !important;
 }
 
+.cookiealert {
+    background-color: #002244;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.5s ease;
+    border-radius: 0;
+    padding: 15px 10px;
+    color: #fff;
+}
+
+.cookiealert.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+.cookiealert a {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.cookiealert .btn {
+    border-radius: 50px;
+    padding: 8px 20px;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: #007394;
+    color: #fff;
+    border-color: #002244;
+}
+
+
 @media (max-width: 576px) {
 
     body {
@@ -85,6 +121,10 @@ li {
         font-size: 16px;
         margin-top: 12px;
         margin-bottom: 0px;
+    }
+
+    .navbar-nav a {
+        font-size: 14px !important;
     }
 
     .navbar-details {
@@ -116,6 +156,7 @@ li {
 
     .location-container {
         padding: 40px 12px 20px 12px !important;
+        margin-top: 0px !important;
     }
 
     .location-center-section {
@@ -183,6 +224,10 @@ li {
         font-weight: 400px !important;
     }
 
+    .location-content p {
+        font-size: 16px !important;
+    }
+
 }
 
 @media (max-width: 992px) {
@@ -210,7 +255,7 @@ li {
 
 .navbar-nav a {
     color: #003057 !important;
-    font-size: small !important;
+    font-size: 18px;
     font-weight: 600;
 }
 
@@ -229,7 +274,7 @@ li {
 
 .nav-item a {
     color: #fff;
-    font-size: 12px;
+    font-size: 13px;
 }
 
 .nav-item a:hover {
@@ -414,7 +459,7 @@ i,
 }
 
 .ready-to-book-section {
-    background-color: #003057;
+    background-color: #0b1727;
     border-bottom: #4a5568 solid 2px;
 }
 
@@ -449,7 +494,20 @@ i,
 /* locations css end */
 
 /* home hero section start */
-@media (max-width:1200px) {}
+@media (max-width:1200px) {
+    .hero p {
+        text-align: center !important;
+        font-size: 16px !important;
+    }
+
+    .home-sec-2 h1 {
+        text-align: center !important;
+    }
+
+    .home-sec-2 p {
+        text-align: center !important;
+    }
+}
 
 @media (max-width: 768px) {
     /* .hero {
@@ -497,10 +555,6 @@ i,
     .hero h1 {
         font-size: 30px !important;
     }
-
-    .hero p {
-        font-size: 18px !important;
-    }
 }
 
 .hero-container {
@@ -512,6 +566,7 @@ i,
 .hero p {
     color: #6b7280;
     font-size: 20px;
+    text-align: start;
     max-width: 700px !important;
 }
 
@@ -592,13 +647,13 @@ i,
     }
 
     .home-sec-2 h1 {
-        font-size: 30px !important;
+        font-size: 24px !important;
         text-align: center !important;
     }
 
 
     .home-sec-2 p {
-        text-align: center;
+        text-align: center !important;
         font-size: 16px !important;
     }
 
@@ -662,16 +717,16 @@ i,
 
 .home-sec-2 h1 {
     font-weight: bolder;
-    font-size: 36px !important;
+    font-size: 36px;
     margin-bottom: 20px;
     color: #003057;
-    text-align: center;
+    text-align: start;
     max-width: 600px;
 
 }
 
 .home-sec-2 p {
-    text-align: center;
+    text-align: start;
     font-size: 20px;
 }
 
@@ -688,7 +743,7 @@ i,
     background-color: #fbfcfd;
 }
 
-.examination-sec .looking-for-section span  {
+.examination-sec .looking-for-section span {
     font-size: 14px;
     background-color: #002244;
     color: #fff;
@@ -698,16 +753,15 @@ i,
 
 .examination-sec p {
     color: #6b7280;
-    font-size: 18px;
-    line-height: 1.6;
+    font-size: 20px;
+    margin: 0 auto;
     margin-bottom: 30px;
-    text-align: center;
 }
 
 .examination-sec h1 {
     font-weight: bolder;
     margin-bottom: 20px;
-    font-size: 48px;
+    font-size: 36px;
     color: #003057;
 }
 
@@ -724,7 +778,7 @@ i,
 
 .examination-sec .card-body p {
     color: #6b7280;
-    font-size: 16px;
+    font-size: 18px;
     margin: 0px;
     text-align: start;
 }
@@ -768,6 +822,7 @@ i,
     padding: 12px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    height: 100%;
 }
 
 .exam-cards .card:hover {
@@ -819,8 +874,7 @@ i,
     }
 
     .ex-solutions h1 {
-        font-size: 30px !important;
-        color: #003057;
+        font-size: 24px !important;
     }
 
     .ex-solutions p {
@@ -835,7 +889,7 @@ i,
     }
 
     .examination-sec h1 {
-        font-size: 32px !important;
+        font-size: 24px !important;
     }
 
     .examination-sec p {
@@ -845,7 +899,7 @@ i,
     }
 
     .examination-sec .card-body p {
-        font-size: 14px !important;
+        font-size: 16px !important;
         text-align: start !important;
         margin-bottom: 12px !important;
     }
@@ -862,7 +916,7 @@ i,
     }
 
     .record h1 {
-        font-size: 30px !important;
+        font-size: 24px !important;
         text-align: center !important;
         color: #003057;
     }
@@ -897,7 +951,7 @@ i,
 
 .ex-solutions p {
     color: #6b7280;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 1.6;
     margin-bottom: 30px;
     text-align: center;
@@ -910,9 +964,10 @@ i,
 
 .record h1 {
     font-weight: bolder;
-    margin-bottom: 20px;
     font-size: 36px;
     color: #003057;
+    max-width: 900px;
+    margin: 0 auto;
 }
 
 .record p {
@@ -962,9 +1017,45 @@ i,
         padding: 12px !important;
     }
 
+    .functional-skills-card {
+        border-radius: 20px !important;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .exam-page-left-img-card .container {
+        padding: 0px !important;
+    }
+
+    .exam-page-left-img-card img {
+        border-radius: 20px 20px 0px 0px !important;
+        height: auto !important;
+        width: 100% !important;
+    }
+
+    .exam-page-left-img-card-content {
+        border-radius: 0px 0px 20px 20px !important;
+        padding: 20px !important;
+        text-align: center !important;
+    }
 }
 
 @media (max-width:576px) {
+
+    .exam-pages-container .exam-pages-content h4 {
+        font-size: 18px !important;
+        margin: 0;
+    }
+
+    .hero-items p {
+        font-size: 14px !important;
+    }
+
+    .hero-items i {
+        font-size: 16px !important;
+    }
 
     .exam-pages-content .title {
         font-size: 32px !important;
@@ -973,8 +1064,7 @@ i,
 
     .exam-pages-content p {
         font-size: 16px !important;
-        text-align: center !important;
-        margin-bottom: 20px !important;
+        text-align: center;
     }
 
     .exam-hero-btn {
@@ -988,13 +1078,13 @@ i,
     }
 
     .exam-page-left-img-card h1 {
-        font-size: 26px !important;
+        font-size: 24px !important;
     }
 
     .exam-page-left-img-card p {
         font-size: 16px !important;
         margin: 0px;
-        text-align: start !important;
+        text-align: center !important;
     }
 
     .exam-page-left-img-card span {
@@ -1007,11 +1097,11 @@ i,
     }
 
     .exam-options {
-        padding: 40px 0px !important;
+        padding: 20px 0px !important;
     }
 
     .exam-options .title {
-        font-size: 28px !important;
+        font-size: 24px !important;
     }
 
     .exam-options .p {
@@ -1043,6 +1133,7 @@ i,
 
     .exam-key-info h1 {
         font-size: 18px !important;
+        margin-bottom: 0px;
     }
 
     .exam-key-info p {
@@ -1050,7 +1141,7 @@ i,
     }
 
     .exam-key-info i {
-        font-size: 20px !important;
+        font-size: 16px !important;
         margin-right: 8px !important;
     }
 
@@ -1064,7 +1155,7 @@ i,
     }
 
     .ready-to-book-section .card h5 {
-        font-size: 20px !important;
+        font-size: 16px !important;
     }
 
     .ready-to-book-section .card p {
@@ -1076,9 +1167,107 @@ i,
         padding: 0px !important;
     }
 
+    .examp-key-info-details h4 {
+        font-size: 16px !important;
+    }
+
+    .examp-key-info-details .key-info-items p {
+        font-size: 14px !important;
+        text-align: start !important;
+    }
+
+    .functional-skills-card h2 {
+        font-size: 18px !important;
+        padding: 0px !important;
+    }
+
+    .functional-skills-card .card-body {
+        padding: 0px !important;
+    }
+
+    .functional-skills-card .card-body h4 {
+        font-size: 20px !important;
+    }
+
+    .functional-skills-card .card-body p {
+        font-size: 14px !important;
+    }
+
+    .functional-skills-card .card-body i {
+        font-size: 14px !important;
+    }
+
+    .ready-to-book-section .card .download-btn i {
+        font-size: 14px !important;
+        margin-right: 8px !important;
+    }
+
     /* .exam-pages-container {
         padding: 20px 12px !important;
     } */
+}
+
+.functional-skills-card {
+    padding: 20px;
+    height: 100%;
+    background-color: #fbfcfd;
+    padding: 30px;
+    border-radius: 0px 12px 12px 0px;
+    border: solid 2px #16a28633;
+}
+
+.functional-skills-card h2 {
+    color: #002244;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.functional-skills-card .card-title {
+    color: #16a286;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.functional-skills-card .card-body h4 {
+    color: #003057;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.functional-skills-card .card-body {
+    align-items: start;
+}
+
+.functional-skills-card a {
+    color: #fff;
+    font-weight: 600;
+    border: #007394 solid 2px;
+    border-radius: 50px;
+    padding: 8px 20px;
+    background-color: #007394;
+}
+
+.hero-items {
+    text-align: left;
+}
+
+.hero-items p {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    text-align: left;
+}
+
+.hero-items i {
+    color: #002244;
+    /* change icon color if you want */
+}
+
+.hero-section {
+    text-align: left !important;
 }
 
 .exam-pages-container {
@@ -1121,6 +1310,14 @@ i,
     height: 100%;
 }
 
+.exam-page-left-img-card .container {
+    padding: 0px;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+}
+
 .exam-page-left-img-card img {
     border-radius: 20px 0px 0px 20px;
     object-fit: cover;
@@ -1129,7 +1326,7 @@ i,
 }
 
 .exam-page-left-img-card-content {
-    height: 100%;
+    height: auto;
     background-color: #fff;
     border-radius: 0px 20px 20px 0px;
     padding: 24px 32px 24px 32px;
@@ -1163,7 +1360,7 @@ i,
 }
 
 .exam-options {
-    padding: 80px 0px;
+    padding: 20px 0px 40px 0px;
 }
 
 .exam-options .title {
@@ -1218,6 +1415,9 @@ i,
     background-color: #fef3c7;
     border-radius: 20px;
     padding: 5px 20px;
+    font-size: 16px;
+    display: inline-block;
+    text-align: center;
 }
 
 .option-card:hover {
@@ -1234,25 +1434,48 @@ i,
 
 .exam-key-info h1 {
     color: #003057;
-    font-size: 20px;
+    font-size: 28px;
     font-weight: 700px;
+}
+
+.examp-key-info-details {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-top: 12px;
+}
+
+.examp-key-info-details h4 {
+    color: #003057;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.examp-key-info-details .key-info-items p {
+    color: #6b7280;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: start;
+    margin: 0px;
+    align-items: start !important;
 }
 
 .exam-key-info p {
     color: #6b7280;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 500;
-    margin: 0px;
+    text-align: start;
 }
 
 .exam-key-info i {
     color: #003057;
     font-size: 24px;
     margin-right: 12px;
+    text-align: start;
 }
 
-.ready-to-book-section {
-    background-color: #003057;
+.fs-last-2-cards {
+    background-color: #e9edf0;
 }
 
 .ready-to-book-section .card {
@@ -1337,7 +1560,74 @@ i,
         font-size: 14px !important;
         margin: 0px !important;
     }
+
+    .img-add-section img {
+        height: auto !important;
+        width: 100% !important;
+    }
+
+    .img-add-section .img-add-head {
+        padding: 0px;
+    }
+
+    .img-add-section .img-add-head h1 {
+        font-size: 24px !important;
+    }
+
+    .img-add-section .img-add-head h3 {
+        font-size: 18px !important;
+    }
+
+    .img-add-section .img-add-head p {
+        font-size: 16px !important;
+    }
+
+    .img-add-section .img-add-head ul li {
+        font-size: 16px !important;
+    }
+
+    .subjectlist-table-container h2 {
+        font-size: 24px !important;
+    }
 }
+
+.table-responsive {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.table th,
+.table td {
+    vertical-align: middle;
+    padding: 10px;
+}
+
+.table thead th {
+    background-color: #002244;
+    color: #fff;
+}
+
+.pricing-guidance {
+    max-width: 600px;
+    margin: 20px auto;
+    color: #6b7280;
+    background-color: #fbbf241a;
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+.pricing-guidance h6 {
+    font-size: 14px;
+    text-align: center;
+    color: #003057;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.pricing-guidance p {
+    text-align: center;
+}
+
 
 .exams-tags span {
     background-color: #003057;
@@ -1350,7 +1640,6 @@ i,
 }
 
 .exam-pages-detail-card {
-    max-width: 900px;
     padding: 0px 30px;
 }
 
@@ -1406,6 +1695,72 @@ i,
 .exams-page-card-2 .card-body i {
     color: #fff;
     margin-right: 12px;
+}
+
+.img-add-section img {
+    border-radius: 20px;
+    object-fit: cover;
+    height: 700px;
+}
+
+.img-add-section .img-add-head h1 {
+    color: #003057;
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.img-add-section .img-add-head h3 {
+    color: #003057;
+    font-size: 20px;
+    margin-top: 12px;
+}
+
+.img-add-section .img-add-head p {
+    color: #6b7280;
+    font-size: 18px;
+    margin-top: 12px;
+}
+
+.img-add-section .img-add-head h4 {
+    color: #003057;
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.img-add-section .img-add-head ul li {
+    color: #002244;
+    font-size: 18px;
+}
+
+.img-add-section .img-add-head .mw-paragraph {
+    color: #002244;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* 
+.img-add-section .img-add-head ul li {
+    color: #002244;
+    font-size: 18px;
+    margin-bottom: 8px;
+} */
+
+
+
+.subjectlist-table-container h2 {
+    color: #003057;
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+}
+
+thead {
+    background-color: #0d6efd;
+    color: white;
+}
+
+tbody tr:hover {
+    background-color: #eef5ff;
 }
 
 /* GCSE css end */
@@ -1790,6 +2145,31 @@ i,
     }
 }
 
+@media (max-width:768px) {
+    .invigilation-card {
+        padding: 20px !important;
+    }
+
+    .invigilation-card h4 {
+        font-size: 18px !important;
+        font-weight: 600 !important;
+        padding: 8px !important;
+    }
+
+    .invigilation-card p {
+        font-size: 16px !important;
+    }
+
+    .invigilation-card ul li {
+        font-size: 16px !important;
+    }
+
+    .invigilation-card ul li i {
+        font-size: 16px !important;
+        margin-right: 8px !important;
+    }
+}
+
 .icon-cards {
     max-width: 900px;
     margin: 0 auto;
@@ -1862,6 +2242,54 @@ i,
     margin-right: 8px;
 }
 
+.invigilation-card {
+    border: 2px solid #003057;
+    border-radius: 12px;
+    padding: 2rem;
+    background: #fff;
+    transition: all 0.3s ease;
+}
+
+.invigilation-card:hover {
+    box-shadow: 0 0 20px rgba(66, 133, 244, 0.2);
+    transform: translateY(-5px);
+}
+
+.invigilation-card h4 {
+    background-color: #002244;
+    font-size: 24px;
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 12px;
+    padding: 10px;
+    border-radius: 99px;
+    text-align: center;
+}
+
+.invigilation-card p {
+    font-size: 18px;
+    color: #003057;
+    font-weight: 600;
+}
+
+.invigilation-card ul {
+    list-style: none;
+    padding: 0;
+}
+
+.invigilation-card ul li {
+    margin: 0.6rem 0;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.invigilation-card ul li i {
+    color: #22c55e;
+    /* green check */
+    margin-right: 10px;
+}
+
 /* invigilation end */
 
 /* UCSA application */
@@ -1920,6 +2348,24 @@ i,
         max-width: 100% !important;
     }
 
+    .ucas-h4 {
+        font-size: 24px !important;
+        margin-top: 12px !important;
+    }
+
+}
+
+.exam-page-img {
+    border-radius: 20px;
+    height: 100%;
+    object-fit: cover;
+    padding: 12px;
+    background-color: #fff;
+}
+
+.exam-page-img img {
+    max-height: 100px;
+    object-fit: cover;
 }
 
 .ucas-section {
@@ -1957,6 +2403,19 @@ i,
     font-weight: 700;
     margin-bottom: 20px;
     text-align: center;
+}
+
+.ucas-card-column {
+    border-radius: 20px;
+    height: 100%;
+    margin: 0 !important;
+}
+
+.ucas-h4 {
+    font-size: 28px;
+    color: #003057;
+    font-weight: 700;
+    margin-bottom: 0px;
 }
 
 .ucas-card {
@@ -2524,7 +2983,7 @@ i,
 
     .registration-steps p {
         font-size: 16px !important;
-        margin-bottom: 20px !important;
+        margin-bottom: 10px !important;
     }
 
     .registration-steps .step-card {
@@ -2534,7 +2993,7 @@ i,
 
     .registration-steps .step-card i {
         font-size: 1.5rem !important;
-        margin-bottom: 12px !important;
+        margin-bottom: 2px !important;
     }
 
     .uci-section {
@@ -2804,6 +3263,30 @@ i,
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 8px;
+}
+
+.info-card .info-card-2 {
+    display: flex;
+    align-items: center;
+    margin-top: 18px;
+}
+
+.info-card .info-card-2 h4 {
+    color: #003057;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.info-card .info-card-2 p {
+    color: #6b7280;
+    font-size: 16px;
+    margin: 0;
+}
+
+.info-card .info-card-2 ul i {
+    font-size: 16px;
+    margin-right: 12px;
+    color: #003057;
 }
 
 .info-card p {
@@ -3197,4 +3680,146 @@ i,
     }
 }
 
+@media (max-width:576px) {
+    .sponcer-img-section img {
+        max-height: 50px !important;
+    }
+
+    .sponcer-img-section h1 {
+        font-size: 20px !important;
+    }
+}
+
+.sponcer-img-section h1 {
+    color: #003057;
+    font-weight: 700;
+    font-size: 28px;
+    text-align: center;
+}
+
+.sponcer-img-section {
+    background-color: #fff;
+    padding: 20px 0px;
+    border-radius: 20px;
+    align-items: center;
+    box-shadow: 0px 6px 20px 5px rgba(0, 0, 0, 0.1);
+    max-width: 900px;
+}
+
+.sponcer-img-section img {
+    max-height: 100px;
+    object-fit: contain;
+}
+
 /* footer */
+
+@media (max-width:768px) {
+    .acc-green {
+        padding: 15px !important;
+    }
+
+    .acc-green h5 {
+        font-size: 20px !important;
+        margin-bottom: 8px !important;
+    }
+
+    .acc-green p {
+        font-size: 14px !important;
+    }
+
+    .acc-green .btn {
+        padding: 10px 20px !important;
+        font-size: 14px !important;
+    }
+
+    .acc-important-note .pricing-card {
+        padding: 15px !important;
+        margin-bottom: 12px !important;
+    }
+
+    .acc-important-note .pricing-card .badge-custom {
+        font-size: 0.7rem !important;
+        padding: 0.4rem 0.8rem !important;
+    }
+
+    .acc-important-note .pricing-card ul li {
+        font-size: 0.9rem !important;
+    }
+
+
+}
+
+.acc-green {
+    max-width: 900px;
+    margin: 0 auto;
+    background: #f8fbff;
+    border: 1px solid #d0e4ff;
+    border-radius: 12px;
+    padding: 2rem;
+    text-align: center;
+}
+
+.acc-green h5 {
+    color: #003057;
+    font-size: 24px;
+    margin-bottom: 1rem;
+}
+
+.acc-green p {
+    color: #555;
+    font-size: 16px;
+    margin-bottom: 1.5rem;
+}
+
+.acc-green .btn {
+    background-color: #3ae4781a;
+    color: #3ae478;
+    font-weight: 600;
+    border-radius: 50px;
+    padding: 12px 24px;
+    border: solid 1px #3ae4781a;
+}
+
+.acc-green i {
+    color: #003057;
+}
+
+.acc-important-note .pricing-card {
+    border: 2px solid #003057;
+    border-radius: 12px;
+    padding: 2rem;
+    background: #fff;
+    transition: all 0.3s ease;
+}
+
+
+.acc-important-note .pricing-card:hover {
+    box-shadow: 0 0 20px rgba(66, 133, 244, 0.2);
+    transform: translateY(-5px);
+}
+
+.acc-important-note .pricing-card .badge-custom {
+    background-color: #003057;
+    color: #fff;
+    font-size: 0.8rem;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+}
+
+.acc-important-note .pricing-card ul {
+    list-style: none;
+    padding: 0;
+}
+
+.acc-important-note .pricing-card ul li {
+    margin: 0.6rem 0;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.acc-important-note .pricing-card ul li i {
+    color: #22c55e;
+    /* green check */
+    margin-right: 10px;
+}

@@ -67,21 +67,36 @@
     <link rel="stylesheet" href="style.css">
     <!-- new added css -->
 
+    <!-- icon font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
     <script type="text/javascript" async="true"
         src="https://googleads.g.doubleclick.net/pagead/viewthroughconversion/1064968083/?random=1732460092633&amp;cv=11&amp;fst=1732460092633&amp;bg=ffffff&amp;guid=ON&amp;async=1&amp;gtm=45je4bk0v898079835za200&amp;gcd=13l3l3l3l1l1&amp;dma=0&amp;tag_exp=101925629~102067555~102067808~102077855~102081485&amp;u_w=1470&amp;u_h=956&amp;url=https%3A%2F%2Fhosting.heartinternet.uk%2Ffm&amp;ref=https%3A%2F%2Fhosting.heartinternet.uk%2F&amp;top=https%3A%2F%2Fcustomer.heartinternet.uk&amp;hn=www.googleadservices.com&amp;frm=2&amp;tiba=Functional%20Skills%20Exams%20for%20Maths%2C%20English%20and%20ICT.%20Level%201%20and%20Level%202.%20London%2C%20Essex%2C%20Merton%2C%20Bolton%2C%20Manchester&amp;npa=0&amp;pscdl=noapi&amp;auid=243360049.1732460093&amp;fdr=QA&amp;data=event%3Dgtag.config&amp;rfmt=3&amp;fmt=4"></script>
 </head>
 
-<body> <!-- Include cookiealert script -->
-    <script src="cookiealert.js"></script>
+<body class="size-1140">
+
+    <!-- Bootstrap Cookie Alert -->
+    <div class="cookiealert alert alert-dark text-center mb-0" role="alert">
+        🍪 We use cookies to ensure you get the best experience on our website.
+        <a href="GDRP-Privacy-Policy.html" target="_blank" class="text-decoration-underline">Learn more</a>
+
+        <button type="button" class="btn btn-warning btn-sm ms-3 acceptcookies">
+            Got it!
+        </button>
+    </div>
 
     <!-- new nav bar -->
     <div class="container custom-navbar">
         <nav class="navbar navbar-expand-xl navbar-light custom-inner-navbar">
             <div class="container-fluid">
-                <img src="/assets/images/logo.jpg" alt="logo" href="../index.html" height="50"
-                    class=" text-center d-none d-md-block">
-                <img src="/assets/images/logo-mobile.jpg" alt="logo" href="../index.html" width=auto height="50"
-                    class="d-md-none d-block">
+                <a href="index.html">
+                    <img src="/assets/images/logo.jpg" alt="logo" height="50" class=" text-center d-none d-md-block">
+                </a>
+                <a href="index.html">
+                    <img src="/assets/images/logo-mobile.jpg" alt="logo" width=auto height="50"
+                        class="d-md-none d-block">
+                </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -89,13 +104,13 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-end col">
-                        <li class="nav-item me-4">
+                        <li class="me-4">
                             <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                         </li>
-                        <li class="nav-item me-4">
+                        <li class="me-4">
                             <a class="nav-link active" aria-current="page" href="locations.html">Locations</a>
                         </li>
-                        <li class="nav-item dropdown me-4">
+                        <li class="dropdown me-4">
                             <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button"
                                 data-bs-toggle="dropdown" aria-expanded="false">
                                 Exams & Fees
@@ -110,7 +125,7 @@
                                 </li>
                             </ul>
                         </li>
-                        <li class="nav-item dropdown me-4">
+                        <li class="dropdown me-4">
                             <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button"
                                 data-bs-toggle="dropdown" aria-expanded="false">
                                 UCAS & MOCKS
@@ -121,7 +136,7 @@
                                 </li>
                             </ul>
                         </li>
-                        <li class="nav-item dropdown me-4">
+                        <li class="dropdown me-4">
                             <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button"
                                 data-bs-toggle="dropdown" aria-expanded="false">
                                 Register
@@ -134,7 +149,7 @@
                                 <li><a class="dropdown-item" href="Coursework-NEA.html">Coursework & NEA</a></li>
                             </ul>
                         </li>
-                        <li class="nav-item">
+                        <li class="">
                             <a class="nav-link" aria-current="page" href="contact.html">Contact</a>
                         </li>
                     </ul>
@@ -150,8 +165,8 @@
                     </a>
                 </div>
                 <div class="nav-item">
-                    <a class="nav-link text-decoration-none p-0 p-md-2" href="tel:+0800 772 3464">
-                        <i class="fa-solid fa-phone p-0 p-md-2 text-white"></i> 0800 772 3464
+                    <a class="nav-link text-decoration-none p-0 p-md-2" href="tel:+442033028140">
+                        <i class="fa-solid fa-phone p-0 p-md-2 text-white"></i> +442033028140
                     </a>
                 </div>
             </div>
@@ -167,43 +182,24 @@
     <!-- invigilation hero start -->
     <div class="container exam-pages-container mt-5 py-5 px-4">
         <div class="exam-pages-content d-flex flex-column align-items-center text-center gap-4">
-            <h1 class="title">Invigilation Services</h1>
-            <p>Elevate Your Exam Experience with Private Exam Centre<br><br>Are you looking for a reliable partner to
-                ensure the integrity and security of your exams? Look no further than Private Exam Centre! We specialize
-                in offering top-notch Exam Invigilation Services and Proctored exams to prestigious international
-                universities.</p>
-            <a href="/application-forms/exam application form/Exam registration form.pdf"
-                class="btn btn-lg exam-hero-btn text-decoration-none">Download Application Form
+            <h1 class="title">University and Private Exam Invigilation Services</h1>
+            <p>Need to sit your university exam at an external location or even abroad? Our professional proctoring
+                service makes it simple. We’ll host your exam on behalf of your university and handle the secure
+                submission of your completed papers—so you can focus on performing your best.</p>
+            <h4>Why Students Choose Us:</h4>
+            <div class="hero-items">
+                <p><i class="fa-solid fa-circle-check h5"></i>Flexible & Convenient: Exams arranged around your schedule
+                </p>
+                <p><i class="fa-solid fa-circle-check h5"></i>Affordable: Rates from just £40 per hour</p>
+                <p><i class="fa-solid fa-circle-check h5"></i>Trusted & Professional: Experienced invigilators ensure a
+                    smooth exam experience</p>
+            </div>
+            <p>Take your exam anywhere, stress-free, with our reliable proctoring service.</p>
+            <a href="/contact.html" class="btn btn-lg exam-hero-btn text-decoration-none">Book Your Exam Now
             </a>
         </div>
     </div>
     <!-- invigilation hero end -->
-
-    <!-- sponcers -->
-    <div class="logos my-4 my-xl-5 col-md-10 col-sm-9 mx-auto">
-        <div class="title-2">Accepted Exam Boards</div>
-        <div class="logos-slide">
-            <img src="assets/img/sponcers/1.png" alt="">
-            <img src="assets/img/sponcers/2.png" alt="">
-            <img src="assets/img/sponcers/3.png" alt="">
-            <img src="assets/img/sponcers/4.png" alt="">
-            <img src="assets/img/sponcers/5.png" alt="">
-            <img src="assets/img/sponcers/6.png" alt="">
-            <img src="assets/img/sponcers/7.png" alt="">
-            <img src="assets/img/sponcers/8.png" alt="">
-        </div>
-        <div class="logos-slide">
-            <img src="assets/img/sponcers/1.png" alt="">
-            <img src="assets/img/sponcers/2.png" alt="">
-            <img src="assets/img/sponcers/3.png" alt="">
-            <img src="assets/img/sponcers/4.png" alt="">
-            <img src="assets/img/sponcers/5.png" alt="">
-            <img src="assets/img/sponcers/6.png" alt="">
-            <img src="assets/img/sponcers/7.png" alt="">
-            <img src="assets/img/sponcers/8.png" alt="">
-        </div>
-    </div>
-    <!-- sponcers -->
 
     <!-- invigilation icon card start -->
     <div class="container mt-lg-5 mt-md-4">
@@ -238,6 +234,110 @@
         </div>
     </div>
     <!-- invigilation icon card end -->
+
+    <!-- pricing start -->
+    <div class="container my-md-5">
+        <div class="row justify-content-center">
+            <div class="d-flex flex-md-row gap-4 flex-column justify-content-center align-items-start">
+
+                <div class="invigilation-card text-center col-md-6 col-lg-5">
+
+                    <!-- Title -->
+                    <h4 class="fw-bold mt-2">In-Person Invigilation</h4>
+
+                    <div>
+                        <!-- Top Badge -->
+                        <p class="text-start mb-md-3">Responsibilities:</p>
+
+                        <!-- Features -->
+                        <ul class="text-start">
+                            <li><i class="fa-solid fa-check-circle"></i>Trained invigilators prepare the exam room and
+                                ensure all materials are ready.</li>
+                            <li><i class="fa-solid fa-check-circle"></i>Student identities are verified before the exam
+                                begins.</li>
+                            <li><i class="fa-solid fa-check-circle"></i>Papers or devices are distributed and collected
+                                efficiently.</li>
+                            <li><i class="fa-solid fa-check-circle"></i>The invigilator monitors the room to prevent
+                                cheating and addresses any misconduct promptly.</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <!-- Top Badge -->
+                        <p class="text-start mb-3">Logistics:</p>
+
+                        <!-- Features -->
+                        <ul class="text-start">
+                            <li><i class="fa-solid fa-check-circle"></i>Setting up chairs, computers, and necessary
+                                materials.</li>
+                            <li><i class="fa-solid fa-check-circle"></i>Timekeeping and making important announcements.
+                            </li>
+                            <li><i class="fa-solid fa-check-circle"></i>Ensuring a smooth and fair exam experience for
+                                all students.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="invigilation-card text-center col-md-6 col-lg-5">
+
+                    <!-- Title -->
+                    <h4 class="fw-bold mt-2">Online Invigilation (Proctoring)</h4>
+
+                    <div>
+                        <!-- Top Badge -->
+                        <p class="text-start mb-md-3">Live Monitoring:</p>
+
+                        <!-- Features -->
+                        <ul class="text-start">
+                            <li><i class="fa-solid fa-check-circle"></i>• Students are monitored via live video and
+                                audio feeds of their workspace and device screen.</li>
+                            <li><i class="fa-solid fa-check-circle"></i>• The invigilator ensures students follow all
+                                exam rules throughout the session.</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <!-- Top Badge -->
+                        <p class="text-start mb-3">Technology Requirements:</p>
+
+                        <!-- Features -->
+                        <ul class="text-start">
+                            <li><i class="fa-solid fa-check-circle"></i>Students may need to install software such as a browser extension.</li>
+                            <li><i class="fa-solid fa-check-circle"></i>A webcam, microphone, and speakers are typically required for the session.</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <!-- Top Badge -->
+                        <p class="text-start mb-3">Rules and Communication:</p>
+
+                        <!-- Features -->
+                        <ul class="text-start">
+                            <li><i class="fa-solid fa-check-circle"></i>Exams are generally closed-book, with no access to external resources.</li>
+                            <li><i class="fa-solid fa-check-circle"></i>Students can communicate with invigilators through a secure chat function for assistance.</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <!-- Top Badge -->
+                        <p class="text-start mb-3">Recording and Safeguarding:</p>
+
+                        <!-- Features -->
+                        <ul class="text-start">
+                            <li><i class="fa-solid fa-check-circle"></i>Live sessions, including practice or familiarization activities, are recorded to maintain quality and security.</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <!-- Top Badge -->
+                        <p class="text-start mb-3">Adjustments:</p>
+
+                        <!-- Features -->
+                        <ul class="text-start">
+                            <li><i class="fa-solid fa-check-circle"></i>Reasonable adjustments are available for students with disabilities or health conditions.</li>
+                            <li><i class="fa-solid fa-check-circle"></i>Students should contact their support team to discuss individual needs before the exam.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- pricing end -->
 
     <!-- what set 1 start -->
     <div class="container what-set-apart-section mt-1 mt-md-3">
@@ -387,6 +487,8 @@
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/15cba7dfa7.js" crossorigin="anonymous"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="cookiealert.js"></script>
     <!-- new added javaScript -->
 
 </body>

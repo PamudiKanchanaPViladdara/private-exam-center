@@ -11,94 +11,109 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
    <link rel="stylesheet" href="style.css">
    <!-- new added css -->
+
+   <!-- icon font awesome -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 
-<body>
+<body class="size-1140">
+
+   <!-- Bootstrap Cookie Alert -->
+   <div class="cookiealert alert alert-dark text-center mb-0" role="alert">
+      🍪 We use cookies to ensure you get the best experience on our website.
+      <a href="GDRP-Privacy-Policy.html" target="_blank" class="text-decoration-underline">Learn more</a>
+
+      <button type="button" class="btn btn-warning btn-sm ms-3 acceptcookies">
+         Got it!
+      </button>
+   </div>
 
    <!-- new nav bar -->
-    <div class="container custom-navbar">
-        <nav class="navbar navbar-expand-xl navbar-light custom-inner-navbar">
-            <div class="container-fluid">
-                <img src="/assets/images/logo.jpg" alt="logo" href="../index.html" height="50"
-                    class=" text-center d-none d-md-block">
-                <img src="/assets/images/logo-mobile.jpg" alt="logo" href="../index.html" width=auto height="50"
-                    class="d-md-none d-block">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-end col">
-                        <li class="nav-item me-4">
-                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+   <div class="container custom-navbar">
+      <nav class="navbar navbar-expand-xl navbar-light custom-inner-navbar">
+         <div class="container-fluid">
+            <a href="index.html">
+               <img src="/assets/images/logo.jpg" alt="logo" height="50" class=" text-center d-none d-md-block">
+            </a>
+            <a href="index.html">
+               <img src="/assets/images/logo-mobile.jpg" alt="logo" width=auto height="50" class="d-md-none d-block">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+               data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+               aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+               <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-end col">
+                  <li class="me-4">
+                     <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="me-4">
+                     <a class="nav-link active" aria-current="page" href="locations.html">Locations</a>
+                  </li>
+                  <li class="dropdown me-4">
+                     <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Exams & Fees
+                     </a>
+                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="functional_skills.html">Functional Skills</a></li>
+                        <li><a class="dropdown-item" href="GCSE.html">GCSE</a></li>
+                        <li><a class="dropdown-item" href="IGCSE.html">IGCSE</a></li>
+                        <li><a class="dropdown-item" href="A-Level.html">A Level & AS</a></li>
+                        <li><a class="dropdown-item" href="cat4exams.html">CAT-4 Exams</a></li>
+                        <li><a class="dropdown-item" href="Invigilation-Services.html">Invigilation Services</a>
                         </li>
-                        <li class="nav-item me-4">
-                            <a class="nav-link active" aria-current="page" href="locations.html">Locations</a>
+                     </ul>
+                  </li>
+                  <li class="dropdown me-4">
+                     <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        UCAS & MOCKS
+                     </a>
+                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="ucas.html">UCAS Support</a></li>
+                        <li><a class="dropdown-item" href="mock_exam.html">MOCK Exams & Predicted Grades</a>
                         </li>
-                        <li class="nav-item dropdown me-4">
-                            <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                Exams & Fees
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="functional_skills.html">Functional Skills</a></li>
-                                <li><a class="dropdown-item" href="GCSE.html">GCSE</a></li>
-                                <li><a class="dropdown-item" href="IGCSE.html">IGCSE</a></li>
-                                <li><a class="dropdown-item" href="A-Level.html">A Level & AS</a></li>
-                                <li><a class="dropdown-item" href="cat4exams.html">CAT-4 Exams</a></li>
-                                <li><a class="dropdown-item" href="Invigilation-Services.html">Invigilation Services</a>
-                                </li>
-                            </ul>
+                     </ul>
+                  </li>
+                  <li class="dropdown me-4">
+                     <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Register
+                     </a>
+                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="register.html">Exam Application</a></li>
+                        <li><a class="dropdown-item" href="Science-Practicals.html">Science Practicals</a></li>
+                        <li><a class="dropdown-item" href="Access-Arrangements.html">Access Arrangements</a>
                         </li>
-                        <li class="nav-item dropdown me-4">
-                            <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                UCAS & MOCKS
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="ucas.html">UCAS Support</a></li>
-                                <li><a class="dropdown-item" href="mock_exam.html">MOCK Exams & Predicted Grades</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="nav-item dropdown me-4">
-                            <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                Register
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="register.html">Exam Application</a></li>
-                                <li><a class="dropdown-item" href="Science-Practicals.html">Science Practicals</a></li>
-                                <li><a class="dropdown-item" href="Access-Arrangements.html">Access Arrangements</a>
-                                </li>
-                                <li><a class="dropdown-item" href="Coursework-NEA.html">Coursework & NEA</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="contact.html">Contact</a>
-                        </li>
-                    </ul>
-                </div>
+                        <li><a class="dropdown-item" href="Coursework-NEA.html">Coursework & NEA</a></li>
+                     </ul>
+                  </li>
+                  <li class="">
+                     <a class="nav-link" aria-current="page" href="contact.html">Contact</a>
+                  </li>
+               </ul>
             </div>
-        </nav>
-        <div class="navbar navbar-expand-lg navbar-light">
-            <div
-                class="container-fluid navbar-details pt-md-4 pt-4 pb-2 pe-4 ps-4 mt-md-2 mt-0 d-flex flex-md-row flex-column justify-content-md-between justify-content-center align-items-center">
-                <div class="nav-item">
-                    <a class="nav-link text-decoration-none p-0 p-md-2" href="mailto:info@privateexamcentre.co.uk">
-                        <i class="fa-solid fa-envelope p-0 p-md-2 text-white"></i> info@privateexamcentre.co.uk
-                    </a>
-                </div>
-                <div class="nav-item">
-                    <a class="nav-link text-decoration-none p-0 p-md-2" href="tel:+0800 772 3464">
-                        <i class="fa-solid fa-phone p-0 p-md-2 text-white"></i> 0800 772 3464
-                    </a>
-                </div>
+         </div>
+      </nav>
+      <div class="navbar navbar-expand-lg navbar-light">
+         <div
+            class="container-fluid navbar-details pt-md-4 pt-4 pb-2 pe-4 ps-4 mt-md-2 mt-0 d-flex flex-md-row flex-column justify-content-md-between justify-content-center align-items-center">
+            <div class="nav-item">
+               <a class="nav-link text-decoration-none p-0 p-md-2" href="mailto:info@privateexamcentre.co.uk">
+                  <i class="fa-solid fa-envelope p-0 p-md-2 text-white"></i> info@privateexamcentre.co.uk
+               </a>
             </div>
-        </div>
-    </div>
-    <!-- new nav bar -->
+            <div class="nav-item">
+               <a class="nav-link text-decoration-none p-0 p-md-2" href="tel:+442033028140">
+                  <i class="fa-solid fa-phone p-0 p-md-2 text-white"></i> +442033028140
+               </a>
+            </div>
+         </div>
+      </div>
+   </div>
+   <!-- new nav bar -->
 
    <a href="https://wa.me/442033028140" class="whatsapp-float text-decoration-none" target="_blank"
       aria-label="Chat with us on WhatsApp">
@@ -185,20 +200,74 @@
    <!-- what access end -->
 
    <!-- free access start -->
-   <div class="highlight-box mb-5">
+   <div class="acc-green mb-md-5">
       <i class="fa-solid fa-shield-halved fa-2x mb-3"></i>
-      <h5 class="fw-bold">Free Access Arrangements</h5>
+      <h5 class="fw-bold">Evidence Required for Access Arrangements</h5>
       <p class="text-center">
-         Any candidate booking exams directly with us receives Access Arrangement services free of additional charge.
+         The regulations for access arrangements require us to maintain a file of evidence demonstrating that a
+         candidate would be at a disadvantage without specific support. To ensure compliance, we ask that you provide
+         relevant documentation showing a clear need for access arrangements.
       </p>
-      <a href="#" class="btn">No Additional Charge</a>
+      <p class="text-center">Below is a list of exam board–approved types of evidence. You do not need to supply
+         everything listed — only what you already have available. Our team can assist you in obtaining any additional
+         evidence if required.</p>
+      <p class="btn">Please note: All documents must be originals — photocopies or digital copies cannot be accepted.
+      </p>
+
+      <!-- pricing start -->
+      <div class="acc-important-note container my-md-3">
+         <div class="row justify-content-center">
+            <div class="col-md-8">
+               <div class="pricing-card text-center">
+                  <!-- Top Badge -->
+                  <span class="badge-custom mb-3">Acceptable Forms of Evidence</span>
+
+                  <!-- Features -->
+                  <ul class="text-start">
+                     <li><i class="fa-solid fa-check-circle"></i><p class="mb-0">A <b>previous Form 8</b> from your school or college</p></li>
+                     <li><i class="fa-solid fa-check-circle"></i><p class="mb-0">Any <b>supporting reports from educators or tutors</b></p></li>
+                     <li><i class="fa-solid fa-check-circle"></i><p class="mb-0"><b>Samples of written work</b> completed within the centre</p></li>
+                     <li><i class="fa-solid fa-check-circle"></i> <p class="mb-0">A <b>mock exam paper</b> completed under supervised conditions (either in the centre or online through our professional invigilation service).</p></li>
+                     <li><i class="fa-solid fa-check-circle"></i><p class="mb-0">An <b>Individual Education Plan (IEP)</b> or equivalent document stating the need for support</p></li>
+                     <li><i class="fa-solid fa-check-circle"></i><p class="mb-0">A <b>current Educational Health and Care Plan (EHCP)</b></p></li>
+                     <li><i class="fa-solid fa-check-circle"></i><p class="mb-0">A <b>letter from a qualified professional</b> confirming evidence of a disability</p></li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- pricing end -->
+
+      <div class="note-box my-md-5">
+      <h1>Important Information</h1>
+      <p>If the learner is younger than the equivalent of Year 9, access arrangements may not be granted. Approval is at the discretion of the awarding body and depends on the specific circumstances. Please note that providing reports or assessments does not guarantee approval.</p>
+   </div>
+
    </div>
    <!-- free access end -->
 
    <!-- important note start -->
    <div class="note-box my-5">
-      <h1>Important Note:</h1>
-      <p>Home Invigilation is limited & requires additional fee. Apply as early as possible.</p>
+      <h1>Important Notice</h1>
+      <ul class="text-start">
+         <li>
+            <p>Whilst we endeavour to support all candidates with Access Arrangement requirements, this is <b>subject to
+                  exam board approval</b> and <b>cannot be guaranteed.</b></p>
+         </li>
+         <li>
+            <p>Exam bookings that require Access Arrangements are processed on a <b>first-come, first-served basis,</b>
+               particularly where specific provisions such as <b>individual rooms or word processors</b> are required.
+            </p>
+         </li>
+         <li>
+            <p>To avoid disappointment, please ensure all exam entries and <b>supporting medical evidence</b> are
+               submitted <b>well before the entry deadlines.</b></p>
+         </li>
+      </ul>
+
+
+
+
    </div>
    <!-- important note end -->
 
@@ -421,6 +490,8 @@
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"></script>
    <script src="https://kit.fontawesome.com/15cba7dfa7.js" crossorigin="anonymous"></script>
+   <script src="assets/js/bootstrap.bundle.min.js"></script>
+   <script src="cookiealert.js"></script>
    <!-- new added javaScript -->
 </body>
 

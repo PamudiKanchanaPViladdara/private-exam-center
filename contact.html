@@ -39,9 +39,22 @@
     <link rel="stylesheet" href="style.css">
     <!-- new added css -->
 
+    <!-- icon font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
 </head>
 
-<body>
+<body class="size-1140">
+
+    <!-- Bootstrap Cookie Alert -->
+    <div class="cookiealert alert alert-dark text-center mb-0" role="alert">
+        🍪 We use cookies to ensure you get the best experience on our website.
+        <a href="GDRP-Privacy-Policy.html" target="_blank" class="text-decoration-underline">Learn more</a>
+
+        <button type="button" class="btn btn-warning btn-sm ms-3 acceptcookies">
+            Got it!
+        </button>
+    </div>
 
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T8KB2FJJ" height="0" width="0"
@@ -52,10 +65,13 @@
     <div class="container custom-navbar">
         <nav class="navbar navbar-expand-xl navbar-light custom-inner-navbar">
             <div class="container-fluid">
-                <img src="/assets/images/logo.jpg" alt="logo" href="../index.html" height="50"
-                    class=" text-center d-none d-md-block">
-                <img src="/assets/images/logo-mobile.jpg" alt="logo" href="../index.html" width=auto height="50"
-                    class="d-md-none d-block">
+                <a href="index.html">
+                    <img src="/assets/images/logo.jpg" alt="logo" height="50" class=" text-center d-none d-md-block">
+                </a>
+                <a href="index.html">
+                    <img src="/assets/images/logo-mobile.jpg" alt="logo" width=auto height="50"
+                        class="d-md-none d-block">
+                </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -63,13 +79,13 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-end col">
-                        <li class="nav-item me-4">
+                        <li class="me-4">
                             <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                         </li>
-                        <li class="nav-item me-4">
+                        <li class="me-4">
                             <a class="nav-link active" aria-current="page" href="locations.html">Locations</a>
                         </li>
-                        <li class="nav-item dropdown me-4">
+                        <li class="dropdown me-4">
                             <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button"
                                 data-bs-toggle="dropdown" aria-expanded="false">
                                 Exams & Fees
@@ -84,7 +100,7 @@
                                 </li>
                             </ul>
                         </li>
-                        <li class="nav-item dropdown me-4">
+                        <li class="dropdown me-4">
                             <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button"
                                 data-bs-toggle="dropdown" aria-expanded="false">
                                 UCAS & MOCKS
@@ -95,7 +111,7 @@
                                 </li>
                             </ul>
                         </li>
-                        <li class="nav-item dropdown me-4">
+                        <li class="dropdown me-4">
                             <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button"
                                 data-bs-toggle="dropdown" aria-expanded="false">
                                 Register
@@ -108,7 +124,7 @@
                                 <li><a class="dropdown-item" href="Coursework-NEA.html">Coursework & NEA</a></li>
                             </ul>
                         </li>
-                        <li class="nav-item">
+                        <li class="">
                             <a class="nav-link" aria-current="page" href="contact.html">Contact</a>
                         </li>
                     </ul>
@@ -124,8 +140,8 @@
                     </a>
                 </div>
                 <div class="nav-item">
-                    <a class="nav-link text-decoration-none p-0 p-md-2" href="tel:+0800 772 3464">
-                        <i class="fa-solid fa-phone p-0 p-md-2 text-white"></i> 0800 772 3464
+                    <a class="nav-link text-decoration-none p-0 p-md-2" href="tel:+442033028140">
+                        <i class="fa-solid fa-phone p-0 p-md-2 text-white"></i> +442033028140
                     </a>
                 </div>
             </div>
@@ -141,10 +157,10 @@
     <!-- contact hero start -->
     <div class="container exam-pages-container mt-5 mb-2 mb-md-5 py-5 px-4">
         <div class="exam-pages-content d-flex flex-column align-items-center text-center gap-4">
-            <h1 class="title">Get in Touch – Free Consultation Awaits</h1>
+            <h1 class="fs-2 mb-0">Get in Touch – Free Consultation Awaits</h1>
             <p>Have questions about exams, pricing, or our services? Our friendly education specialists are here to help
                 you every step of the way.</p>
-            <a href="tel:+0800 772 3464" class="btn btn-lg exam-hero-btn text-decoration-none">Call Now: 0800 772 3464
+            <a href="tel:+0203 302 8140" class="btn btn-lg exam-hero-btn text-decoration-none">Call Now: 0203 302 8140
             </a>
         </div>
     </div>
@@ -159,7 +175,9 @@
                 <div class="card">
                     <i class="fas fa-phone"></i>
                     <h6 class="fw-bold mt-2">Phone</h6>
-                    <p class="mb-1">0800 772 3464</p>
+                    <p class="mb-1">Free Phone : 0800 772 3464</p>
+                    <p class="mb-1">Exam guidance: 0777 121 2929 (Call, Text or WhatsApp) </p>
+                    <p class="mb-1">General enquires: 020 3302 8140</p>
                     <small class="">Call us for immediate assistance</small>
                 </div>
             </div>
@@ -175,7 +193,8 @@
                 <div class="card">
                     <i class="fas fa-location-dot"></i>
                     <h6 class="fw-bold mt-2">Visit Us</h6>
-                    <p class="mb-1">Ilford, London</p>
+                    <p class="mb-1">Private Exam Centre<br>Bestgrade Education<br>435–437 Cranbrook Road,<br>Ilford,
+                        Essex, IG1 4UW</p>
                     <small class="">Our main examination centre</small>
                 </div>
             </div>
@@ -203,14 +222,23 @@
             <div class="row g-4">
                 <div class="col-md-6">
                     <div class="info-card">
-                        <h6 class="fw-bold">Quick Registration</h6>
-                        <p class="mb-2">Ready to register? Start with our quick form and we’ll guide you through the
-                            process.</p>
+                        <h6 class="fw-bold">Free Registration Guidance & Consultations</h6>
+                        <p class="mb-2">You can register for exams entirely online without needing to visit our exam
+                            office.</p>
+                        <p class="mb-2">If you have any questions about your exam application or concerns about the
+                            registration process, we offer a free 30-minute consultation with one of our experienced
+                            exam officers.</p>
                         <ul>
-                            <li>Free consultation included</li>
-                            <li>Flexible exam scheduling</li>
-                            <li>Expert guidance provided</li>
+                            <li>
+                                <p>In-Person Meetings: If you wish to meet an exam officer at our centre, please
+                                    pre-book
+                                    an appointment, as we cannot always accommodate walk-ins.</p>
+                            </li>
+                            <li>
+                                <p>Remote Support: You can also call or email us for guidance at any time.</p>
+                            </li>
                         </ul>
+                        <p>We’re here to make your exam registration process smooth, clear, and stress-free.</p>
                         <a href="tel:08007723464" class="btn btn-custom mt-2">
                             <i class="fas fa-phone me-2"></i> Call for Immediate Help
                         </a>
@@ -218,11 +246,42 @@
                 </div>
                 <div class="col-md-6">
                     <div class="info-card">
-                        <h6 class="fw-bold">Visit Our Main Centre</h6>
-                        <p><i class="fas fa-building me-2"></i> Private Exam Centre<br>Ilford, London</p>
-                        <p><i class="fas fa-clock me-2"></i> Mon–Fri: 9:00 AM – 6:00 PM<br>Saturday: 10:00 AM – 4:00
-                            PM</p>
-                        <small class="text-muted">Interactive map coming soon</small>
+                        <h6 class="fw-bold">Visit Us</h6>
+                        <p><i class="fas fa-building me-2"></i><b>Private Exam Centre</b><br><b>Bestgrade
+                                Education</b><br>435–437 Cranbrook Road,<br>Ilford, Essex, IG1 4UW</p>
+                        <div class="d-flex flex-md-row flex-column info-card-2 gap-3">
+                            <div>
+                                <h4>By Public Transport</h4>
+                                <p>We are located at the junction of <b>Cranbrook Road and Beehive Lane</b> (Old
+                                    Barclays Bank
+                                    building).</p>
+                                <ul>
+                                    <li>
+                                        <p><b>Tube:</b> Approximately 7 minutes’ walk from <b>Gants Hill Station</b>
+                                            (Central Line).</p>
+                                    </li>
+                                    <li>
+                                        <p><b>Buses:</b> Easily accessible from Ilford and Newham via buses <b>123, 128,
+                                                150, 167, 179, 462, 667, 677, 679.</b></p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div>
+                                <h4>By Car</h4>
+                                <ul>
+                                    <li>
+                                        <p><b>On-site Parking:</b> Plenty of free parking spaces are available in front
+                                            of our building.</p>
+                                    </li>
+                                    <li>
+                                        <p><b>Alternative Parking:</b> If our car park is full, additional parking is
+                                            available on Beehive Lane (30 minutes free).</p>
+                                    </li>
+                                </ul>
+                                <p>We are easily accessible and ready to welcome you for exams, consultations, or
+                                    guidance.</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -265,13 +324,14 @@
                 <h2 class="accordion-header" id="headingOne">
                     <button class="accordion-button" type="button" data-bs-toggle="collapse"
                         data-bs-target="#collapseOne">
-                        What's the registration fee?
+                        1. Who can register as an external candidate?
                     </button>
                 </h2>
                 <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
                     <div class="accordion-body">
-                        The one-time registration fee is £10, which covers administrative costs for setting up your
-                        candidate account.
+                        We welcome private and external candidates who wish to take GCSE, IGCSE, AS/A-Level, Functional
+                        Skills or other exams independently. This includes home-educated learners, adult students, or
+                        anyone needing to resit or take exams outside their school.
                     </div>
                 </div>
             </div>
@@ -280,12 +340,15 @@
                 <h2 class="accordion-header">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                         data-bs-target="#collapseTwo">
-                        What ages do you accept?
+                        2. Which exam boards and qualifications do you support?
                     </button>
                 </h2>
                 <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
                     <div class="accordion-body">
-                        We accept candidates of all ages. Please contact us for any specific requirements.
+                        We work with all major UK exam boards: AQA, Edexcel (Pearson), OCR, WJEC / Eduqas and Cambridge
+                        International (CAIE). Qualifications include GCSE (9–1), IGCSE, AS/A-Level, International
+                        A-Level and Functional Skills (Level 1 & 2).
+
                     </div>
                 </div>
             </div>
@@ -294,13 +357,17 @@
                 <h2 class="accordion-header">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                         data-bs-target="#collapseThree">
-                        When are the exam registration deadlines?
+                        3. What is the process for registration?
+
                     </button>
                 </h2>
                 <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
                     <div class="accordion-body">
-                        Exam registration deadlines vary depending on the exam board and session. Please check our
-                        deadlines page.
+                        1. Complete our online registration form.<br>
+                        2. Pay the required fee (covering entry, admin, invigilation, and hall use).<br>
+                        3. Receive an entry confirmation from our team.<br>
+                        4. Attend your allocated exam venue on the exam day.<br>
+
                     </div>
                 </div>
             </div>
@@ -309,12 +376,15 @@
                 <h2 class="accordion-header">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                         data-bs-target="#collapseFour">
-                        Which exam boards do you work with?
+                        4. Where do exams take place?
+
                     </button>
                 </h2>
                 <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
                     <div class="accordion-body">
-                        We work with major UK and international exam boards. Contact us for a full list.
+                        Exams are held at our approved venues across the UK. You can register, submit documents, and pay
+                        online — visiting the centre in person isn’t necessary until exam day.
+
                     </div>
                 </div>
             </div>
@@ -323,12 +393,15 @@
                 <h2 class="accordion-header">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                         data-bs-target="#collapseFive">
-                        Can I retake individual subjects?
+                        5. What are the costs and how are they determined?
+
                     </button>
                 </h2>
                 <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
                     <div class="accordion-body">
-                        Yes, you can retake individual subjects as per exam board policies.
+                        Fees depend on the exam board and subject. They include entry fees, invigilation and
+                        administration costs. Discounts may apply when booking multiple subjects together.
+
                     </div>
                 </div>
             </div>
@@ -337,12 +410,15 @@
                 <h2 class="accordion-header">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                         data-bs-target="#collapseSix">
-                        Do you provide study materials?
+                        6. Can I register for resits?
+
                     </button>
                 </h2>
                 <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
                     <div class="accordion-body">
-                        We provide guidance and resources but do not directly supply textbooks or revision guides.
+                        Yes. We frequently handle entries for candidates retaking exams or improving grades from
+                        previous sessions.
+
                     </div>
                 </div>
             </div>
@@ -351,12 +427,14 @@
                 <h2 class="accordion-header">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                         data-bs-target="#collapseSeven">
-                        How do I know which subjects to take?
+                        7. Do you offer predicted grades or UCAS support?
                     </button>
                 </h2>
                 <div id="collapseSeven" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
                     <div class="accordion-body">
-                        Our advisors can help you choose the right subjects based on your goals.
+                        Yes, we can provide predicted grades and UCAS support letters upon request. Additional
+                        documentation may be required.
+
                     </div>
                 </div>
             </div>
@@ -365,12 +443,51 @@
                 <h2 class="accordion-header">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                         data-bs-target="#collapseEight">
-                        What ID do I need for exams?
+                        8. How do I receive my results and certificates?
+
                     </button>
                 </h2>
                 <div id="collapseEight" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
                     <div class="accordion-body">
-                        You will need valid photo identification such as a passport or driving licence.
+                        Results are emailed to candidates as soon as they are released by the exam boards. Certificates
+                        are posted or can be collected once available.
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseNine">
+                        9. What happens if I need to cancel or change my entry?
+
+                    </button>
+                </h2>
+                <div id="collapseNine" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        If you need to withdraw or change a subject, contact us immediately. Refunds and changes depend
+                        on the stage of your entry and the exam board’s deadlines.
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseTen">
+                        10. How can I contact you?
+
+                    </button>
+                </h2>
+                <div id="collapseTen" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        Free phone: 0800 772 3464<br>
+                        Landline: 020 3302 8140<br>
+                        WhatsApp: 0777 121 2929<br>
+                        Email: exams@bestgrade.co.uk
+
                     </div>
                 </div>
             </div>
@@ -488,6 +605,8 @@
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/15cba7dfa7.js" crossorigin="anonymous"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="cookiealert.js"></script>
     <!-- new added javaScript -->
 
 </body>

@@ -43,17 +43,34 @@
     <link rel="stylesheet" href="style.css">
     <!-- new added css -->
 
+    <!-- icon font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
 </head>
 
-<body>
+<body class="size-1140">
+
+    <!-- Bootstrap Cookie Alert -->
+    <div class="cookiealert alert alert-dark text-center mb-0" role="alert">
+        🍪 We use cookies to ensure you get the best experience on our website.
+        <a href="GDRP-Privacy-Policy.html" target="_blank" class="text-decoration-underline">Learn more</a>
+
+        <button type="button" class="btn btn-warning btn-sm ms-3 acceptcookies">
+            Got it!
+        </button>
+    </div>
+
     <!-- new nav bar -->
     <div class="container custom-navbar">
         <nav class="navbar navbar-expand-xl navbar-light custom-inner-navbar">
             <div class="container-fluid">
-                <img src="/assets/images/logo.jpg" alt="logo" href="../index.html" height="50"
-                    class=" text-center d-none d-md-block">
-                <img src="/assets/images/logo-mobile.jpg" alt="logo" href="../index.html" width=auto height="50"
-                    class="d-md-none d-block">
+                <a href="index.html">
+                    <img src="/assets/images/logo.jpg" alt="logo" height="50" class=" text-center d-none d-md-block">
+                </a>
+                <a href="index.html">
+                    <img src="/assets/images/logo-mobile.jpg" alt="logo" width=auto height="50"
+                        class="d-md-none d-block">
+                </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -61,13 +78,13 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-end col">
-                        <li class="nav-item me-4">
+                        <li class="me-4">
                             <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                         </li>
-                        <li class="nav-item me-4">
+                        <li class="me-4">
                             <a class="nav-link active" aria-current="page" href="locations.html">Locations</a>
                         </li>
-                        <li class="nav-item dropdown me-4">
+                        <li class="dropdown me-4">
                             <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button"
                                 data-bs-toggle="dropdown" aria-expanded="false">
                                 Exams & Fees
@@ -82,7 +99,7 @@
                                 </li>
                             </ul>
                         </li>
-                        <li class="nav-item dropdown me-4">
+                        <li class="dropdown me-4">
                             <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button"
                                 data-bs-toggle="dropdown" aria-expanded="false">
                                 UCAS & MOCKS
@@ -93,7 +110,7 @@
                                 </li>
                             </ul>
                         </li>
-                        <li class="nav-item dropdown me-4">
+                        <li class="dropdown me-4">
                             <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button"
                                 data-bs-toggle="dropdown" aria-expanded="false">
                                 Register
@@ -106,7 +123,7 @@
                                 <li><a class="dropdown-item" href="Coursework-NEA.html">Coursework & NEA</a></li>
                             </ul>
                         </li>
-                        <li class="nav-item">
+                        <li class="">
                             <a class="nav-link" aria-current="page" href="contact.html">Contact</a>
                         </li>
                     </ul>
@@ -122,8 +139,8 @@
                     </a>
                 </div>
                 <div class="nav-item">
-                    <a class="nav-link text-decoration-none p-0 p-md-2" href="tel:+0800 772 3464">
-                        <i class="fa-solid fa-phone p-0 p-md-2 text-white"></i> 0800 772 3464
+                    <a class="nav-link text-decoration-none p-0 p-md-2" href="tel:+442033028140">
+                        <i class="fa-solid fa-phone p-0 p-md-2 text-white"></i> +442033028140
                     </a>
                 </div>
             </div>
@@ -139,42 +156,25 @@
     <!-- ucas hero start -->
     <div class="container exam-pages-container mt-5 py-5 px-4">
         <div class="exam-pages-content d-flex flex-column align-items-center text-center gap-4">
-            <h1 class="title">UCAS APPLICATION</h1>
-            <p>We provide UCAS advice to students who are struggling to understand the UCAS process. We can provide
-                guidance in writing a personal statement and choosing a suitable university depending on the predicted
-                grades and subject requirements.</p>
-            <a href="/application-forms/exam application form/Exam registration form.pdf"
+            <h1 class="title">UCAS Application Support</h1>
+            <p>We offer expert guidance to students navigating the UCAS process. Our services include:</p>
+            <!-- <a href="/application-forms/exam application form/Exam registration form.pdf"
                 class="btn btn-lg exam-hero-btn text-decoration-none">Download Application Form
-            </a>
+            </a> -->
+            <div class="hero-items">
+                <p><i class="fa-solid fa-circle-check h5"></i>Personal Statement Assistance: Help crafting a compelling
+                    and authentic personal statement.</p>
+                <p><i class="fa-solid fa-circle-check h5"></i>University Selection Advice: Guidance on choosing
+                    universities that match predicted grades and course requirements.</p>
+            </div>
+            <p>Our goal is to make the UCAS application process clear, manageable, and stress-free, helping you put your
+                best foot forward.</p>
+            <div class="exam-page-img  "><img src="assets/img/sponcers/ucas.jpg" alt="UCAS Support"
+                    class="exam-page-left-img-card-img"></div>
+
         </div>
     </div>
     <!-- ucas hero end -->
-
-    <!-- sponcers -->
-    <div class="logos my-4 my-xl-5 col-md-10 col-sm-9 mx-auto">
-        <div class="title-2">Accepted Exam Boards</div>
-        <div class="logos-slide">
-            <img src="assets/img/sponcers/1.png" alt="">
-            <img src="assets/img/sponcers/2.png" alt="">
-            <img src="assets/img/sponcers/3.png" alt="">
-            <img src="assets/img/sponcers/4.png" alt="">
-            <img src="assets/img/sponcers/5.png" alt="">
-            <img src="assets/img/sponcers/6.png" alt="">
-            <img src="assets/img/sponcers/7.png" alt="">
-            <img src="assets/img/sponcers/8.png" alt="">
-        </div>
-        <div class="logos-slide">
-            <img src="assets/img/sponcers/1.png" alt="">
-            <img src="assets/img/sponcers/2.png" alt="">
-            <img src="assets/img/sponcers/3.png" alt="">
-            <img src="assets/img/sponcers/4.png" alt="">
-            <img src="assets/img/sponcers/5.png" alt="">
-            <img src="assets/img/sponcers/6.png" alt="">
-            <img src="assets/img/sponcers/7.png" alt="">
-            <img src="assets/img/sponcers/8.png" alt="">
-        </div>
-    </div>
-    <!-- sponcers -->
 
     <!-- why choose start -->
     <div class="container my-2 my-lg-5">
@@ -190,29 +190,29 @@
                 <div class="col-12 col-lg-8 text-lg-start text-center">
                     <h1 class="ucas-title">Why Choose Private Exam Centre for UCAS Support?</h1>
                     <p class="ucas-paragraph">
-                        As a leading private exam centre in Ilford, Essex, we go beyond standard registrations.
-                        Our UCAS services are tailored for private candidates, combining exam expertise with
-                        personalized admissions advice. Here's what sets us apart:
+                        As a leading private exam centre in Ilford, Essex, we go beyond standard exam registrations. Our UCAS services are specially designed for private candidates, combining exam expertise with personalized admissions guidance.
                     </p>
 
+                    <h4 class="ucas-h4">What Sets Us Apart:</h4>
+
                     <!-- Cards Row -->
-                    <div class="row g-3 mt-4 justify-content-center align-items-center">
-                        <div class="col-12 col-md-4">
+                    <div class="row d-flex gap-2 gap-md-0 mt-4 justify-content-center align-items-center">
+                        <div class="col-12 col-md-4 ucas-card-column">
                             <div class="ucas-card">
-                                <h3 class="ucas-card-title">Over 15 Years of</h3>
-                                <p class="ucas-card-subtitle">Experience</p>
+                                <h3 class="ucas-card-title">Tailored Advice</h3>
+                                <p class="ucas-card-subtitle">Guidance on university choices based on predicted grades and course requirements.</p>
                             </div>
                         </div>
-                        <div class="col-12 col-md-4">
+                        <div class="col-12 col-md-4 ucas-card-column">
                             <div class="ucas-card">
-                                <h3 class="ucas-card-title">Nationwide</h3>
-                                <p class="ucas-card-subtitle">Reach</p>
+                                <h3 class="ucas-card-title">Personal Statement </h3>
+                                <p class="ucas-card-subtitle">Help crafting a strong, authentic statement that reflects your strengths.</p>
                             </div>
                         </div>
-                        <div class="col-12 col-md-4">
+                        <div class="col-12 col-md-4 ucas-card-column">
                             <div class="ucas-card">
-                                <h3 class="ucas-card-title">Free Initial</h3>
-                                <p class="ucas-card-subtitle">Guidance</p>
+                                <h3 class="ucas-card-title">Expert Insight</h3>
+                                <p class="ucas-card-subtitle">Benefit from our experience with private candidates and exam processes.</p>
                             </div>
                         </div>
                     </div>
@@ -566,6 +566,8 @@
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/15cba7dfa7.js" crossorigin="anonymous"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="cookiealert.js"></script>
     <!-- new added javaScript -->
 </body>
 
