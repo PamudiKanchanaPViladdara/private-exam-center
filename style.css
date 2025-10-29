@@ -223,7 +223,7 @@ li {
         font-size: 14px !important;
         font-weight: 400px !important;
     }
-    
+
     .location-content p {
         font-size: 16px !important;
     }
@@ -1023,7 +1023,7 @@ i,
 
 }
 
-@media (max-width: 768px) {    
+@media (max-width: 768px) {
 
     .exam-page-left-img-card .container {
         padding: 0px !important;
@@ -2168,7 +2168,7 @@ tbody tr:hover {
         font-size: 16px !important;
         margin-right: 8px !important;
     }
-}   
+}
 
 .icon-cards {
     max-width: 900px;
@@ -2266,7 +2266,7 @@ tbody tr:hover {
     text-align: center;
 }
 
-.invigilation-card p{
+.invigilation-card p {
     font-size: 18px;
     color: #003057;
     font-weight: 600;
@@ -2417,6 +2417,7 @@ tbody tr:hover {
     font-weight: 700;
     margin-bottom: 0px;
 }
+
 .ucas-card {
     background: #f7fafc;
     padding: 30px 20px;
@@ -3280,12 +3281,13 @@ tbody tr:hover {
     color: #6b7280;
     font-size: 16px;
     margin: 0;
-} 
+}
 
 .info-card .info-card-2 ul i {
     font-size: 16px;
     margin-right: 12px;
-    color: #003057;}
+    color: #003057;
+}
 
 .info-card p {
     color: #6b7280;
@@ -3710,3 +3712,114 @@ tbody tr:hover {
 }
 
 /* footer */
+
+@media (max-width:768px) {
+    .acc-green {
+        padding: 15px !important;
+    }
+
+    .acc-green h5 {
+        font-size: 20px !important;
+        margin-bottom: 8px !important;
+    }
+
+    .acc-green p {
+        font-size: 14px !important;
+    }
+
+    .acc-green .btn {
+        padding: 10px 20px !important;
+        font-size: 14px !important;
+    }
+
+    .acc-important-note .pricing-card {
+        padding: 15px !important;
+        margin-bottom: 12px !important;
+    }
+
+    .acc-important-note .pricing-card .badge-custom {
+        font-size: 0.7rem !important;
+        padding: 0.4rem 0.8rem !important;
+    }
+
+    .acc-important-note .pricing-card ul li {
+        font-size: 0.9rem !important;
+    }
+
+
+}
+
+.acc-green {
+    max-width: 900px;
+    margin: 0 auto;
+    background: #f8fbff;
+    border: 1px solid #d0e4ff;
+    border-radius: 12px;
+    padding: 2rem;
+    text-align: center;
+}
+
+.acc-green h5 {
+    color: #003057;
+    font-size: 24px;
+    margin-bottom: 1rem;
+}
+
+.acc-green p {
+    color: #555;
+    font-size: 16px;
+    margin-bottom: 1.5rem;
+}
+
+.acc-green .btn {
+    background-color: #3ae4781a;
+    color: #3ae478;
+    font-weight: 600;
+    border-radius: 50px;
+    padding: 12px 24px;
+    border: solid 1px #3ae4781a;
+}
+
+.acc-green i {
+    color: #003057;
+}
+
+.acc-important-note .pricing-card {
+    border: 2px solid #003057;
+    border-radius: 12px;
+    padding: 2rem;
+    background: #fff;
+    transition: all 0.3s ease;
+}
+
+
+.acc-important-note .pricing-card:hover {
+    box-shadow: 0 0 20px rgba(66, 133, 244, 0.2);
+    transform: translateY(-5px);
+}
+
+.acc-important-note .pricing-card .badge-custom {
+    background-color: #003057;
+    color: #fff;
+    font-size: 0.8rem;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+}
+
+.acc-important-note .pricing-card ul {
+    list-style: none;
+    padding: 0;
+}
+
+.acc-important-note .pricing-card ul li {
+    margin: 0.6rem 0;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.acc-important-note .pricing-card ul li i {
+    color: #22c55e;
+    /* green check */
+    margin-right: 10px;
+}
