@@ -292,6 +292,7 @@ li {
     background-color: #e9f3f9;
     align-content: center;
     border-radius: 20px;
+    margin-top: 48px;
 }
 
 .subtitle {
@@ -3245,6 +3246,13 @@ tbody tr:hover {
     line-height: 1.6;
 }
 
+.contact-info-card .card p a {
+    color: #003057;
+    text-decoration: none;
+    display: inline-block;
+    white-space: nowrap;
+}
+
 .contact-info-card .card small {
     color: #002244;
 }
@@ -3591,7 +3599,7 @@ tbody tr:hover {
     position: fixed;
     width: 60px;
     height: 60px;
-    bottom: 20px;
+    bottom: 50px;
     right: 20px;
     background-color: #25d366;
     color: white;
@@ -3822,4 +3830,78 @@ tbody tr:hover {
     color: #22c55e;
     /* green check */
     margin-right: 10px;
+}
+
+.exam-pages-container .exam-pages-content .gcse-header-width {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.ready-to-book-section-small {
+    background-color: #0b1727;
+    border-radius: 20px;
+    padding: 30px;
+    text-align: center;
+    color: #fff;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.ready-to-book-section-small h2 {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.ready-to-book-section-small p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.ready-to-book-section-small .card {
+    background-color: #003057;
+    border: 0px;
+}
+
+.ready-to-book-section-small .card h5 {
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 20px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.ready-to-book-section-small .card p {
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.ready-to-book-section-small .card-body i {
+    color: #fff;
+    font-size: 32px;
+}
+
+.ready-to-book-section-small .card .download-btn {
+    background-color: #fff;
+    color: #003057;
+    font-size: 14px !important;
+    border-radius: 50px;
+    padding: 10px 20px;
+    display: inline-block;
+    white-space: nowrap;
+    width: auto !important;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.ready-to-book-section-small .card .download-btn a {
+    color: #003057;
+}
+
+.ready-to-book-section-small .card .download-btn i {
+    color: #003057;
+    font-size: 20px;
+    margin-right: 12px;
 }
