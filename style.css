@@ -3246,6 +3246,13 @@ tbody tr:hover {
     line-height: 1.6;
 }
 
+.contact-info-card .card p a {
+    color: #003057;
+    text-decoration: none;
+    display: inline-block;
+    white-space: nowrap;
+}
+
 .contact-info-card .card small {
     color: #002244;
 }
