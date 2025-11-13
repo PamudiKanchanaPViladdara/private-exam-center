@@ -2694,7 +2694,7 @@ tbody tr:hover {
     color: #fff;
 }
 
-.btn-schedule{
+.btn-schedule {
     border: 1.5px solid #002244;
     color: #002244;
     font-weight: 600;
@@ -3677,6 +3677,10 @@ tbody tr:hover {
     .footer a {
         font-size: 12px;
     }
+
+    .whatsapp-float {
+        bottom: 90px !important;
+    }
 }
 
 @media (max-width:576px) {
@@ -3745,6 +3749,27 @@ tbody tr:hover {
         font-size: 0.9rem !important;
     }
 
+
+    .ready-to-book-section-small h2 {
+        font-size: 24px !important;
+        font-weight: 500 !important;
+        margin-bottom: 10px !important;
+    }
+
+    .ready-to-book-section-small p {
+        font-size: 14px !important;
+        margin-bottom: 0px !important;
+    }
+
+    .ready-to-book-section-small .card h5 {
+        font-size: 20px !important;
+        margin-bottom: 0px !important;
+    }
+
+    .ready-to-book-section-small .card .card-body a {
+        font-size: 14px !important;
+        margin-bottom: 10px !important;
+    }
 
 }
 
